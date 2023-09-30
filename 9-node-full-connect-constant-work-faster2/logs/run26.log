@@ -1,0 +1,4214 @@
+Worker 0 can perform operations {8, 3, 5, 7}
+Worker 1 can perform operations {8, 10, 6}
+Worker 2 can perform operations {1, 6, 7}
+Worker 3 can perform operations {9, 2, 7}
+Worker 4 can perform operations {3, 4, 6, 7}
+Worker 5 can perform operations {6}
+Worker 6 can perform operations {8, 1, 3, 6}
+Worker 7 can perform operations {1, 10, 5}
+Worker 8 can perform operations {3, 4, 5}
+Building network type full-connect
+Worker 0 connecting to worker 1
+Worker 0 connecting to worker 2
+Worker 0 connecting to worker 3
+Worker 0 connecting to worker 4
+Worker 0 connecting to worker 5
+Worker 0 connecting to worker 6
+Worker 0 connecting to worker 7
+Worker 0 connecting to worker 8
+Worker 1 connecting to worker 0
+Worker 1 connecting to worker 2
+Worker 1 connecting to worker 3
+Worker 1 connecting to worker 4
+Worker 1 connecting to worker 5
+Worker 1 connecting to worker 6
+Worker 1 connecting to worker 7
+Worker 1 connecting to worker 8
+Worker 2 connecting to worker 0
+Worker 2 connecting to worker 1
+Worker 2 connecting to worker 3
+Worker 2 connecting to worker 4
+Worker 2 connecting to worker 5
+Worker 2 connecting to worker 6
+Worker 2 connecting to worker 7
+Worker 2 connecting to worker 8
+Worker 3 connecting to worker 0
+Worker 3 connecting to worker 1
+Worker 3 connecting to worker 2
+Worker 3 connecting to worker 4
+Worker 3 connecting to worker 5
+Worker 3 connecting to worker 6
+Worker 3 connecting to worker 7
+Worker 3 connecting to worker 8
+Worker 4 connecting to worker 0
+Worker 4 connecting to worker 1
+Worker 4 connecting to worker 2
+Worker 4 connecting to worker 3
+Worker 4 connecting to worker 5
+Worker 4 connecting to worker 6
+Worker 4 connecting to worker 7
+Worker 4 connecting to worker 8
+Worker 5 connecting to worker 0
+Worker 5 connecting to worker 1
+Worker 5 connecting to worker 2
+Worker 5 connecting to worker 3
+Worker 5 connecting to worker 4
+Worker 5 connecting to worker 6
+Worker 5 connecting to worker 7
+Worker 5 connecting to worker 8
+Worker 6 connecting to worker 0
+Worker 6 connecting to worker 1
+Worker 6 connecting to worker 2
+Worker 6 connecting to worker 3
+Worker 6 connecting to worker 4
+Worker 6 connecting to worker 5
+Worker 6 connecting to worker 7
+Worker 6 connecting to worker 8
+Worker 7 connecting to worker 0
+Worker 7 connecting to worker 1
+Worker 7 connecting to worker 2
+Worker 7 connecting to worker 3
+Worker 7 connecting to worker 4
+Worker 7 connecting to worker 5
+Worker 7 connecting to worker 6
+Worker 7 connecting to worker 8
+Worker 8 connecting to worker 0
+Worker 8 connecting to worker 1
+Worker 8 connecting to worker 2
+Worker 8 connecting to worker 3
+Worker 8 connecting to worker 4
+Worker 8 connecting to worker 5
+Worker 8 connecting to worker 6
+Worker 8 connecting to worker 7
+Entry nodes are [0, 1, 2, 3, 4, 5, 6, 7, 8]
+0 Generated task 0 with complexity 3 requiring operations [8, 7, 3]
+0 Worker 3 accepting task 0
+0 Worker 3 processing task 0 requiring operations [8, 7, 3]
+0 Worker 3 performing operation 7 on task 0
+0.5 Generated task 1 with complexity 3 requiring operations [4, 3, 10]
+0.5 Worker 6 accepting task 1
+0.5 Worker 6 processing task 1 requiring operations [4, 3, 10]
+0.5 Worker 6 performing operation 3 on task 1
+1 Worker 3 accepting task 0
+1.0 Generated task 2 with complexity 3 requiring operations [9, 1, 10]
+1.0 Worker 2 accepting task 2
+1 Worker 3 processing task 0 requiring operations [8, 3]
+1 Worker 3 forwarding task 0
+1.0 Worker 2 processing task 2 requiring operations [9, 1, 10]
+1.0 Worker 2 performing operation 1 on task 2
+1.5 Worker 6 accepting task 1
+1.5 Generated task 3 with complexity 3 requiring operations [6, 7, 9]
+1.5 Worker 1 accepting task 3
+1.5 Worker 6 processing task 1 requiring operations [4, 10]
+1.5 Worker 6 forwarding task 1
+1.5 Worker 1 processing task 3 requiring operations [6, 7, 9]
+1.5 Worker 1 performing operation 6 on task 3
+2 Worker 0 accepting task 0
+2.0 Worker 2 accepting task 2
+2.0 Generated task 4 with complexity 3 requiring operations [5, 2, 8]
+2.0 Worker 5 accepting task 4
+2.0 Worker 2 processing task 2 requiring operations [9, 10]
+2.0 Worker 2 forwarding task 2
+2 Worker 0 processing task 0 requiring operations [8, 3]
+2 Worker 0 performing operation 3 on task 0
+2.0 Worker 5 processing task 4 requiring operations [5, 2, 8]
+2.0 Worker 5 forwarding task 4
+2.5 Worker 7 accepting task 1
+2.5 Worker 1 accepting task 3
+2.5 Generated task 5 with complexity 3 requiring operations [3, 7, 10]
+2.5 Worker 1 accepting task 5
+2.5 Worker 1 processing task 3 requiring operations [7, 9]
+2.5 Worker 1 forwarding task 3
+2.5 Worker 7 processing task 1 requiring operations [4, 10]
+2.5 Worker 7 performing operation 10 on task 1
+3.0 Worker 6 accepting task 2
+3 Worker 0 accepting task 0
+3.0 Worker 8 accepting task 4
+3.0 Generated task 6 with complexity 3 requiring operations [4, 3, 2]
+3.0 Worker 8 accepting task 6
+3 Worker 0 processing task 0 requiring operations [8]
+3 Worker 0 performing operation 8 on task 0
+3.0 Worker 6 processing task 2 requiring operations [9, 10]
+3.0 Worker 6 forwarding task 2
+3.0 Worker 8 processing task 4 requiring operations [5, 2, 8]
+3.0 Worker 8 performing operation 5 on task 4
+3.5 Worker 6 accepting task 3
+3.5 Worker 7 accepting task 1
+3.5 Generated task 7 with complexity 3 requiring operations [8, 9, 3]
+3.5 Worker 4 accepting task 7
+3.5 Worker 1 processing task 5 requiring operations [3, 7, 10]
+3.5 Worker 1 performing operation 10 on task 5
+3.5 Worker 7 processing task 1 requiring operations [4]
+3.5 Worker 7 forwarding task 1
+3.5 Worker 4 processing task 7 requiring operations [8, 9, 3]
+3.5 Worker 4 performing operation 3 on task 7
+4 Task 0 completed!
+4.0 Worker 0 accepting task 2
+4.0 Worker 8 accepting task 4
+4.0 Generated task 8 with complexity 3 requiring operations [10, 8, 5]
+4.0 Worker 6 accepting task 8
+4.0 Worker 6 processing task 3 requiring operations [7, 9]
+4.0 Worker 6 forwarding task 3
+4.0 Worker 8 processing task 6 requiring operations [4, 3, 2]
+4.0 Worker 8 performing operation 3 on task 6
+4.0 Worker 0 processing task 2 requiring operations [9, 10]
+4.0 Worker 0 forwarding task 2
+4.5 Worker 1 accepting task 5
+4.5 Worker 6 accepting task 1
+4.5 Worker 4 accepting task 7
+4.5 Generated task 9 with complexity 3 requiring operations [8, 9, 5]
+4.5 Worker 8 accepting task 9
+4.5 Worker 1 processing task 5 requiring operations [3, 7]
+4.5 Worker 1 forwarding task 5
+4.5 Worker 4 processing task 7 requiring operations [8, 9]
+4.5 Worker 4 forwarding task 7
+5.0 Worker 0 accepting task 3
+5.0 Worker 8 accepting task 6
+5.0 Worker 2 accepting task 2
+5.0 Generated task 10 with complexity 3 requiring operations [9, 2, 6]
+5.0 Worker 4 accepting task 10
+5.0 Worker 6 processing task 8 requiring operations [10, 8, 5]
+5.0 Worker 6 performing operation 8 on task 8
+5.0 Worker 8 processing task 4 requiring operations [2, 8]
+5.0 Worker 8 forwarding task 4
+5.0 Worker 0 processing task 3 requiring operations [7, 9]
+5.0 Worker 0 performing operation 7 on task 3
+5.0 Worker 2 processing task 2 requiring operations [9, 10]
+5.0 Worker 2 forwarding task 2
+5.5 Worker 4 accepting task 5
+5.5 Worker 0 accepting task 7
+5.5 Generated task 11 with complexity 3 requiring operations [6, 3, 1]
+5.5 Worker 0 accepting task 11
+5.5 Worker 4 processing task 10 requiring operations [9, 2, 6]
+5.5 Worker 4 performing operation 6 on task 10
+6.0 Worker 6 accepting task 8
+6.0 Worker 5 accepting task 4
+6.0 Worker 0 accepting task 3
+6.0 Worker 4 accepting task 2
+6.0 Generated task 12 with complexity 3 requiring operations [4, 7, 10]
+6.0 Worker 1 accepting task 12
+6.0 Worker 6 processing task 1 requiring operations [4]
+6.0 Worker 6 forwarding task 1
+6.0 Worker 8 processing task 9 requiring operations [8, 9, 5]
+6.0 Worker 8 performing operation 5 on task 9
+6.0 Worker 0 processing task 7 requiring operations [8, 9]
+6.0 Worker 0 performing operation 8 on task 7
+6.0 Worker 5 processing task 4 requiring operations [2, 8]
+6.0 Worker 5 forwarding task 4
+6.0 Worker 1 processing task 12 requiring operations [4, 7, 10]
+6.0 Worker 1 performing operation 10 on task 12
+6.5 Worker 4 accepting task 10
+6.5 Generated task 13 with complexity 3 requiring operations [2, 6, 3]
+6.5 Worker 5 accepting task 13
+6.5 Worker 4 processing task 5 requiring operations [3, 7]
+6.5 Worker 4 performing operation 7 on task 5
+7.0 Worker 0 accepting task 1
+7.0 Worker 8 accepting task 9
+7.0 Worker 0 accepting task 7
+7.0 Worker 7 accepting task 4
+7.0 Worker 1 accepting task 12
+7.0 Generated task 14 with complexity 3 requiring operations [7, 8, 10]
+7.0 Worker 3 accepting task 14
+7.0 Worker 6 processing task 8 requiring operations [10, 5]
+7.0 Worker 6 forwarding task 8
+7.0 Worker 8 processing task 6 requiring operations [4, 2]
+7.0 Worker 8 performing operation 4 on task 6
+7.0 Worker 0 processing task 11 requiring operations [6, 3, 1]
+7.0 Worker 0 performing operation 3 on task 11
+7.0 Worker 5 processing task 13 requiring operations [2, 6, 3]
+7.0 Worker 5 performing operation 6 on task 13
+7.0 Worker 1 processing task 12 requiring operations [4, 7]
+7.0 Worker 1 forwarding task 12
+7.0 Worker 7 processing task 4 requiring operations [2, 8]
+7.0 Worker 7 forwarding task 4
+7.0 Worker 3 processing task 14 requiring operations [7, 8, 10]
+7.0 Worker 3 performing operation 7 on task 14
+7.5 Worker 4 accepting task 5
+7.5 Generated task 15 with complexity 3 requiring operations [4, 3, 5]
+7.5 Worker 0 accepting task 15
+7.5 Worker 4 processing task 2 requiring operations [9, 10]
+7.5 Worker 4 forwarding task 2
+8.0 Worker 2 accepting task 8
+8.0 Worker 8 accepting task 6
+8.0 Worker 0 accepting task 11
+8.0 Worker 5 accepting task 13
+8.0 Worker 0 accepting task 12
+8.0 Worker 2 accepting task 4
+8.0 Worker 3 accepting task 14
+8.0 Generated task 16 with complexity 3 requiring operations [4, 6, 5]
+8.0 Worker 0 accepting task 16
+8.0 Worker 8 processing task 9 requiring operations [8, 9]
+8.0 Worker 8 forwarding task 9
+8.0 Worker 0 processing task 3 requiring operations [9]
+8.0 Worker 0 forwarding task 3
+8.0 Worker 5 processing task 13 requiring operations [2, 3]
+8.0 Worker 5 forwarding task 13
+8.0 Worker 3 processing task 14 requiring operations [8, 10]
+8.0 Worker 3 forwarding task 14
+8.0 Worker 2 processing task 8 requiring operations [10, 5]
+8.0 Worker 2 forwarding task 8
+8.5 Worker 8 accepting task 2
+8.5 Generated task 17 with complexity 3 requiring operations [7, 3, 8]
+8.5 Worker 3 accepting task 17
+8.5 Worker 4 processing task 10 requiring operations [9, 2]
+8.5 Worker 4 forwarding task 10
+9.0 Worker 5 accepting task 9
+9.0 Worker 8 accepting task 3
+9.0 Worker 1 accepting task 13
+9.0 Worker 0 accepting task 14
+9.0 Worker 7 accepting task 8
+9.0 Generated task 18 with complexity 3 requiring operations [10, 9, 3]
+9.0 Worker 8 accepting task 18
+9.0 Worker 8 processing task 6 requiring operations [2]
+9.0 Worker 8 forwarding task 6
+9.0 Worker 0 processing task 1 requiring operations [4]
+9.0 Worker 0 forwarding task 1
+9.0 Worker 5 processing task 9 requiring operations [8, 9]
+9.0 Worker 5 forwarding task 9
+9.0 Worker 3 processing task 17 requiring operations [7, 3, 8]
+9.0 Worker 3 performing operation 7 on task 17
+9.0 Worker 2 processing task 4 requiring operations [2, 8]
+9.0 Worker 2 forwarding task 4
+9.0 Worker 1 processing task 13 requiring operations [2, 3]
+9.0 Worker 1 forwarding task 13
+9.0 Worker 7 processing task 8 requiring operations [10, 5]
+9.0 Worker 7 performing operation 5 on task 8
+9.5 Worker 5 accepting task 10
+9.5 Generated task 19 with complexity 3 requiring operations [7, 6, 4]
+9.5 Worker 0 accepting task 19
+9.5 Worker 4 processing task 5 requiring operations [3]
+9.5 Worker 4 performing operation 3 on task 5
+10.0 Worker 2 accepting task 6
+10.0 Worker 8 accepting task 1
+10.0 Worker 3 accepting task 9
+10.0 Worker 3 accepting task 17
+10.0 Worker 6 accepting task 4
+10.0 Worker 8 accepting task 13
+10.0 Worker 7 accepting task 8
+10.0 Generated task 20 with complexity 3 requiring operations [5, 4, 6]
+10.0 Worker 1 accepting task 20
+10.0 Worker 8 processing task 2 requiring operations [9, 10]
+10.0 Worker 8 forwarding task 2
+10.0 Worker 0 processing task 7 requiring operations [9]
+10.0 Worker 0 forwarding task 7
+10.0 Worker 5 processing task 10 requiring operations [9, 2]
+10.0 Worker 5 forwarding task 10
+10.0 Worker 3 processing task 9 requiring operations [8, 9]
+10.0 Worker 3 performing operation 9 on task 9
+10.0 Worker 2 processing task 6 requiring operations [2]
+10.0 Worker 2 forwarding task 6
+10.0 Worker 7 processing task 8 requiring operations [10]
+10.0 Worker 7 performing operation 10 on task 8
+10.0 Worker 6 processing task 4 requiring operations [2, 8]
+10.0 Worker 6 performing operation 8 on task 4
+10.0 Worker 1 processing task 20 requiring operations [5, 4, 6]
+10.0 Worker 1 performing operation 6 on task 20
+10.5 Task 5 completed!
+10.5 Generated task 21 with complexity 3 requiring operations [2, 1, 3]
+10.5 Worker 7 accepting task 21
+11.0 Worker 1 accepting task 2
+11.0 Worker 7 accepting task 7
+11.0 Worker 8 accepting task 10
+11.0 Worker 3 accepting task 9
+11.0 Worker 4 accepting task 6
+11.0 Task 8 completed!
+11.0 Worker 6 accepting task 4
+11.0 Worker 1 accepting task 20
+11.0 Generated task 22 with complexity 3 requiring operations [1, 5, 2]
+11.0 Worker 5 accepting task 22
+11.0 Worker 8 processing task 3 requiring operations [9]
+11.0 Worker 8 forwarding task 3
+11.0 Worker 0 processing task 15 requiring operations [4, 3, 5]
+11.0 Worker 0 performing operation 3 on task 15
+11.0 Worker 3 processing task 17 requiring operations [3, 8]
+11.0 Worker 3 forwarding task 17
+11.0 Worker 7 processing task 21 requiring operations [2, 1, 3]
+11.0 Worker 7 performing operation 1 on task 21
+11.0 Worker 6 processing task 4 requiring operations [2]
+11.0 Worker 6 forwarding task 4
+11.0 Worker 1 processing task 2 requiring operations [9, 10]
+11.0 Worker 1 performing operation 10 on task 2
+11.0 Worker 4 processing task 6 requiring operations [2]
+11.0 Worker 4 forwarding task 6
+11.0 Worker 5 processing task 22 requiring operations [1, 5, 2]
+11.0 Worker 5 forwarding task 22
+11.5 Generated task 23 with complexity 3 requiring operations [6, 5, 9]
+11.5 Worker 0 accepting task 23
+12.0 Worker 7 accepting task 3
+12.0 Worker 0 accepting task 15
+12.0 Worker 5 accepting task 17
+12.0 Worker 7 accepting task 21
+12.0 Worker 4 accepting task 4
+12.0 Worker 1 accepting task 2
+12.0 Worker 6 accepting task 6
+12.0 Worker 8 accepting task 22
+12.0 Generated task 24 with complexity 3 requiring operations [10, 4, 6]
+12.0 Worker 1 accepting task 24
+12.0 Worker 8 processing task 18 requiring operations [10, 9, 3]
+12.0 Worker 8 performing operation 3 on task 18
+12.0 Worker 0 processing task 11 requiring operations [6, 1]
+12.0 Worker 0 forwarding task 11
+12.0 Worker 3 processing task 9 requiring operations [8]
+12.0 Worker 3 forwarding task 9
+12.0 Worker 7 processing task 7 requiring operations [9]
+12.0 Worker 7 forwarding task 7
+12.0 Worker 1 processing task 20 requiring operations [5, 4]
+12.0 Worker 1 forwarding task 20
+12.0 Worker 4 processing task 4 requiring operations [2]
+12.0 Worker 4 forwarding task 4
+12.0 Worker 5 processing task 17 requiring operations [3, 8]
+12.0 Worker 5 forwarding task 17
+12.0 Worker 6 processing task 6 requiring operations [2]
+12.0 Worker 6 forwarding task 6
+12.5 Generated task 25 with complexity 3 requiring operations [5, 3, 2]
+12.5 Worker 4 accepting task 25
+13.0 Worker 8 accepting task 18
+13.0 Worker 7 accepting task 11
+13.0 Worker 7 accepting task 9
+13.0 Worker 4 accepting task 7
+13.0 Worker 0 accepting task 20
+13.0 Worker 7 accepting task 4
+13.0 Worker 8 accepting task 17
+13.0 Worker 0 accepting task 6
+13.0 Generated task 26 with complexity 3 requiring operations [10, 8, 5]
+13.0 Worker 4 accepting task 26
+13.0 Worker 8 processing task 1 requiring operations [4]
+13.0 Worker 8 performing operation 4 on task 1
+13.0 Worker 0 processing task 12 requiring operations [4, 7]
+13.0 Worker 0 performing operation 7 on task 12
+13.0 Worker 7 processing task 3 requiring operations [9]
+13.0 Worker 7 forwarding task 3
+13.0 Worker 1 processing task 2 requiring operations [9]
+13.0 Worker 1 forwarding task 2
+13.0 Worker 4 processing task 25 requiring operations [5, 3, 2]
+13.0 Worker 4 performing operation 3 on task 25
+13.5 Generated task 27 with complexity 3 requiring operations [3, 2, 10]
+13.5 Worker 0 accepting task 27
+14.0 Task 1 completed!
+14.0 Worker 0 accepting task 12
+14.0 Worker 4 accepting task 3
+14.0 Worker 8 accepting task 2
+14.0 Worker 4 accepting task 25
+14.0 Generated task 28 with complexity 3 requiring operations [8, 2, 7]
+14.0 Worker 0 accepting task 28
+14.0 Worker 8 processing task 13 requiring operations [2, 3]
+14.0 Worker 8 performing operation 3 on task 13
+14.0 Worker 0 processing task 16 requiring operations [4, 6, 5]
+14.0 Worker 0 performing operation 5 on task 16
+14.0 Worker 7 processing task 21 requiring operations [2, 3]
+14.0 Worker 7 forwarding task 21
+14.0 Worker 1 processing task 24 requiring operations [10, 4, 6]
+14.0 Worker 1 performing operation 6 on task 24
+14.0 Worker 4 processing task 7 requiring operations [9]
+14.0 Worker 4 forwarding task 7
+14.5 Generated task 29 with complexity 3 requiring operations [3, 9, 1]
+14.5 Worker 1 accepting task 29
+15.0 Worker 8 accepting task 13
+15.0 Worker 0 accepting task 16
+15.0 Worker 0 accepting task 21
+15.0 Worker 1 accepting task 24
+15.0 Worker 3 accepting task 7
+15.0 Generated task 30 with complexity 3 requiring operations [7, 2, 6]
+15.0 Worker 7 accepting task 30
+15.0 Worker 8 processing task 10 requiring operations [9, 2]
+15.0 Worker 8 forwarding task 10
+15.0 Worker 0 processing task 14 requiring operations [8, 10]
+15.0 Worker 0 performing operation 8 on task 14
+15.0 Worker 7 processing task 11 requiring operations [6, 1]
+15.0 Worker 7 performing operation 1 on task 11
+15.0 Worker 1 processing task 29 requiring operations [3, 9, 1]
+15.0 Worker 1 forwarding task 29
+15.0 Worker 4 processing task 26 requiring operations [10, 8, 5]
+15.0 Worker 4 forwarding task 26
+15.0 Worker 3 processing task 7 requiring operations [9]
+15.0 Worker 3 performing operation 9 on task 7
+15.5 Generated task 31 with complexity 3 requiring operations [7, 10, 8]
+15.5 Worker 8 accepting task 31
+16.0 Worker 7 accepting task 10
+16.0 Worker 0 accepting task 14
+16.0 Worker 7 accepting task 11
+16.0 Worker 5 accepting task 29
+16.0 Worker 7 accepting task 26
+16.0 Task 7 completed!
+16.0 Generated task 32 with complexity 3 requiring operations [4, 10, 5]
+16.0 Worker 0 accepting task 32
+16.0 Worker 8 processing task 22 requiring operations [1, 5, 2]
+16.0 Worker 8 performing operation 5 on task 22
+16.0 Worker 0 processing task 19 requiring operations [7, 6, 4]
+16.0 Worker 0 performing operation 7 on task 19
+16.0 Worker 7 processing task 9 requiring operations [8]
+16.0 Worker 7 forwarding task 9
+16.0 Worker 1 processing task 24 requiring operations [10, 4]
+16.0 Worker 1 performing operation 10 on task 24
+16.0 Worker 4 processing task 3 requiring operations [9]
+16.0 Worker 4 forwarding task 3
+16.0 Worker 5 processing task 29 requiring operations [3, 9, 1]
+16.0 Worker 5 forwarding task 29
+16.5 Generated task 33 with complexity 3 requiring operations [8, 4, 1]
+16.5 Worker 3 accepting task 33
+16.5 Worker 3 processing task 33 requiring operations [8, 4, 1]
+16.5 Worker 3 forwarding task 33
+17.0 Worker 8 accepting task 22
+17.0 Worker 0 accepting task 19
+17.0 Worker 6 accepting task 9
+17.0 Worker 1 accepting task 24
+17.0 Worker 8 accepting task 3
+17.0 Worker 0 accepting task 29
+17.0 Generated task 34 with complexity 3 requiring operations [6, 7, 1]
+17.0 Worker 8 accepting task 34
+17.0 Worker 8 processing task 18 requiring operations [10, 9]
+17.0 Worker 8 forwarding task 18
+17.0 Worker 0 processing task 23 requiring operations [6, 5, 9]
+17.0 Worker 0 performing operation 5 on task 23
+17.0 Worker 7 processing task 4 requiring operations [2]
+17.0 Worker 7 forwarding task 4
+17.0 Worker 1 processing task 24 requiring operations [4]
+17.0 Worker 1 forwarding task 24
+17.0 Worker 4 processing task 25 requiring operations [5, 2]
+17.0 Worker 4 forwarding task 25
+17.0 Worker 6 processing task 9 requiring operations [8]
+17.0 Worker 6 performing operation 8 on task 9
+17.5 Worker 5 accepting task 33
+17.5 Generated task 35 with complexity 3 requiring operations [2, 1, 9]
+17.5 Worker 3 accepting task 35
+17.5 Worker 5 processing task 33 requiring operations [8, 4, 1]
+17.5 Worker 5 forwarding task 33
+17.5 Worker 3 processing task 35 requiring operations [2, 1, 9]
+17.5 Worker 3 performing operation 9 on task 35
+18.0 Worker 3 accepting task 18
+18.0 Worker 0 accepting task 23
+18.0 Worker 4 accepting task 4
+18.0 Worker 2 accepting task 24
+18.0 Worker 7 accepting task 25
+18.0 Task 9 completed!
+18.0 Generated task 36 with complexity 3 requiring operations [3, 2, 7]
+18.0 Worker 0 accepting task 36
+18.0 Worker 8 processing task 17 requiring operations [3, 8]
+18.0 Worker 8 performing operation 3 on task 17
+18.0 Worker 0 processing task 15 requiring operations [4, 5]
+18.0 Worker 0 performing operation 5 on task 15
+18.0 Worker 7 processing task 30 requiring operations [7, 2, 6]
+18.0 Worker 7 forwarding task 30
+18.0 Worker 4 processing task 4 requiring operations [2]
+18.0 Worker 4 forwarding task 4
+18.0 Worker 2 processing task 24 requiring operations [4]
+18.0 Worker 2 forwarding task 24
+18.5 Worker 3 accepting task 33
+18.5 Worker 3 accepting task 35
+18.5 Generated task 37 with complexity 3 requiring operations [10, 9, 8]
+18.5 Worker 7 accepting task 37
+18.5 Worker 3 processing task 18 requiring operations [10, 9]
+18.5 Worker 3 performing operation 9 on task 18
+19.0 Worker 8 accepting task 17
+19.0 Worker 0 accepting task 15
+19.0 Worker 6 accepting task 30
+19.0 Worker 6 accepting task 4
+19.0 Worker 4 accepting task 24
+19.0 Generated task 38 with complexity 3 requiring operations [1, 10, 5]
+19.0 Worker 2 accepting task 38
+19.0 Worker 8 processing task 2 requiring operations [9]
+19.0 Worker 8 forwarding task 2
+19.0 Worker 0 processing task 20 requiring operations [5, 4]
+19.0 Worker 0 performing operation 5 on task 20
+19.0 Worker 7 processing task 10 requiring operations [9, 2]
+19.0 Worker 7 forwarding task 10
+19.0 Worker 6 processing task 30 requiring operations [7, 2, 6]
+19.0 Worker 6 performing operation 6 on task 30
+19.0 Worker 4 processing task 24 requiring operations [4]
+19.0 Worker 4 performing operation 4 on task 24
+19.0 Worker 2 processing task 38 requiring operations [1, 10, 5]
+19.0 Worker 2 performing operation 1 on task 38
+19.5 Worker 3 accepting task 18
+19.5 Generated task 39 with complexity 3 requiring operations [5, 1, 8]
+19.5 Worker 0 accepting task 39
+19.5 Worker 3 processing task 33 requiring operations [8, 4, 1]
+19.5 Worker 3 forwarding task 33
+20.0 Worker 3 accepting task 2
+20.0 Worker 0 accepting task 20
+20.0 Worker 0 accepting task 10
+20.0 Worker 6 accepting task 30
+20.0 Task 24 completed!
+20.0 Worker 2 accepting task 38
+20.0 Generated task 40 with complexity 3 requiring operations [4, 10, 5]
+20.0 Worker 6 accepting task 40
+20.0 Worker 8 processing task 13 requiring operations [2]
+20.0 Worker 8 forwarding task 13
+20.0 Worker 0 processing task 6 requiring operations [2]
+20.0 Worker 0 forwarding task 6
+20.0 Worker 7 processing task 11 requiring operations [6]
+20.0 Worker 7 forwarding task 11
+20.0 Worker 6 processing task 4 requiring operations [2]
+20.0 Worker 6 forwarding task 4
+20.0 Worker 2 processing task 38 requiring operations [10, 5]
+20.0 Worker 2 forwarding task 38
+20.5 Worker 1 accepting task 33
+20.5 Generated task 41 with complexity 3 requiring operations [2, 7, 4]
+20.5 Worker 0 accepting task 41
+20.5 Worker 3 processing task 35 requiring operations [2, 1]
+20.5 Worker 3 performing operation 2 on task 35
+20.5 Worker 1 processing task 33 requiring operations [8, 4, 1]
+20.5 Worker 1 performing operation 8 on task 33
+21.0 Worker 6 accepting task 13
+21.0 Worker 5 accepting task 6
+21.0 Worker 4 accepting task 11
+21.0 Worker 1 accepting task 4
+21.0 Worker 5 accepting task 38
+21.0 Generated task 42 with complexity 3 requiring operations [8, 5, 4]
+21.0 Worker 0 accepting task 42
+21.0 Worker 8 processing task 31 requiring operations [7, 10, 8]
+21.0 Worker 8 forwarding task 31
+21.0 Worker 0 processing task 27 requiring operations [3, 2, 10]
+21.0 Worker 0 performing operation 3 on task 27
+21.0 Worker 7 processing task 26 requiring operations [10, 8, 5]
+21.0 Worker 7 performing operation 10 on task 26
+21.0 Worker 6 processing task 30 requiring operations [7, 2]
+21.0 Worker 6 forwarding task 30
+21.0 Worker 5 processing task 6 requiring operations [2]
+21.0 Worker 5 forwarding task 6
+21.0 Worker 4 processing task 11 requiring operations [6]
+21.0 Worker 4 performing operation 6 on task 11
+21.5 Worker 3 accepting task 35
+21.5 Worker 1 accepting task 33
+21.5 Generated task 43 with complexity 3 requiring operations [6, 1, 10]
+21.5 Worker 4 accepting task 43
+21.5 Worker 3 processing task 18 requiring operations [10]
+21.5 Worker 3 forwarding task 18
+21.5 Worker 1 processing task 4 requiring operations [2]
+21.5 Worker 1 forwarding task 4
+22.0 Worker 1 accepting task 31
+22.0 Worker 0 accepting task 27
+22.0 Worker 7 accepting task 26
+22.0 Worker 8 accepting task 30
+22.0 Worker 2 accepting task 6
+22.0 Task 11 completed!
+22.0 Generated task 44 with complexity 3 requiring operations [3, 10, 9]
+22.0 Worker 6 accepting task 44
+22.0 Worker 8 processing task 22 requiring operations [1, 2]
+22.0 Worker 8 forwarding task 22
+22.0 Worker 0 processing task 12 requiring operations [4]
+22.0 Worker 0 forwarding task 12
+22.0 Worker 7 processing task 25 requiring operations [5, 2]
+22.0 Worker 7 performing operation 5 on task 25
+22.0 Worker 6 processing task 40 requiring operations [4, 10, 5]
+22.0 Worker 6 forwarding task 40
+22.0 Worker 5 processing task 38 requiring operations [10, 5]
+22.0 Worker 5 forwarding task 38
+22.0 Worker 4 processing task 43 requiring operations [6, 1, 10]
+22.0 Worker 4 performing operation 6 on task 43
+22.0 Worker 2 processing task 6 requiring operations [2]
+22.0 Worker 2 forwarding task 6
+22.5 Worker 2 accepting task 18
+22.5 Worker 2 accepting task 4
+22.5 Generated task 45 with complexity 3 requiring operations [6, 7, 2]
+22.5 Worker 6 accepting task 45
+22.5 Worker 3 processing task 2 requiring operations [9]
+22.5 Worker 3 performing operation 9 on task 2
+22.5 Worker 1 processing task 33 requiring operations [4, 1]
+22.5 Worker 1 forwarding task 33
+23.0 Worker 0 accepting task 22
+23.0 Worker 6 accepting task 12
+23.0 Worker 7 accepting task 25
+23.0 Worker 4 accepting task 40
+23.0 Worker 3 accepting task 38
+23.0 Worker 4 accepting task 43
+23.0 Worker 0 accepting task 6
+23.0 Generated task 46 with complexity 3 requiring operations [3, 4, 1]
+23.0 Worker 2 accepting task 46
+23.0 Worker 8 processing task 3 requiring operations [9]
+23.0 Worker 8 forwarding task 3
+23.0 Worker 0 processing task 28 requiring operations [8, 2, 7]
+23.0 Worker 0 performing operation 7 on task 28
+23.0 Worker 7 processing task 37 requiring operations [10, 9, 8]
+23.0 Worker 7 performing operation 10 on task 37
+23.0 Worker 6 processing task 13 requiring operations [2]
+23.0 Worker 6 forwarding task 13
+23.0 Worker 4 processing task 40 requiring operations [4, 10, 5]
+23.0 Worker 4 performing operation 4 on task 40
+23.0 Worker 2 processing task 18 requiring operations [10]
+23.0 Worker 2 forwarding task 18
+23.5 Task 2 completed!
+23.5 Worker 8 accepting task 33
+23.5 Generated task 47 with complexity 3 requiring operations [7, 5, 4]
+23.5 Worker 2 accepting task 47
+23.5 Worker 3 processing task 35 requiring operations [1]
+23.5 Worker 3 forwarding task 35
+23.5 Worker 1 processing task 31 requiring operations [7, 10, 8]
+23.5 Worker 1 performing operation 10 on task 31
+24.0 Worker 3 accepting task 3
+24.0 Worker 0 accepting task 28
+24.0 Worker 7 accepting task 37
+24.0 Worker 2 accepting task 13
+24.0 Worker 4 accepting task 40
+24.0 Worker 5 accepting task 18
+24.0 Generated task 48 with complexity 3 requiring operations [7, 10, 2]
+24.0 Worker 6 accepting task 48
+24.0 Worker 8 processing task 34 requiring operations [6, 7, 1]
+24.0 Worker 8 forwarding task 34
+24.0 Worker 0 processing task 16 requiring operations [4, 6]
+24.0 Worker 0 forwarding task 16
+24.0 Worker 7 processing task 26 requiring operations [8, 5]
+24.0 Worker 7 performing operation 5 on task 26
+24.0 Worker 6 processing task 44 requiring operations [3, 10, 9]
+24.0 Worker 6 performing operation 3 on task 44
+24.0 Worker 4 processing task 43 requiring operations [1, 10]
+24.0 Worker 4 forwarding task 43
+24.0 Worker 2 processing task 4 requiring operations [2]
+24.0 Worker 2 forwarding task 4
+24.0 Worker 5 processing task 18 requiring operations [10]
+24.0 Worker 5 forwarding task 18
+24.5 Worker 1 accepting task 35
+24.5 Worker 1 accepting task 31
+24.5 Generated task 49 with complexity 3 requiring operations [8, 10, 1]
+24.5 Worker 8 accepting task 49
+24.5 Worker 3 processing task 38 requiring operations [10, 5]
+24.5 Worker 3 forwarding task 38
+24.5 Worker 1 processing task 35 requiring operations [1]
+24.5 Worker 1 forwarding task 35
+25.0 Worker 0 accepting task 34
+25.0 Worker 3 accepting task 16
+25.0 Worker 7 accepting task 26
+25.0 Worker 6 accepting task 44
+25.0 Worker 2 accepting task 43
+25.0 Worker 8 accepting task 4
+25.0 Worker 7 accepting task 18
+25.0 Generated task 50 with complexity 3 requiring operations [5, 6, 10]
+25.0 Worker 1 accepting task 50
+25.0 Worker 8 processing task 17 requiring operations [8]
+25.0 Worker 8 forwarding task 17
+25.0 Worker 0 processing task 21 requiring operations [2, 3]
+25.0 Worker 0 performing operation 3 on task 21
+25.0 Worker 7 processing task 25 requiring operations [2]
+25.0 Worker 7 forwarding task 25
+25.0 Worker 6 processing task 45 requiring operations [6, 7, 2]
+25.0 Worker 6 performing operation 6 on task 45
+25.0 Worker 4 processing task 40 requiring operations [10, 5]
+25.0 Worker 4 forwarding task 40
+25.0 Worker 2 processing task 46 requiring operations [3, 4, 1]
+25.0 Worker 2 performing operation 1 on task 46
+25.5 Worker 1 accepting task 38
+25.5 Worker 4 accepting task 35
+25.5 Generated task 51 with complexity 3 requiring operations [7, 8, 6]
+25.5 Worker 7 accepting task 51
+25.5 Worker 3 processing task 3 requiring operations [9]
+25.5 Worker 3 performing operation 9 on task 3
+25.5 Worker 1 processing task 31 requiring operations [7, 8]
+25.5 Worker 1 performing operation 8 on task 31
+26.0 Worker 0 accepting task 17
+26.0 Worker 0 accepting task 21
+26.0 Worker 3 accepting task 25
+26.0 Worker 6 accepting task 45
+26.0 Worker 1 accepting task 40
+26.0 Worker 2 accepting task 46
+26.0 Generated task 52 with complexity 3 requiring operations [4, 8, 1]
+26.0 Worker 3 accepting task 52
+26.0 Worker 8 processing task 30 requiring operations [7, 2]
+26.0 Worker 8 forwarding task 30
+26.0 Worker 0 processing task 14 requiring operations [10]
+26.0 Worker 0 forwarding task 14
+26.0 Worker 7 processing task 37 requiring operations [9, 8]
+26.0 Worker 7 forwarding task 37
+26.0 Worker 6 processing task 12 requiring operations [4]
+26.0 Worker 6 forwarding task 12
+26.0 Worker 4 processing task 35 requiring operations [1]
+26.0 Worker 4 forwarding task 35
+26.0 Worker 2 processing task 47 requiring operations [7, 5, 4]
+26.0 Worker 2 performing operation 7 on task 47
+26.5 Task 3 completed!
+26.5 Worker 1 accepting task 31
+26.5 Generated task 53 with complexity 3 requiring operations [3, 9, 7]
+26.5 Worker 4 accepting task 53
+26.5 Worker 3 processing task 16 requiring operations [4, 6]
+26.5 Worker 3 forwarding task 16
+26.5 Worker 1 processing task 50 requiring operations [5, 6, 10]
+26.5 Worker 1 performing operation 10 on task 50
+27.0 Worker 4 accepting task 30
+27.0 Worker 4 accepting task 14
+27.0 Worker 8 accepting task 37
+27.0 Worker 7 accepting task 12
+27.0 Worker 6 accepting task 35
+27.0 Worker 2 accepting task 47
+27.0 Generated task 54 with complexity 3 requiring operations [7, 5, 8]
+27.0 Worker 4 accepting task 54
+27.0 Worker 8 processing task 33 requiring operations [4, 1]
+27.0 Worker 8 performing operation 4 on task 33
+27.0 Worker 0 processing task 32 requiring operations [4, 10, 5]
+27.0 Worker 0 performing operation 5 on task 32
+27.0 Worker 7 processing task 26 requiring operations [8]
+27.0 Worker 7 forwarding task 26
+27.0 Worker 6 processing task 48 requiring operations [7, 10, 2]
+27.0 Worker 6 forwarding task 48
+27.0 Worker 4 processing task 53 requiring operations [3, 9, 7]
+27.0 Worker 4 performing operation 7 on task 53
+27.0 Worker 2 processing task 13 requiring operations [2]
+27.0 Worker 2 forwarding task 13
+27.5 Worker 5 accepting task 16
+27.5 Worker 1 accepting task 50
+27.5 Generated task 55 with complexity 3 requiring operations [10, 5, 1]
+27.5 Worker 1 accepting task 55
+27.5 Worker 3 processing task 25 requiring operations [2]
+27.5 Worker 3 performing operation 2 on task 25
+27.5 Worker 1 processing task 38 requiring operations [10, 5]
+27.5 Worker 1 performing operation 10 on task 38
+27.5 Worker 5 processing task 16 requiring operations [4, 6]
+27.5 Worker 5 performing operation 6 on task 16
+28.0 Worker 8 accepting task 33
+28.0 Worker 0 accepting task 32
+28.0 Worker 4 accepting task 26
+28.0 Worker 8 accepting task 48
+28.0 Worker 4 accepting task 53
+28.0 Worker 3 accepting task 13
+28.0 Generated task 56 with complexity 3 requiring operations [9, 10, 4]
+28.0 Worker 2 accepting task 56
+28.0 Worker 8 processing task 49 requiring operations [8, 10, 1]
+28.0 Worker 8 forwarding task 49
+28.0 Worker 0 processing task 19 requiring operations [6, 4]
+28.0 Worker 0 forwarding task 19
+28.0 Worker 7 processing task 18 requiring operations [10]
+28.0 Worker 7 performing operation 10 on task 18
+28.0 Worker 6 processing task 44 requiring operations [10, 9]
+28.0 Worker 6 forwarding task 44
+28.0 Worker 4 processing task 30 requiring operations [7, 2]
+28.0 Worker 4 performing operation 7 on task 30
+28.0 Worker 2 processing task 43 requiring operations [1, 10]
+28.0 Worker 2 performing operation 1 on task 43
+28.5 Task 25 completed!
+28.5 Worker 1 accepting task 38
+28.5 Worker 5 accepting task 16
+28.5 Generated task 57 with complexity 3 requiring operations [7, 1, 5]
+28.5 Worker 6 accepting task 57
+28.5 Worker 3 processing task 52 requiring operations [4, 8, 1]
+28.5 Worker 3 forwarding task 52
+28.5 Worker 1 processing task 40 requiring operations [10, 5]
+28.5 Worker 1 performing operation 10 on task 40
+28.5 Worker 5 processing task 16 requiring operations [4]
+28.5 Worker 5 forwarding task 16
+29.0 Worker 7 accepting task 49
+29.0 Worker 8 accepting task 19
+29.0 Task 18 completed!
+29.0 Worker 7 accepting task 44
+29.0 Worker 4 accepting task 30
+29.0 Worker 2 accepting task 43
+29.0 Generated task 58 with complexity 3 requiring operations [1, 4, 3]
+29.0 Worker 0 accepting task 58
+29.0 Worker 8 processing task 4 requiring operations [2]
+29.0 Worker 8 forwarding task 4
+29.0 Worker 0 processing task 29 requiring operations [3, 9, 1]
+29.0 Worker 0 performing operation 3 on task 29
+29.0 Worker 7 processing task 51 requiring operations [7, 8, 6]
+29.0 Worker 7 forwarding task 51
+29.0 Worker 6 processing task 45 requiring operations [7, 2]
+29.0 Worker 6 forwarding task 45
+29.0 Worker 4 processing task 14 requiring operations [10]
+29.0 Worker 4 forwarding task 14
+29.0 Worker 2 processing task 46 requiring operations [3, 4]
+29.0 Worker 2 forwarding task 46
+29.5 Worker 5 accepting task 52
+29.5 Worker 1 accepting task 40
+29.5 Worker 0 accepting task 16
+29.5 Generated task 59 with complexity 3 requiring operations [8, 9, 7]
+29.5 Worker 5 accepting task 59
+29.5 Worker 3 processing task 13 requiring operations [2]
+29.5 Worker 3 performing operation 2 on task 13
+29.5 Worker 1 processing task 31 requiring operations [7]
+29.5 Worker 1 forwarding task 31
+29.5 Worker 5 processing task 52 requiring operations [4, 8, 1]
+29.5 Worker 5 forwarding task 52
+30.0 Worker 6 accepting task 4
+30.0 Worker 0 accepting task 29
+30.0 Worker 8 accepting task 51
+30.0 Worker 1 accepting task 45
+30.0 Worker 1 accepting task 14
+30.0 Worker 6 accepting task 46
+30.0 Generated task 60 with complexity 3 requiring operations [5, 4, 1]
+30.0 Worker 1 accepting task 60
+30.0 Worker 8 processing task 37 requiring operations [9, 8]
+30.0 Worker 8 forwarding task 37
+30.0 Worker 0 processing task 23 requiring operations [6, 9]
+30.0 Worker 0 forwarding task 23
+30.0 Worker 7 processing task 12 requiring operations [4]
+30.0 Worker 7 forwarding task 12
+30.0 Worker 6 processing task 35 requiring operations [1]
+30.0 Worker 6 performing operation 1 on task 35
+30.0 Worker 4 processing task 54 requiring operations [7, 5, 8]
+30.0 Worker 4 performing operation 7 on task 54
+30.0 Worker 2 processing task 47 requiring operations [5, 4]
+30.0 Worker 2 forwarding task 47
+30.5 Task 13 completed!
+30.5 Worker 7 accepting task 31
+30.5 Worker 2 accepting task 52
+30.5 Generated task 61 with complexity 3 requiring operations [4, 1, 9]
+30.5 Worker 5 accepting task 61
+30.5 Worker 1 processing task 50 requiring operations [5, 6]
+30.5 Worker 1 performing operation 6 on task 50
+30.5 Worker 5 processing task 59 requiring operations [8, 9, 7]
+30.5 Worker 5 forwarding task 59
+31.0 Worker 5 accepting task 37
+31.0 Worker 6 accepting task 23
+31.0 Worker 1 accepting task 12
+31.0 Task 35 completed!
+31.0 Worker 4 accepting task 54
+31.0 Worker 3 accepting task 47
+31.0 Generated task 62 with complexity 3 requiring operations [9, 2, 1]
+31.0 Worker 2 accepting task 62
+31.0 Worker 8 processing task 33 requiring operations [1]
+31.0 Worker 8 forwarding task 33
+31.0 Worker 0 processing task 36 requiring operations [3, 2, 7]
+31.0 Worker 0 performing operation 3 on task 36
+31.0 Worker 7 processing task 49 requiring operations [8, 10, 1]
+31.0 Worker 7 performing operation 1 on task 49
+31.0 Worker 6 processing task 57 requiring operations [7, 1, 5]
+31.0 Worker 6 performing operation 1 on task 57
+31.0 Worker 4 processing task 26 requiring operations [8]
+31.0 Worker 4 forwarding task 26
+31.0 Worker 2 processing task 56 requiring operations [9, 10, 4]
+31.0 Worker 2 forwarding task 56
+31.0 Worker 3 processing task 47 requiring operations [5, 4]
+31.0 Worker 3 forwarding task 47
+31.5 Worker 1 accepting task 50
+31.5 Worker 7 accepting task 59
+31.5 Generated task 63 with complexity 3 requiring operations [9, 1, 7]
+31.5 Worker 2 accepting task 63
+31.5 Worker 1 processing task 55 requiring operations [10, 5, 1]
+31.5 Worker 1 performing operation 10 on task 55
+31.5 Worker 5 processing task 61 requiring operations [4, 1, 9]
+31.5 Worker 5 forwarding task 61
+32.0 Worker 1 accepting task 33
+32.0 Worker 0 accepting task 36
+32.0 Worker 7 accepting task 49
+32.0 Worker 6 accepting task 57
+32.0 Worker 8 accepting task 26
+32.0 Worker 1 accepting task 56
+32.0 Worker 2 accepting task 47
+32.0 Generated task 64 with complexity 3 requiring operations [10, 3, 1]
+32.0 Worker 3 accepting task 64
+32.0 Worker 8 processing task 48 requiring operations [7, 10, 2]
+32.0 Worker 8 forwarding task 48
+32.0 Worker 0 processing task 15 requiring operations [4]
+32.0 Worker 0 forwarding task 15
+32.0 Worker 7 processing task 44 requiring operations [10, 9]
+32.0 Worker 7 performing operation 10 on task 44
+32.0 Worker 6 processing task 4 requiring operations [2]
+32.0 Worker 6 forwarding task 4
+32.0 Worker 4 processing task 53 requiring operations [3, 9]
+32.0 Worker 4 performing operation 3 on task 53
+32.0 Worker 2 processing task 43 requiring operations [10]
+32.0 Worker 2 forwarding task 43
+32.0 Worker 3 processing task 64 requiring operations [10, 3, 1]
+32.0 Worker 3 forwarding task 64
+32.5 Worker 1 accepting task 55
+32.5 Worker 4 accepting task 61
+32.5 Generated task 65 with complexity 3 requiring operations [1, 6, 7]
+32.5 Worker 3 accepting task 65
+32.5 Worker 1 processing task 38 requiring operations [5]
+32.5 Worker 1 forwarding task 38
+32.5 Worker 5 processing task 37 requiring operations [9, 8]
+32.5 Worker 5 forwarding task 37
+33.0 Worker 0 accepting task 48
+33.0 Worker 4 accepting task 15
+33.0 Worker 7 accepting task 44
+33.0 Worker 3 accepting task 4
+33.0 Worker 4 accepting task 53
+33.0 Worker 0 accepting task 43
+33.0 Worker 1 accepting task 64
+33.0 Generated task 66 with complexity 3 requiring operations [6, 8, 9]
+33.0 Worker 5 accepting task 66
+33.0 Worker 8 processing task 19 requiring operations [6, 4]
+33.0 Worker 8 performing operation 4 on task 19
+33.0 Worker 0 processing task 39 requiring operations [5, 1, 8]
+33.0 Worker 0 performing operation 8 on task 39
+33.0 Worker 7 processing task 31 requiring operations [7]
+33.0 Worker 7 forwarding task 31
+33.0 Worker 6 processing task 46 requiring operations [3, 4]
+33.0 Worker 6 performing operation 3 on task 46
+33.0 Worker 4 processing task 30 requiring operations [2]
+33.0 Worker 4 forwarding task 30
+33.0 Worker 2 processing task 52 requiring operations [4, 8, 1]
+33.0 Worker 2 performing operation 1 on task 52
+33.0 Worker 3 processing task 65 requiring operations [1, 6, 7]
+33.0 Worker 3 performing operation 7 on task 65
+33.5 Worker 0 accepting task 38
+33.5 Worker 2 accepting task 37
+33.5 Generated task 67 with complexity 3 requiring operations [3, 9, 6]
+33.5 Worker 3 accepting task 67
+33.5 Worker 1 processing task 40 requiring operations [5]
+33.5 Worker 1 forwarding task 40
+33.5 Worker 5 processing task 66 requiring operations [6, 8, 9]
+33.5 Worker 5 performing operation 6 on task 66
+34.0 Worker 8 accepting task 19
+34.0 Worker 0 accepting task 39
+34.0 Worker 2 accepting task 31
+34.0 Worker 6 accepting task 46
+34.0 Worker 6 accepting task 30
+34.0 Worker 2 accepting task 52
+34.0 Worker 3 accepting task 65
+34.0 Generated task 68 with complexity 3 requiring operations [3, 2, 8]
+34.0 Worker 6 accepting task 68
+34.0 Worker 8 processing task 51 requiring operations [7, 8, 6]
+34.0 Worker 8 forwarding task 51
+34.0 Worker 0 processing task 20 requiring operations [4]
+34.0 Worker 0 forwarding task 20
+34.0 Worker 7 processing task 59 requiring operations [8, 9, 7]
+34.0 Worker 7 forwarding task 59
+34.0 Worker 6 processing task 23 requiring operations [6, 9]
+34.0 Worker 6 performing operation 6 on task 23
+34.0 Worker 4 processing task 54 requiring operations [5, 8]
+34.0 Worker 4 forwarding task 54
+34.0 Worker 2 processing task 62 requiring operations [9, 2, 1]
+34.0 Worker 2 performing operation 1 on task 62
+34.0 Worker 3 processing task 4 requiring operations [2]
+34.0 Worker 3 performing operation 2 on task 4
+34.5 Worker 0 accepting task 40
+34.5 Worker 5 accepting task 66
+34.5 Generated task 69 with complexity 3 requiring operations [3, 8, 7]
+34.5 Worker 0 accepting task 69
+34.5 Worker 1 processing task 45 requiring operations [7, 2]
+34.5 Worker 1 forwarding task 45
+34.5 Worker 5 processing task 66 requiring operations [8, 9]
+34.5 Worker 5 forwarding task 66
+35.0 Worker 0 accepting task 51
+35.0 Worker 6 accepting task 20
+35.0 Worker 0 accepting task 59
+35.0 Worker 6 accepting task 23
+35.0 Worker 7 accepting task 54
+35.0 Worker 2 accepting task 62
+35.0 Task 4 completed!
+35.0 Generated task 70 with complexity 3 requiring operations [2, 10, 3]
+35.0 Worker 7 accepting task 70
+35.0 Worker 8 processing task 26 requiring operations [8]
+35.0 Worker 8 forwarding task 26
+35.0 Worker 0 processing task 10 requiring operations [9, 2]
+35.0 Worker 0 forwarding task 10
+35.0 Worker 7 processing task 49 requiring operations [8, 10]
+35.0 Worker 7 performing operation 10 on task 49
+35.0 Worker 6 processing task 57 requiring operations [7, 5]
+35.0 Worker 6 forwarding task 57
+35.0 Worker 4 processing task 61 requiring operations [4, 1, 9]
+35.0 Worker 4 performing operation 4 on task 61
+35.0 Worker 2 processing task 63 requiring operations [9, 1, 7]
+35.0 Worker 2 performing operation 1 on task 63
+35.0 Worker 3 processing task 67 requiring operations [3, 9, 6]
+35.0 Worker 3 performing operation 9 on task 67
+35.5 Worker 4 accepting task 45
+35.5 Worker 2 accepting task 66
+35.5 Generated task 71 with complexity 3 requiring operations [8, 9, 7]
+35.5 Worker 1 accepting task 71
+35.5 Worker 1 processing task 14 requiring operations [10]
+35.5 Worker 1 performing operation 10 on task 14
+36.0 Worker 5 accepting task 26
+36.0 Worker 4 accepting task 10
+36.0 Worker 7 accepting task 49
+36.0 Worker 5 accepting task 57
+36.0 Worker 4 accepting task 61
+36.0 Worker 2 accepting task 63
+36.0 Worker 3 accepting task 67
+36.0 Generated task 72 with complexity 3 requiring operations [9, 3, 4]
+36.0 Worker 3 accepting task 72
+36.0 Worker 8 processing task 19 requiring operations [6]
+36.0 Worker 8 forwarding task 19
+36.0 Worker 0 processing task 41 requiring operations [2, 7, 4]
+36.0 Worker 0 performing operation 7 on task 41
+36.0 Worker 7 processing task 44 requiring operations [9]
+36.0 Worker 7 forwarding task 44
+36.0 Worker 6 processing task 46 requiring operations [4]
+36.0 Worker 6 forwarding task 46
+36.0 Worker 4 processing task 15 requiring operations [4]
+36.0 Worker 4 performing operation 4 on task 15
+36.0 Worker 2 processing task 47 requiring operations [5, 4]
+36.0 Worker 2 forwarding task 47
+36.0 Worker 3 processing task 65 requiring operations [1, 6]
+36.0 Worker 3 forwarding task 65
+36.0 Worker 5 processing task 26 requiring operations [8]
+36.0 Worker 5 forwarding task 26
+36.5 Task 14 completed!
+36.5 Generated task 73 with complexity 3 requiring operations [2, 7, 9]
+36.5 Worker 2 accepting task 73
+36.5 Worker 1 processing task 60 requiring operations [5, 4, 1]
+36.5 Worker 1 forwarding task 60
+37.0 Worker 0 accepting task 19
+37.0 Worker 0 accepting task 41
+37.0 Worker 1 accepting task 44
+37.0 Worker 2 accepting task 46
+37.0 Task 15 completed!
+37.0 Worker 0 accepting task 47
+37.0 Worker 5 accepting task 65
+37.0 Worker 1 accepting task 26
+37.0 Generated task 74 with complexity 3 requiring operations [2, 3, 10]
+37.0 Worker 7 accepting task 74
+37.0 Worker 0 processing task 42 requiring operations [8, 5, 4]
+37.0 Worker 0 performing operation 5 on task 42
+37.0 Worker 7 processing task 54 requiring operations [5, 8]
+37.0 Worker 7 performing operation 5 on task 54
+37.0 Worker 6 processing task 30 requiring operations [2]
+37.0 Worker 6 forwarding task 30
+37.0 Worker 4 processing task 53 requiring operations [9]
+37.0 Worker 4 forwarding task 53
+37.0 Worker 2 processing task 37 requiring operations [9, 8]
+37.0 Worker 2 forwarding task 37
+37.0 Worker 3 processing task 67 requiring operations [3, 6]
+37.0 Worker 3 forwarding task 67
+37.0 Worker 5 processing task 57 requiring operations [7, 5]
+37.0 Worker 5 forwarding task 57
+37.5 Worker 6 accepting task 60
+37.5 Generated task 75 with complexity 3 requiring operations [6, 7, 9]
+37.5 Worker 5 accepting task 75
+37.5 Worker 1 processing task 12 requiring operations [4]
+37.5 Worker 1 forwarding task 12
+38.0 Worker 0 accepting task 42
+38.0 Worker 7 accepting task 54
+38.0 Worker 0 accepting task 30
+38.0 Worker 7 accepting task 53
+38.0 Worker 7 accepting task 37
+38.0 Worker 4 accepting task 67
+38.0 Worker 2 accepting task 57
+38.0 Generated task 76 with complexity 3 requiring operations [4, 9, 10]
+38.0 Worker 5 accepting task 76
+38.0 Worker 0 processing task 27 requiring operations [2, 10]
+38.0 Worker 0 forwarding task 27
+38.0 Worker 7 processing task 70 requiring operations [2, 10, 3]
+38.0 Worker 7 performing operation 10 on task 70
+38.0 Worker 6 processing task 68 requiring operations [3, 2, 8]
+38.0 Worker 6 performing operation 8 on task 68
+38.0 Worker 4 processing task 45 requiring operations [7, 2]
+38.0 Worker 4 performing operation 7 on task 45
+38.0 Worker 2 processing task 31 requiring operations [7]
+38.0 Worker 2 performing operation 7 on task 31
+38.0 Worker 3 processing task 72 requiring operations [9, 3, 4]
+38.0 Worker 3 performing operation 9 on task 72
+38.0 Worker 5 processing task 65 requiring operations [1, 6]
+38.0 Worker 5 performing operation 6 on task 65
+38.5 Worker 8 accepting task 12
+38.5 Generated task 77 with complexity 3 requiring operations [9, 5, 7]
+38.5 Worker 5 accepting task 77
+38.5 Worker 1 processing task 50 requiring operations [5]
+38.5 Worker 1 forwarding task 50
+38.5 Worker 8 processing task 12 requiring operations [4]
+38.5 Worker 8 performing operation 4 on task 12
+39.0 Worker 1 accepting task 27
+39.0 Worker 7 accepting task 70
+39.0 Worker 6 accepting task 68
+39.0 Worker 4 accepting task 45
+39.0 Task 31 completed!
+39.0 Worker 3 accepting task 72
+39.0 Worker 5 accepting task 65
+39.0 Generated task 78 with complexity 3 requiring operations [7, 6, 1]
+39.0 Worker 7 accepting task 78
+39.0 Worker 0 processing task 22 requiring operations [1, 2]
+39.0 Worker 0 forwarding task 22
+39.0 Worker 7 processing task 49 requiring operations [8]
+39.0 Worker 7 forwarding task 49
+39.0 Worker 6 processing task 20 requiring operations [4]
+39.0 Worker 6 forwarding task 20
+39.0 Worker 4 processing task 10 requiring operations [9, 2]
+39.0 Worker 4 forwarding task 10
+39.0 Worker 2 processing task 52 requiring operations [4, 8]
+39.0 Worker 2 forwarding task 52
+39.0 Worker 3 processing task 72 requiring operations [3, 4]
+39.0 Worker 3 forwarding task 72
+39.0 Worker 5 processing task 75 requiring operations [6, 7, 9]
+39.0 Worker 5 performing operation 6 on task 75
+39.5 Worker 8 accepting task 50
+39.5 Task 12 completed!
+39.5 Generated task 79 with complexity 3 requiring operations [5, 8, 7]
+39.5 Worker 0 accepting task 79
+39.5 Worker 1 processing task 33 requiring operations [1]
+39.5 Worker 1 forwarding task 33
+39.5 Worker 8 processing task 50 requiring operations [5]
+39.5 Worker 8 performing operation 5 on task 50
+40.0 Worker 4 accepting task 22
+40.0 Worker 5 accepting task 49
+40.0 Worker 7 accepting task 20
+40.0 Worker 5 accepting task 10
+40.0 Worker 0 accepting task 52
+40.0 Worker 8 accepting task 72
+40.0 Worker 5 accepting task 75
+40.0 Generated task 80 with complexity 3 requiring operations [8, 1, 9]
+40.0 Worker 0 accepting task 80
+40.0 Worker 0 processing task 6 requiring operations [2]
+40.0 Worker 0 forwarding task 6
+40.0 Worker 7 processing task 74 requiring operations [2, 3, 10]
+40.0 Worker 7 performing operation 10 on task 74
+40.0 Worker 6 processing task 23 requiring operations [9]
+40.0 Worker 6 forwarding task 23
+40.0 Worker 4 processing task 61 requiring operations [1, 9]
+40.0 Worker 4 forwarding task 61
+40.0 Worker 2 processing task 62 requiring operations [9, 2]
+40.0 Worker 2 forwarding task 62
+40.0 Worker 5 processing task 76 requiring operations [4, 9, 10]
+40.0 Worker 5 forwarding task 76
+40.5 Worker 3 accepting task 33
+40.5 Task 50 completed!
+40.5 Generated task 81 with complexity 3 requiring operations [1, 5, 7]
+40.5 Worker 7 accepting task 81
+40.5 Worker 1 processing task 56 requiring operations [9, 10, 4]
+40.5 Worker 1 performing operation 10 on task 56
+40.5 Worker 8 processing task 72 requiring operations [3, 4]
+40.5 Worker 8 performing operation 4 on task 72
+40.5 Worker 3 processing task 33 requiring operations [1]
+40.5 Worker 3 forwarding task 33
+41.0 Worker 4 accepting task 6
+41.0 Worker 7 accepting task 74
+41.0 Worker 5 accepting task 23
+41.0 Worker 5 accepting task 61
+41.0 Worker 3 accepting task 62
+41.0 Worker 1 accepting task 76
+41.0 Generated task 82 with complexity 3 requiring operations [2, 3, 5]
+41.0 Worker 3 accepting task 82
+41.0 Worker 0 processing task 28 requiring operations [8, 2]
+41.0 Worker 0 performing operation 8 on task 28
+41.0 Worker 7 processing task 54 requiring operations [8]
+41.0 Worker 7 forwarding task 54
+41.0 Worker 6 processing task 60 requiring operations [5, 4, 1]
+41.0 Worker 6 performing operation 1 on task 60
+41.0 Worker 4 processing task 67 requiring operations [3, 6]
+41.0 Worker 4 performing operation 3 on task 67
+41.0 Worker 2 processing task 66 requiring operations [8, 9]
+41.0 Worker 2 forwarding task 66
+41.0 Worker 5 processing task 77 requiring operations [9, 5, 7]
+41.0 Worker 5 forwarding task 77
+41.5 Worker 1 accepting task 56
+41.5 Worker 8 accepting task 72
+41.5 Worker 7 accepting task 33
+41.5 Generated task 83 with complexity 3 requiring operations [10, 7, 9]
+41.5 Worker 7 accepting task 83
+41.5 Worker 1 processing task 55 requiring operations [5, 1]
+41.5 Worker 1 forwarding task 55
+41.5 Worker 8 processing task 72 requiring operations [3]
+41.5 Worker 8 performing operation 3 on task 72
+41.5 Worker 3 processing task 62 requiring operations [9, 2]
+41.5 Worker 3 performing operation 9 on task 62
+42.0 Worker 0 accepting task 28
+42.0 Worker 0 accepting task 54
+42.0 Worker 6 accepting task 60
+42.0 Worker 4 accepting task 67
+42.0 Worker 4 accepting task 66
+42.0 Worker 2 accepting task 77
+42.0 Generated task 84 with complexity 3 requiring operations [7, 4, 1]
+42.0 Worker 1 accepting task 84
+42.0 Worker 0 processing task 34 requiring operations [6, 7, 1]
+42.0 Worker 0 performing operation 7 on task 34
+42.0 Worker 7 processing task 53 requiring operations [9]
+42.0 Worker 7 forwarding task 53
+42.0 Worker 6 processing task 68 requiring operations [3, 2]
+42.0 Worker 6 performing operation 3 on task 68
+42.0 Worker 4 processing task 45 requiring operations [2]
+42.0 Worker 4 forwarding task 45
+42.0 Worker 2 processing task 63 requiring operations [9, 7]
+42.0 Worker 2 performing operation 7 on task 63
+42.0 Worker 5 processing task 65 requiring operations [1]
+42.0 Worker 5 forwarding task 65
+42.5 Worker 7 accepting task 55
+42.5 Task 72 completed!
+42.5 Worker 3 accepting task 62
+42.5 Generated task 85 with complexity 3 requiring operations [1, 6, 10]
+42.5 Worker 7 accepting task 85
+42.5 Worker 1 processing task 64 requiring operations [10, 3, 1]
+42.5 Worker 1 performing operation 10 on task 64
+42.5 Worker 3 processing task 82 requiring operations [2, 3, 5]
+42.5 Worker 3 performing operation 2 on task 82
+43.0 Worker 0 accepting task 34
+43.0 Worker 2 accepting task 53
+43.0 Worker 6 accepting task 68
+43.0 Worker 8 accepting task 45
+43.0 Worker 2 accepting task 63
+43.0 Worker 0 accepting task 65
+43.0 Generated task 86 with complexity 3 requiring operations [1, 8, 9]
+43.0 Worker 2 accepting task 86
+43.0 Worker 0 processing task 17 requiring operations [8]
+43.0 Worker 0 performing operation 8 on task 17
+43.0 Worker 7 processing task 37 requiring operations [9, 8]
+43.0 Worker 7 forwarding task 37
+43.0 Worker 6 processing task 60 requiring operations [5, 4]
+43.0 Worker 6 forwarding task 60
+43.0 Worker 4 processing task 22 requiring operations [1, 2]
+43.0 Worker 4 forwarding task 22
+43.0 Worker 2 processing task 73 requiring operations [2, 7, 9]
+43.0 Worker 2 performing operation 7 on task 73
+43.0 Worker 5 processing task 49 requiring operations [8]
+43.0 Worker 5 forwarding task 49
+43.0 Worker 8 processing task 45 requiring operations [2]
+43.0 Worker 8 forwarding task 45
+43.5 Worker 1 accepting task 64
+43.5 Worker 3 accepting task 82
+43.5 Generated task 87 with complexity 3 requiring operations [4, 8, 9]
+43.5 Worker 4 accepting task 87
+43.5 Worker 1 processing task 71 requiring operations [8, 9, 7]
+43.5 Worker 1 performing operation 8 on task 71
+43.5 Worker 3 processing task 62 requiring operations [2]
+43.5 Worker 3 performing operation 2 on task 62
+44.0 Task 17 completed!
+44.0 Worker 1 accepting task 37
+44.0 Worker 3 accepting task 60
+44.0 Worker 7 accepting task 22
+44.0 Worker 2 accepting task 73
+44.0 Worker 4 accepting task 49
+44.0 Worker 4 accepting task 45
+44.0 Generated task 88 with complexity 3 requiring operations [4, 1, 8]
+44.0 Worker 7 accepting task 88
+44.0 Worker 0 processing task 21 requiring operations [2]
+44.0 Worker 0 forwarding task 21
+44.0 Worker 7 processing task 70 requiring operations [2, 3]
+44.0 Worker 7 forwarding task 70
+44.0 Worker 6 processing task 68 requiring operations [2]
+44.0 Worker 6 forwarding task 68
+44.0 Worker 4 processing task 6 requiring operations [2]
+44.0 Worker 4 forwarding task 6
+44.0 Worker 2 processing task 46 requiring operations [4]
+44.0 Worker 2 forwarding task 46
+44.0 Worker 5 processing task 10 requiring operations [9, 2]
+44.0 Worker 5 forwarding task 10
+44.5 Worker 1 accepting task 71
+44.5 Task 62 completed!
+44.5 Generated task 89 with complexity 3 requiring operations [7, 10, 1]
+44.5 Worker 0 accepting task 89
+44.5 Worker 1 processing task 44 requiring operations [9]
+44.5 Worker 1 forwarding task 44
+44.5 Worker 3 processing task 82 requiring operations [3, 5]
+44.5 Worker 3 forwarding task 82
+45.0 Worker 5 accepting task 21
+45.0 Worker 5 accepting task 70
+45.0 Worker 3 accepting task 68
+45.0 Worker 6 accepting task 6
+45.0 Worker 7 accepting task 46
+45.0 Worker 6 accepting task 10
+45.0 Generated task 90 with complexity 3 requiring operations [9, 2, 8]
+45.0 Worker 8 accepting task 90
+45.0 Worker 0 processing task 32 requiring operations [4, 10]
+45.0 Worker 0 forwarding task 32
+45.0 Worker 7 processing task 78 requiring operations [7, 6, 1]
+45.0 Worker 7 performing operation 1 on task 78
+45.0 Worker 4 processing task 67 requiring operations [6]
+45.0 Worker 4 performing operation 6 on task 67
+45.0 Worker 2 processing task 57 requiring operations [7, 5]
+45.0 Worker 2 performing operation 7 on task 57
+45.0 Worker 5 processing task 75 requiring operations [7, 9]
+45.0 Worker 5 forwarding task 75
+45.0 Worker 6 processing task 6 requiring operations [2]
+45.0 Worker 6 forwarding task 6
+45.0 Worker 8 processing task 90 requiring operations [9, 2, 8]
+45.0 Worker 8 forwarding task 90
+45.5 Worker 4 accepting task 44
+45.5 Worker 6 accepting task 82
+45.5 Generated task 91 with complexity 3 requiring operations [10, 6, 7]
+45.5 Worker 1 accepting task 91
+45.5 Worker 1 processing task 26 requiring operations [8]
+45.5 Worker 1 performing operation 8 on task 26
+45.5 Worker 3 processing task 60 requiring operations [5, 4]
+45.5 Worker 3 forwarding task 60
+46.0 Worker 6 accepting task 32
+46.0 Worker 7 accepting task 78
+46.0 Task 67 completed!
+46.0 Worker 2 accepting task 57
+46.0 Worker 6 accepting task 75
+46.0 Worker 0 accepting task 6
+46.0 Worker 3 accepting task 90
+46.0 Generated task 92 with complexity 3 requiring operations [5, 1, 3]
+46.0 Worker 2 accepting task 92
+46.0 Worker 0 processing task 58 requiring operations [1, 4, 3]
+46.0 Worker 0 performing operation 3 on task 58
+46.0 Worker 7 processing task 20 requiring operations [4]
+46.0 Worker 7 forwarding task 20
+46.0 Worker 4 processing task 66 requiring operations [8, 9]
+46.0 Worker 4 forwarding task 66
+46.0 Worker 2 processing task 77 requiring operations [9, 5, 7]
+46.0 Worker 2 performing operation 7 on task 77
+46.0 Worker 5 processing task 23 requiring operations [9]
+46.0 Worker 5 forwarding task 23
+46.0 Worker 6 processing task 10 requiring operations [9, 2]
+46.0 Worker 6 forwarding task 10
+46.5 Task 26 completed!
+46.5 Worker 7 accepting task 60
+46.5 Generated task 93 with complexity 3 requiring operations [1, 3, 4]
+46.5 Worker 2 accepting task 93
+46.5 Worker 1 processing task 27 requiring operations [2, 10]
+46.5 Worker 1 performing operation 10 on task 27
+46.5 Worker 3 processing task 68 requiring operations [2]
+46.5 Worker 3 performing operation 2 on task 68
+47.0 Worker 0 accepting task 58
+47.0 Worker 6 accepting task 20
+47.0 Worker 3 accepting task 66
+47.0 Worker 2 accepting task 77
+47.0 Worker 1 accepting task 23
+47.0 Worker 8 accepting task 10
+47.0 Generated task 94 with complexity 3 requiring operations [4, 2, 6]
+47.0 Worker 5 accepting task 94
+47.0 Worker 0 processing task 16 requiring operations [4]
+47.0 Worker 0 forwarding task 16
+47.0 Worker 7 processing task 81 requiring operations [1, 5, 7]
+47.0 Worker 7 performing operation 5 on task 81
+47.0 Worker 4 processing task 87 requiring operations [4, 8, 9]
+47.0 Worker 4 performing operation 4 on task 87
+47.0 Worker 2 processing task 53 requiring operations [9]
+47.0 Worker 2 forwarding task 53
+47.0 Worker 5 processing task 61 requiring operations [1, 9]
+47.0 Worker 5 forwarding task 61
+47.0 Worker 6 processing task 82 requiring operations [3, 5]
+47.0 Worker 6 performing operation 3 on task 82
+47.0 Worker 8 processing task 10 requiring operations [9, 2]
+47.0 Worker 8 forwarding task 10
+47.5 Worker 1 accepting task 27
+47.5 Task 68 completed!
+47.5 Generated task 95 with complexity 3 requiring operations [7, 4, 6]
+47.5 Worker 0 accepting task 95
+47.5 Worker 1 processing task 76 requiring operations [4, 9, 10]
+47.5 Worker 1 performing operation 10 on task 76
+47.5 Worker 3 processing task 90 requiring operations [9, 2, 8]
+47.5 Worker 3 performing operation 2 on task 90
+48.0 Worker 6 accepting task 16
+48.0 Worker 7 accepting task 81
+48.0 Worker 4 accepting task 87
+48.0 Worker 3 accepting task 53
+48.0 Worker 2 accepting task 61
+48.0 Worker 6 accepting task 82
+48.0 Worker 3 accepting task 10
+48.0 Generated task 96 with complexity 3 requiring operations [4, 10, 5]
+48.0 Worker 4 accepting task 96
+48.0 Worker 0 processing task 29 requiring operations [9, 1]
+48.0 Worker 0 forwarding task 29
+48.0 Worker 7 processing task 74 requiring operations [2, 3]
+48.0 Worker 7 forwarding task 74
+48.0 Worker 4 processing task 49 requiring operations [8]
+48.0 Worker 4 forwarding task 49
+48.0 Worker 2 processing task 63 requiring operations [9]
+48.0 Worker 2 forwarding task 63
+48.0 Worker 5 processing task 21 requiring operations [2]
+48.0 Worker 5 forwarding task 21
+48.0 Worker 6 processing task 32 requiring operations [4, 10]
+48.0 Worker 6 forwarding task 32
+48.5 Worker 1 accepting task 76
+48.5 Worker 3 accepting task 90
+48.5 Generated task 97 with complexity 3 requiring operations [1, 9, 3]
+48.5 Worker 0 accepting task 97
+48.5 Worker 1 processing task 56 requiring operations [9, 4]
+48.5 Worker 1 forwarding task 56
+48.5 Worker 3 processing task 66 requiring operations [8, 9]
+48.5 Worker 3 performing operation 9 on task 66
+49.0 Worker 1 accepting task 29
+49.0 Worker 3 accepting task 74
+49.0 Worker 3 accepting task 49
+49.0 Worker 0 accepting task 63
+49.0 Worker 2 accepting task 21
+49.0 Worker 5 accepting task 32
+49.0 Generated task 98 with complexity 3 requiring operations [9, 7, 5]
+49.0 Worker 5 accepting task 98
+49.0 Worker 0 processing task 36 requiring operations [2, 7]
+49.0 Worker 0 performing operation 7 on task 36
+49.0 Worker 7 processing task 33 requiring operations [1]
+49.0 Worker 7 performing operation 1 on task 33
+49.0 Worker 4 processing task 45 requiring operations [2]
+49.0 Worker 4 forwarding task 45
+49.0 Worker 2 processing task 86 requiring operations [1, 8, 9]
+49.0 Worker 2 performing operation 1 on task 86
+49.0 Worker 5 processing task 70 requiring operations [2, 3]
+49.0 Worker 5 forwarding task 70
+49.0 Worker 6 processing task 75 requiring operations [7, 9]
+49.0 Worker 6 forwarding task 75
+49.5 Worker 4 accepting task 56
+49.5 Worker 3 accepting task 66
+49.5 Generated task 99 with complexity 3 requiring operations [3, 4, 2]
+49.5 Worker 3 accepting task 99
+49.5 Worker 1 processing task 84 requiring operations [7, 4, 1]
+49.5 Worker 1 forwarding task 84
+49.5 Worker 3 processing task 53 requiring operations [9]
+49.5 Worker 3 performing operation 9 on task 53
+50.0 Worker 0 accepting task 36
+50.0 Task 33 completed!
+50.0 Worker 1 accepting task 45
+50.0 Worker 2 accepting task 86
+50.0 Worker 4 accepting task 70
+50.0 Worker 1 accepting task 75
+50.0 Generated task 100 with complexity 3 requiring operations [3, 7, 1]
+50.0 Worker 6 accepting task 100
+50.0 Worker 0 processing task 48 requiring operations [7, 10, 2]
+50.0 Worker 0 performing operation 7 on task 48
+50.0 Worker 7 processing task 83 requiring operations [10, 7, 9]
+50.0 Worker 7 performing operation 10 on task 83
+50.0 Worker 4 processing task 44 requiring operations [9]
+50.0 Worker 4 forwarding task 44
+50.0 Worker 2 processing task 73 requiring operations [2, 9]
+50.0 Worker 2 forwarding task 73
+50.0 Worker 5 processing task 94 requiring operations [4, 2, 6]
+50.0 Worker 5 performing operation 6 on task 94
+50.0 Worker 6 processing task 20 requiring operations [4]
+50.0 Worker 6 forwarding task 20
+50.5 Worker 2 accepting task 84
+50.5 Task 53 completed!
+50.5 Generated task 101 with complexity 3 requiring operations [1, 8, 6]
+50.5 Worker 6 accepting task 101
+50.5 Worker 1 processing task 64 requiring operations [3, 1]
+50.5 Worker 1 forwarding task 64
+50.5 Worker 3 processing task 10 requiring operations [9, 2]
+50.5 Worker 3 performing operation 2 on task 10
+51.0 Worker 0 accepting task 48
+51.0 Worker 7 accepting task 83
+51.0 Worker 2 accepting task 44
+51.0 Worker 0 accepting task 73
+51.0 Worker 5 accepting task 94
+51.0 Worker 8 accepting task 20
+51.0 Generated task 102 with complexity 3 requiring operations [6, 1, 8]
+51.0 Worker 7 accepting task 102
+51.0 Worker 0 processing task 43 requiring operations [10]
+51.0 Worker 0 forwarding task 43
+51.0 Worker 7 processing task 55 requiring operations [5, 1]
+51.0 Worker 7 performing operation 5 on task 55
+51.0 Worker 4 processing task 87 requiring operations [8, 9]
+51.0 Worker 4 forwarding task 87
+51.0 Worker 2 processing task 57 requiring operations [5]
+51.0 Worker 2 forwarding task 57
+51.0 Worker 5 processing task 32 requiring operations [4, 10]
+51.0 Worker 5 forwarding task 32
+51.0 Worker 6 processing task 16 requiring operations [4]
+51.0 Worker 6 forwarding task 16
+51.0 Worker 8 processing task 20 requiring operations [4]
+51.0 Worker 8 performing operation 4 on task 20
+51.5 Worker 7 accepting task 64
+51.5 Worker 3 accepting task 10
+51.5 Generated task 103 with complexity 3 requiring operations [1, 9, 6]
+51.5 Worker 2 accepting task 103
+51.5 Worker 1 processing task 37 requiring operations [9, 8]
+51.5 Worker 1 performing operation 8 on task 37
+51.5 Worker 3 processing task 90 requiring operations [9, 8]
+51.5 Worker 3 performing operation 9 on task 90
+52.0 Worker 3 accepting task 43
+52.0 Worker 7 accepting task 55
+52.0 Worker 5 accepting task 87
+52.0 Worker 5 accepting task 57
+52.0 Worker 7 accepting task 32
+52.0 Worker 0 accepting task 16
+52.0 Task 20 completed!
+52.0 Generated task 104 with complexity 3 requiring operations [4, 6, 8]
+52.0 Worker 7 accepting task 104
+52.0 Worker 0 processing task 38 requiring operations [5]
+52.0 Worker 0 performing operation 5 on task 38
+52.0 Worker 7 processing task 85 requiring operations [1, 6, 10]
+52.0 Worker 7 performing operation 1 on task 85
+52.0 Worker 4 processing task 96 requiring operations [4, 10, 5]
+52.0 Worker 4 performing operation 4 on task 96
+52.0 Worker 2 processing task 92 requiring operations [5, 1, 3]
+52.0 Worker 2 performing operation 1 on task 92
+52.0 Worker 5 processing task 98 requiring operations [9, 7, 5]
+52.0 Worker 5 forwarding task 98
+52.0 Worker 6 processing task 82 requiring operations [5]
+52.0 Worker 6 forwarding task 82
+52.5 Worker 1 accepting task 37
+52.5 Worker 3 accepting task 90
+52.5 Generated task 105 with complexity 3 requiring operations [2, 1, 3]
+52.5 Worker 1 accepting task 105
+52.5 Worker 1 processing task 71 requiring operations [9, 7]
+52.5 Worker 1 forwarding task 71
+52.5 Worker 3 processing task 74 requiring operations [2, 3]
+52.5 Worker 3 performing operation 2 on task 74
+53.0 Task 38 completed!
+53.0 Worker 7 accepting task 85
+53.0 Worker 4 accepting task 96
+53.0 Worker 2 accepting task 92
+53.0 Worker 8 accepting task 98
+53.0 Worker 0 accepting task 82
+53.0 Generated task 106 with complexity 3 requiring operations [9, 5, 7]
+53.0 Worker 2 accepting task 106
+53.0 Worker 0 processing task 39 requiring operations [5, 1]
+53.0 Worker 0 performing operation 5 on task 39
+53.0 Worker 7 processing task 22 requiring operations [1, 2]
+53.0 Worker 7 performing operation 1 on task 22
+53.0 Worker 4 processing task 56 requiring operations [9, 4]
+53.0 Worker 4 performing operation 4 on task 56
+53.0 Worker 2 processing task 93 requiring operations [1, 3, 4]
+53.0 Worker 2 performing operation 1 on task 93
+53.0 Worker 5 processing task 94 requiring operations [4, 2]
+53.0 Worker 5 forwarding task 94
+53.0 Worker 6 processing task 100 requiring operations [3, 7, 1]
+53.0 Worker 6 performing operation 3 on task 100
+53.0 Worker 8 processing task 98 requiring operations [9, 7, 5]
+53.0 Worker 8 performing operation 5 on task 98
+53.5 Worker 7 accepting task 71
+53.5 Worker 3 accepting task 74
+53.5 Generated task 107 with complexity 3 requiring operations [7, 9, 1]
+53.5 Worker 2 accepting task 107
+53.5 Worker 1 processing task 91 requiring operations [10, 6, 7]
+53.5 Worker 1 performing operation 10 on task 91
+53.5 Worker 3 processing task 49 requiring operations [8]
+53.5 Worker 3 forwarding task 49
+54.0 Worker 0 accepting task 39
+54.0 Worker 7 accepting task 22
+54.0 Worker 4 accepting task 56
+54.0 Worker 2 accepting task 93
+54.0 Worker 3 accepting task 94
+54.0 Worker 6 accepting task 100
+54.0 Worker 8 accepting task 98
+54.0 Generated task 108 with complexity 3 requiring operations [8, 2, 3]
+54.0 Worker 2 accepting task 108
+54.0 Worker 0 processing task 40 requiring operations [5]
+54.0 Worker 0 performing operation 5 on task 40
+54.0 Worker 7 processing task 88 requiring operations [4, 1, 8]
+54.0 Worker 7 performing operation 1 on task 88
+54.0 Worker 4 processing task 70 requiring operations [2, 3]
+54.0 Worker 4 performing operation 3 on task 70
+54.0 Worker 2 processing task 77 requiring operations [9, 5]
+54.0 Worker 2 forwarding task 77
+54.0 Worker 5 processing task 87 requiring operations [8, 9]
+54.0 Worker 5 forwarding task 87
+54.0 Worker 6 processing task 101 requiring operations [1, 8, 6]
+54.0 Worker 6 performing operation 1 on task 101
+54.0 Worker 8 processing task 98 requiring operations [9, 7]
+54.0 Worker 8 forwarding task 98
+54.5 Worker 1 accepting task 91
+54.5 Worker 5 accepting task 49
+54.5 Generated task 109 with complexity 3 requiring operations [5, 3, 2]
+54.5 Worker 3 accepting task 109
+54.5 Worker 1 processing task 23 requiring operations [9]
+54.5 Worker 1 forwarding task 23
+54.5 Worker 3 processing task 66 requiring operations [8]
+54.5 Worker 3 forwarding task 66
+55.0 Task 40 completed!
+55.0 Worker 7 accepting task 88
+55.0 Worker 4 accepting task 70
+55.0 Worker 6 accepting task 77
+55.0 Worker 6 accepting task 87
+55.0 Worker 6 accepting task 101
+55.0 Worker 3 accepting task 98
+55.0 Generated task 110 with complexity 3 requiring operations [7, 2, 4]
+55.0 Worker 6 accepting task 110
+55.0 Worker 0 processing task 69 requiring operations [3, 8, 7]
+55.0 Worker 0 performing operation 8 on task 69
+55.0 Worker 7 processing task 46 requiring operations [4]
+55.0 Worker 7 forwarding task 46
+55.0 Worker 4 processing task 96 requiring operations [10, 5]
+55.0 Worker 4 forwarding task 96
+55.0 Worker 2 processing task 61 requiring operations [1, 9]
+55.0 Worker 2 performing operation 1 on task 61
+55.0 Worker 5 processing task 57 requiring operations [5]
+55.0 Worker 5 forwarding task 57
+55.0 Worker 6 processing task 100 requiring operations [7, 1]
+55.0 Worker 6 performing operation 1 on task 100
+55.5 Worker 7 accepting task 23
+55.5 Worker 5 accepting task 66
+55.5 Generated task 111 with complexity 3 requiring operations [8, 7, 9]
+55.5 Worker 1 accepting task 111
+55.5 Worker 1 processing task 27 requiring operations [2]
+55.5 Worker 1 forwarding task 27
+55.5 Worker 3 processing task 99 requiring operations [3, 4, 2]
+55.5 Worker 3 performing operation 2 on task 99
+56.0 Worker 0 accepting task 69
+56.0 Worker 0 accepting task 46
+56.0 Worker 0 accepting task 96
+56.0 Worker 2 accepting task 61
+56.0 Worker 8 accepting task 57
+56.0 Worker 6 accepting task 100
+56.0 Generated task 112 with complexity 3 requiring operations [4, 8, 3]
+56.0 Worker 1 accepting task 112
+56.0 Worker 0 processing task 51 requiring operations [7, 8, 6]
+56.0 Worker 0 performing operation 8 on task 51
+56.0 Worker 7 processing task 78 requiring operations [7, 6]
+56.0 Worker 7 forwarding task 78
+56.0 Worker 4 processing task 56 requiring operations [9]
+56.0 Worker 4 forwarding task 56
+56.0 Worker 2 processing task 21 requiring operations [2]
+56.0 Worker 2 forwarding task 21
+56.0 Worker 5 processing task 49 requiring operations [8]
+56.0 Worker 5 forwarding task 49
+56.0 Worker 6 processing task 77 requiring operations [9, 5]
+56.0 Worker 6 forwarding task 77
+56.0 Worker 8 processing task 57 requiring operations [5]
+56.0 Worker 8 performing operation 5 on task 57
+56.5 Worker 4 accepting task 27
+56.5 Worker 3 accepting task 99
+56.5 Generated task 113 with complexity 3 requiring operations [2, 5, 7]
+56.5 Worker 2 accepting task 113
+56.5 Worker 1 processing task 76 requiring operations [4, 9]
+56.5 Worker 1 forwarding task 76
+56.5 Worker 3 processing task 10 requiring operations [9]
+56.5 Worker 3 performing operation 9 on task 10
+57.0 Worker 0 accepting task 51
+57.0 Worker 4 accepting task 78
+57.0 Worker 5 accepting task 56
+57.0 Worker 8 accepting task 21
+57.0 Worker 0 accepting task 49
+57.0 Worker 5 accepting task 77
+57.0 Task 57 completed!
+57.0 Generated task 114 with complexity 3 requiring operations [9, 10, 1]
+57.0 Worker 6 accepting task 114
+57.0 Worker 0 processing task 59 requiring operations [8, 9, 7]
+57.0 Worker 0 performing operation 8 on task 59
+57.0 Worker 7 processing task 60 requiring operations [5, 4]
+57.0 Worker 7 performing operation 5 on task 60
+57.0 Worker 4 processing task 70 requiring operations [2]
+57.0 Worker 4 forwarding task 70
+57.0 Worker 2 processing task 86 requiring operations [8, 9]
+57.0 Worker 2 forwarding task 86
+57.0 Worker 5 processing task 66 requiring operations [8]
+57.0 Worker 5 forwarding task 66
+57.0 Worker 6 processing task 87 requiring operations [8, 9]
+57.0 Worker 6 performing operation 8 on task 87
+57.0 Worker 8 processing task 21 requiring operations [2]
+57.0 Worker 8 forwarding task 21
+57.5 Worker 8 accepting task 76
+57.5 Task 10 completed!
+57.5 Generated task 115 with complexity 3 requiring operations [2, 5, 3]
+57.5 Worker 6 accepting task 115
+57.5 Worker 1 processing task 29 requiring operations [9, 1]
+57.5 Worker 1 forwarding task 29
+57.5 Worker 3 processing task 43 requiring operations [10]
+57.5 Worker 3 forwarding task 43
+58.0 Worker 0 accepting task 59
+58.0 Worker 7 accepting task 60
+58.0 Worker 7 accepting task 70
+58.0 Worker 7 accepting task 86
+58.0 Worker 7 accepting task 66
+58.0 Worker 6 accepting task 87
+58.0 Worker 3 accepting task 21
+58.0 Generated task 116 with complexity 3 requiring operations [4, 3, 6]
+58.0 Worker 3 accepting task 116
+58.0 Worker 0 processing task 19 requiring operations [6]
+58.0 Worker 0 forwarding task 19
+58.0 Worker 7 processing task 81 requiring operations [1, 7]
+58.0 Worker 7 performing operation 1 on task 81
+58.0 Worker 4 processing task 27 requiring operations [2]
+58.0 Worker 4 forwarding task 27
+58.0 Worker 2 processing task 84 requiring operations [7, 4, 1]
+58.0 Worker 2 performing operation 1 on task 84
+58.0 Worker 5 processing task 56 requiring operations [9]
+58.0 Worker 5 forwarding task 56
+58.0 Worker 6 processing task 101 requiring operations [8, 6]
+58.0 Worker 6 performing operation 6 on task 101
+58.0 Worker 8 processing task 76 requiring operations [4, 9]
+58.0 Worker 8 performing operation 4 on task 76
+58.5 Worker 2 accepting task 29
+58.5 Worker 0 accepting task 43
+58.5 Generated task 117 with complexity 3 requiring operations [1, 3, 5]
+58.5 Worker 6 accepting task 117
+58.5 Worker 1 processing task 45 requiring operations [2]
+58.5 Worker 1 forwarding task 45
+58.5 Worker 3 processing task 90 requiring operations [8]
+58.5 Worker 3 forwarding task 90
+59.0 Worker 7 accepting task 19
+59.0 Worker 7 accepting task 81
+59.0 Worker 6 accepting task 27
+59.0 Worker 2 accepting task 84
+59.0 Worker 3 accepting task 56
+59.0 Worker 6 accepting task 101
+59.0 Worker 8 accepting task 76
+59.0 Generated task 118 with complexity 3 requiring operations [4, 5, 8]
+59.0 Worker 1 accepting task 118
+59.0 Worker 0 processing task 41 requiring operations [2, 4]
+59.0 Worker 0 forwarding task 41
+59.0 Worker 7 processing task 83 requiring operations [7, 9]
+59.0 Worker 7 forwarding task 83
+59.0 Worker 4 processing task 78 requiring operations [7, 6]
+59.0 Worker 4 performing operation 7 on task 78
+59.0 Worker 2 processing task 44 requiring operations [9]
+59.0 Worker 2 forwarding task 44
+59.0 Worker 5 processing task 77 requiring operations [9, 5]
+59.0 Worker 5 forwarding task 77
+59.0 Worker 6 processing task 110 requiring operations [7, 2, 4]
+59.0 Worker 6 forwarding task 110
+59.0 Worker 8 processing task 76 requiring operations [9]
+59.0 Worker 8 forwarding task 76
+59.5 Worker 5 accepting task 45
+59.5 Worker 0 accepting task 90
+59.5 Generated task 119 with complexity 3 requiring operations [1, 3, 6]
+59.5 Worker 7 accepting task 119
+59.5 Worker 1 processing task 75 requiring operations [7, 9]
+59.5 Worker 1 forwarding task 75
+59.5 Worker 3 processing task 74 requiring operations [3]
+59.5 Worker 3 forwarding task 74
+60.0 Worker 7 accepting task 41
+60.0 Worker 1 accepting task 83
+60.0 Worker 4 accepting task 78
+60.0 Worker 8 accepting task 44
+60.0 Worker 8 accepting task 77
+60.0 Worker 2 accepting task 110
+60.0 Worker 0 accepting task 76
+60.0 Generated task 120 with complexity 3 requiring operations [5, 6, 1]
+60.0 Worker 8 accepting task 120
+60.0 Worker 0 processing task 47 requiring operations [5, 4]
+60.0 Worker 0 performing operation 5 on task 47
+60.0 Worker 7 processing task 102 requiring operations [6, 1, 8]
+60.0 Worker 7 performing operation 1 on task 102
+60.0 Worker 4 processing task 78 requiring operations [6]
+60.0 Worker 4 performing operation 6 on task 78
+60.0 Worker 2 processing task 103 requiring operations [1, 9, 6]
+60.0 Worker 2 performing operation 6 on task 103
+60.0 Worker 5 processing task 45 requiring operations [2]
+60.0 Worker 5 forwarding task 45
+60.0 Worker 6 processing task 100 requiring operations [7]
+60.0 Worker 6 forwarding task 100
+60.0 Worker 8 processing task 44 requiring operations [9]
+60.0 Worker 8 forwarding task 44
+60.5 Worker 4 accepting task 75
+60.5 Worker 5 accepting task 74
+60.5 Generated task 121 with complexity 3 requiring operations [3, 7, 5]
+60.5 Worker 2 accepting task 121
+60.5 Worker 1 processing task 37 requiring operations [9]
+60.5 Worker 1 forwarding task 37
+60.5 Worker 3 processing task 94 requiring operations [4, 2]
+60.5 Worker 3 performing operation 2 on task 94
+61.0 Worker 0 accepting task 47
+61.0 Worker 7 accepting task 102
+61.0 Task 78 completed!
+61.0 Worker 2 accepting task 103
+61.0 Worker 1 accepting task 45
+61.0 Worker 8 accepting task 100
+61.0 Worker 5 accepting task 44
+61.0 Generated task 122 with complexity 3 requiring operations [2, 3, 4]
+61.0 Worker 7 accepting task 122
+61.0 Worker 0 processing task 42 requiring operations [8, 4]
+61.0 Worker 0 performing operation 8 on task 42
+61.0 Worker 7 processing task 64 requiring operations [3, 1]
+61.0 Worker 7 performing operation 1 on task 64
+61.0 Worker 4 processing task 75 requiring operations [7, 9]
+61.0 Worker 4 performing operation 7 on task 75
+61.0 Worker 2 processing task 92 requiring operations [5, 3]
+61.0 Worker 2 forwarding task 92
+61.0 Worker 5 processing task 74 requiring operations [3]
+61.0 Worker 5 forwarding task 74
+61.0 Worker 6 processing task 114 requiring operations [9, 10, 1]
+61.0 Worker 6 performing operation 1 on task 114
+61.0 Worker 8 processing task 77 requiring operations [9, 5]
+61.0 Worker 8 performing operation 5 on task 77
+61.5 Worker 2 accepting task 37
+61.5 Worker 3 accepting task 94
+61.5 Generated task 123 with complexity 3 requiring operations [3, 10, 7]
+61.5 Worker 3 accepting task 123
+61.5 Worker 1 processing task 105 requiring operations [2, 1, 3]
+61.5 Worker 1 forwarding task 105
+61.5 Worker 3 processing task 109 requiring operations [5, 3, 2]
+61.5 Worker 3 performing operation 2 on task 109
+62.0 Worker 0 accepting task 42
+62.0 Worker 7 accepting task 64
+62.0 Worker 4 accepting task 75
+62.0 Worker 4 accepting task 92
+62.0 Worker 3 accepting task 74
+62.0 Worker 6 accepting task 114
+62.0 Worker 8 accepting task 77
+62.0 Generated task 124 with complexity 3 requiring operations [9, 6, 8]
+62.0 Worker 0 accepting task 124
+62.0 Worker 0 processing task 30 requiring operations [2]
+62.0 Worker 0 forwarding task 30
+62.0 Worker 7 processing task 55 requiring operations [1]
+62.0 Worker 7 performing operation 1 on task 55
+62.0 Worker 4 processing task 75 requiring operations [9]
+62.0 Worker 4 forwarding task 75
+62.0 Worker 2 processing task 106 requiring operations [9, 5, 7]
+62.0 Worker 2 performing operation 7 on task 106
+62.0 Worker 5 processing task 44 requiring operations [9]
+62.0 Worker 5 forwarding task 44
+62.0 Worker 6 processing task 115 requiring operations [2, 5, 3]
+62.0 Worker 6 performing operation 3 on task 115
+62.0 Worker 8 processing task 120 requiring operations [5, 6, 1]
+62.0 Worker 8 performing operation 5 on task 120
+62.5 Worker 6 accepting task 105
+62.5 Worker 3 accepting task 109
+62.5 Generated task 125 with complexity 3 requiring operations [8, 10, 4]
+62.5 Worker 4 accepting task 125
+62.5 Worker 1 processing task 91 requiring operations [6, 7]
+62.5 Worker 1 performing operation 6 on task 91
+62.5 Worker 3 processing task 98 requiring operations [9, 7]
+62.5 Worker 3 performing operation 7 on task 98
+63.0 Worker 5 accepting task 30
+63.0 Task 55 completed!
+63.0 Worker 7 accepting task 75
+63.0 Worker 2 accepting task 106
+63.0 Worker 6 accepting task 44
+63.0 Worker 6 accepting task 115
+63.0 Worker 8 accepting task 120
+63.0 Generated task 126 with complexity 3 requiring operations [3, 1, 10]
+63.0 Worker 4 accepting task 126
+63.0 Worker 0 processing task 79 requiring operations [5, 8, 7]
+63.0 Worker 0 performing operation 8 on task 79
+63.0 Worker 7 processing task 32 requiring operations [4, 10]
+63.0 Worker 7 performing operation 10 on task 32
+63.0 Worker 4 processing task 92 requiring operations [5, 3]
+63.0 Worker 4 performing operation 3 on task 92
+63.0 Worker 2 processing task 107 requiring operations [7, 9, 1]
+63.0 Worker 2 performing operation 1 on task 107
+63.0 Worker 5 processing task 30 requiring operations [2]
+63.0 Worker 5 forwarding task 30
+63.0 Worker 6 processing task 87 requiring operations [9]
+63.0 Worker 6 forwarding task 87
+63.0 Worker 8 processing task 100 requiring operations [7]
+63.0 Worker 8 forwarding task 100
+63.5 Worker 1 accepting task 91
+63.5 Worker 3 accepting task 98
+63.5 Generated task 127 with complexity 3 requiring operations [10, 7, 1]
+63.5 Worker 8 accepting task 127
+63.5 Worker 1 processing task 111 requiring operations [8, 7, 9]
+63.5 Worker 1 performing operation 8 on task 111
+63.5 Worker 3 processing task 99 requiring operations [3, 4]
+63.5 Worker 3 forwarding task 99
+64.0 Worker 0 accepting task 79
+64.0 Worker 7 accepting task 32
+64.0 Worker 4 accepting task 92
+64.0 Worker 2 accepting task 107
+64.0 Worker 6 accepting task 30
+64.0 Worker 1 accepting task 87
+64.0 Worker 4 accepting task 100
+64.0 Generated task 128 with complexity 3 requiring operations [8, 10, 6]
+64.0 Worker 5 accepting task 128
+64.0 Worker 0 processing task 52 requiring operations [4, 8]
+64.0 Worker 0 performing operation 8 on task 52
+64.0 Worker 7 processing task 104 requiring operations [4, 6, 8]
+64.0 Worker 7 forwarding task 104
+64.0 Worker 4 processing task 125 requiring operations [8, 10, 4]
+64.0 Worker 4 performing operation 4 on task 125
+64.0 Worker 2 processing task 93 requiring operations [3, 4]
+64.0 Worker 2 forwarding task 93
+64.0 Worker 6 processing task 117 requiring operations [1, 3, 5]
+64.0 Worker 6 performing operation 3 on task 117
+64.0 Worker 8 processing task 77 requiring operations [9]
+64.0 Worker 8 forwarding task 77
+64.0 Worker 5 processing task 128 requiring operations [8, 10, 6]
+64.0 Worker 5 performing operation 6 on task 128
+64.5 Worker 1 accepting task 111
+64.5 Worker 0 accepting task 99
+64.5 Generated task 129 with complexity 3 requiring operations [8, 1, 2]
+64.5 Worker 3 accepting task 129
+64.5 Worker 1 processing task 112 requiring operations [4, 8, 3]
+64.5 Worker 1 performing operation 8 on task 112
+64.5 Worker 3 processing task 21 requiring operations [2]
+64.5 Worker 3 performing operation 2 on task 21
+65.0 Worker 0 accepting task 52
+65.0 Worker 4 accepting task 104
+65.0 Worker 4 accepting task 125
+65.0 Worker 5 accepting task 93
+65.0 Worker 6 accepting task 117
+65.0 Worker 6 accepting task 77
+65.0 Worker 5 accepting task 128
+65.0 Generated task 130 with complexity 3 requiring operations [5, 6, 10]
+65.0 Worker 7 accepting task 130
+65.0 Worker 0 processing task 80 requiring operations [8, 1, 9]
+65.0 Worker 0 performing operation 8 on task 80
+65.0 Worker 7 processing task 85 requiring operations [6, 10]
+65.0 Worker 7 performing operation 10 on task 85
+65.0 Worker 4 processing task 126 requiring operations [3, 1, 10]
+65.0 Worker 4 performing operation 3 on task 126
+65.0 Worker 2 processing task 108 requiring operations [8, 2, 3]
+65.0 Worker 2 forwarding task 108
+65.0 Worker 6 processing task 27 requiring operations [2]
+65.0 Worker 6 forwarding task 27
+65.0 Worker 8 processing task 120 requiring operations [6, 1]
+65.0 Worker 8 forwarding task 120
+65.0 Worker 5 processing task 93 requiring operations [3, 4]
+65.0 Worker 5 forwarding task 93
+65.5 Worker 1 accepting task 112
+65.5 Task 21 completed!
+65.5 Generated task 131 with complexity 3 requiring operations [7, 9, 2]
+65.5 Worker 5 accepting task 131
+65.5 Worker 1 processing task 118 requiring operations [4, 5, 8]
+65.5 Worker 1 performing operation 8 on task 118
+65.5 Worker 3 processing task 116 requiring operations [4, 3, 6]
+65.5 Worker 3 forwarding task 116
+66.0 Worker 0 accepting task 80
+66.0 Worker 7 accepting task 85
+66.0 Worker 4 accepting task 126
+66.0 Worker 7 accepting task 108
+66.0 Worker 3 accepting task 27
+66.0 Worker 3 accepting task 120
+66.0 Worker 0 accepting task 93
+66.0 Generated task 132 with complexity 3 requiring operations [6, 2, 10]
+66.0 Worker 2 accepting task 132
+66.0 Worker 0 processing task 28 requiring operations [2]
+66.0 Worker 0 forwarding task 28
+66.0 Worker 7 processing task 71 requiring operations [9, 7]
+66.0 Worker 7 forwarding task 71
+66.0 Worker 4 processing task 92 requiring operations [5]
+66.0 Worker 4 forwarding task 92
+66.0 Worker 2 processing task 61 requiring operations [9]
+66.0 Worker 2 forwarding task 61
+66.0 Worker 6 processing task 101 requiring operations [8]
+66.0 Worker 6 performing operation 8 on task 101
+66.0 Worker 8 processing task 127 requiring operations [10, 7, 1]
+66.0 Worker 8 forwarding task 127
+66.0 Worker 5 processing task 128 requiring operations [8, 10]
+66.0 Worker 5 forwarding task 128
+66.5 Worker 1 accepting task 118
+66.5 Worker 4 accepting task 116
+66.5 Generated task 133 with complexity 3 requiring operations [1, 10, 6]
+66.5 Worker 5 accepting task 133
+66.5 Worker 1 processing task 83 requiring operations [7, 9]
+66.5 Worker 1 forwarding task 83
+66.5 Worker 3 processing task 56 requiring operations [9]
+66.5 Worker 3 performing operation 9 on task 56
+67.0 Worker 7 accepting task 28
+67.0 Worker 3 accepting task 71
+67.0 Worker 0 accepting task 92
+67.0 Worker 1 accepting task 61
+67.0 Task 101 completed!
+67.0 Worker 5 accepting task 127
+67.0 Worker 4 accepting task 128
+67.0 Generated task 134 with complexity 3 requiring operations [8, 6, 1]
+67.0 Worker 5 accepting task 134
+67.0 Worker 0 processing task 54 requiring operations [8]
+67.0 Worker 0 performing operation 8 on task 54
+67.0 Worker 7 processing task 22 requiring operations [2]
+67.0 Worker 7 forwarding task 22
+67.0 Worker 4 processing task 100 requiring operations [7]
+67.0 Worker 4 performing operation 7 on task 100
+67.0 Worker 2 processing task 113 requiring operations [2, 5, 7]
+67.0 Worker 2 performing operation 7 on task 113
+67.0 Worker 6 processing task 114 requiring operations [9, 10]
+67.0 Worker 6 forwarding task 114
+67.0 Worker 5 processing task 131 requiring operations [7, 9, 2]
+67.0 Worker 5 forwarding task 131
+67.5 Worker 8 accepting task 83
+67.5 Task 56 completed!
+67.5 Generated task 135 with complexity 3 requiring operations [10, 8, 2]
+67.5 Worker 1 accepting task 135
+67.5 Worker 1 processing task 45 requiring operations [2]
+67.5 Worker 1 forwarding task 45
+67.5 Worker 3 processing task 94 requiring operations [4]
+67.5 Worker 3 forwarding task 94
+67.5 Worker 8 processing task 83 requiring operations [7, 9]
+67.5 Worker 8 forwarding task 83
+68.0 Task 54 completed!
+68.0 Worker 5 accepting task 22
+68.0 Task 100 completed!
+68.0 Worker 2 accepting task 113
+68.0 Worker 2 accepting task 114
+68.0 Worker 0 accepting task 131
+68.0 Generated task 136 with complexity 3 requiring operations [7, 4, 10]
+68.0 Worker 1 accepting task 136
+68.0 Worker 0 processing task 34 requiring operations [6, 1]
+68.0 Worker 0 forwarding task 34
+68.0 Worker 7 processing task 88 requiring operations [4, 8]
+68.0 Worker 7 forwarding task 88
+68.0 Worker 4 processing task 104 requiring operations [4, 6, 8]
+68.0 Worker 4 performing operation 4 on task 104
+68.0 Worker 2 processing task 29 requiring operations [9, 1]
+68.0 Worker 2 performing operation 1 on task 29
+68.0 Worker 6 processing task 105 requiring operations [2, 1, 3]
+68.0 Worker 6 performing operation 1 on task 105
+68.0 Worker 5 processing task 133 requiring operations [1, 10, 6]
+68.0 Worker 5 performing operation 6 on task 133
+68.5 Worker 0 accepting task 45
+68.5 Worker 4 accepting task 94
+68.5 Worker 5 accepting task 83
+68.5 Generated task 137 with complexity 3 requiring operations [9, 2, 3]
+68.5 Worker 2 accepting task 137
+68.5 Worker 1 processing task 91 requiring operations [7]
+68.5 Worker 1 forwarding task 91
+68.5 Worker 3 processing task 123 requiring operations [3, 10, 7]
+68.5 Worker 3 performing operation 7 on task 123
+69.0 Worker 1 accepting task 34
+69.0 Worker 6 accepting task 88
+69.0 Worker 4 accepting task 104
+69.0 Worker 2 accepting task 29
+69.0 Worker 6 accepting task 105
+69.0 Worker 5 accepting task 133
+69.0 Generated task 138 with complexity 3 requiring operations [4, 6, 8]
+69.0 Worker 3 accepting task 138
+69.0 Worker 0 processing task 65 requiring operations [1]
+69.0 Worker 0 forwarding task 65
+69.0 Worker 7 processing task 23 requiring operations [9]
+69.0 Worker 7 forwarding task 23
+69.0 Worker 4 processing task 125 requiring operations [8, 10]
+69.0 Worker 4 forwarding task 125
+69.0 Worker 2 processing task 84 requiring operations [7, 4]
+69.0 Worker 2 performing operation 7 on task 84
+69.0 Worker 6 processing task 44 requiring operations [9]
+69.0 Worker 6 forwarding task 44
+69.0 Worker 5 processing task 127 requiring operations [10, 7, 1]
+69.0 Worker 5 forwarding task 127
+69.5 Worker 4 accepting task 91
+69.5 Worker 3 accepting task 123
+69.5 Generated task 139 with complexity 3 requiring operations [5, 2, 1]
+69.5 Worker 3 accepting task 139
+69.5 Worker 1 processing task 87 requiring operations [9]
+69.5 Worker 1 forwarding task 87
+69.5 Worker 3 processing task 74 requiring operations [3]
+69.5 Worker 3 forwarding task 74
+70.0 Worker 6 accepting task 65
+70.0 Worker 2 accepting task 23
+70.0 Worker 0 accepting task 125
+70.0 Worker 2 accepting task 84
+70.0 Worker 8 accepting task 44
+70.0 Worker 3 accepting task 127
+70.0 Generated task 140 with complexity 3 requiring operations [2, 10, 5]
+70.0 Worker 0 accepting task 140
+70.0 Worker 0 processing task 89 requiring operations [7, 10, 1]
+70.0 Worker 0 performing operation 7 on task 89
+70.0 Worker 7 processing task 60 requiring operations [4]
+70.0 Worker 7 forwarding task 60
+70.0 Worker 4 processing task 126 requiring operations [1, 10]
+70.0 Worker 4 forwarding task 126
+70.0 Worker 2 processing task 110 requiring operations [7, 2, 4]
+70.0 Worker 2 performing operation 7 on task 110
+70.0 Worker 6 processing task 115 requiring operations [2, 5]
+70.0 Worker 6 forwarding task 115
+70.0 Worker 5 processing task 134 requiring operations [8, 6, 1]
+70.0 Worker 5 performing operation 6 on task 134
+70.0 Worker 8 processing task 44 requiring operations [9]
+70.0 Worker 8 forwarding task 44
+70.5 Worker 6 accepting task 87
+70.5 Worker 1 accepting task 74
+70.5 Generated task 141 with complexity 3 requiring operations [8, 3, 1]
+70.5 Worker 2 accepting task 141
+70.5 Worker 1 processing task 111 requiring operations [7, 9]
+70.5 Worker 1 forwarding task 111
+70.5 Worker 3 processing task 109 requiring operations [5, 3]
+70.5 Worker 3 forwarding task 109
+71.0 Worker 0 accepting task 89
+71.0 Worker 2 accepting task 60
+71.0 Worker 1 accepting task 126
+71.0 Worker 2 accepting task 110
+71.0 Worker 5 accepting task 115
+71.0 Worker 5 accepting task 134
+71.0 Worker 3 accepting task 44
+71.0 Generated task 142 with complexity 3 requiring operations [2, 7, 6]
+71.0 Worker 3 accepting task 142
+71.0 Worker 0 processing task 6 requiring operations [2]
+71.0 Worker 0 forwarding task 6
+71.0 Worker 7 processing task 70 requiring operations [2]
+71.0 Worker 7 forwarding task 70
+71.0 Worker 4 processing task 116 requiring operations [4, 3, 6]
+71.0 Worker 4 performing operation 3 on task 116
+71.0 Worker 2 processing task 121 requiring operations [3, 7, 5]
+71.0 Worker 2 performing operation 7 on task 121
+71.0 Worker 6 processing task 30 requiring operations [2]
+71.0 Worker 6 forwarding task 30
+71.0 Worker 5 processing task 22 requiring operations [2]
+71.0 Worker 5 forwarding task 22
+71.5 Worker 5 accepting task 111
+71.5 Worker 4 accepting task 109
+71.5 Generated task 143 with complexity 3 requiring operations [1, 3, 7]
+71.5 Worker 6 accepting task 143
+71.5 Worker 1 processing task 112 requiring operations [4, 3]
+71.5 Worker 1 forwarding task 112
+71.5 Worker 3 processing task 98 requiring operations [9]
+71.5 Worker 3 performing operation 9 on task 98
+72.0 Worker 5 accepting task 6
+72.0 Worker 0 accepting task 70
+72.0 Worker 4 accepting task 116
+72.0 Worker 2 accepting task 121
+72.0 Worker 1 accepting task 30
+72.0 Worker 4 accepting task 22
+72.0 Generated task 144 with complexity 3 requiring operations [2, 9, 5]
+72.0 Worker 8 accepting task 144
+72.0 Worker 0 processing task 58 requiring operations [1, 4]
+72.0 Worker 0 forwarding task 58
+72.0 Worker 7 processing task 86 requiring operations [8, 9]
+72.0 Worker 7 forwarding task 86
+72.0 Worker 4 processing task 128 requiring operations [8, 10]
+72.0 Worker 4 forwarding task 128
+72.0 Worker 2 processing task 103 requiring operations [1, 9]
+72.0 Worker 2 performing operation 1 on task 103
+72.0 Worker 6 processing task 117 requiring operations [1, 5]
+72.0 Worker 6 performing operation 1 on task 117
+72.0 Worker 5 processing task 83 requiring operations [7, 9]
+72.0 Worker 5 forwarding task 83
+72.0 Worker 8 processing task 144 requiring operations [2, 9, 5]
+72.0 Worker 8 performing operation 5 on task 144
+72.5 Worker 8 accepting task 112
+72.5 Task 98 completed!
+72.5 Generated task 145 with complexity 3 requiring operations [1, 8, 10]
+72.5 Worker 5 accepting task 145
+72.5 Worker 1 processing task 118 requiring operations [4, 5]
+72.5 Worker 1 forwarding task 118
+72.5 Worker 3 processing task 129 requiring operations [8, 1, 2]
+72.5 Worker 3 performing operation 2 on task 129
+73.0 Worker 1 accepting task 58
+73.0 Worker 3 accepting task 86
+73.0 Worker 5 accepting task 128
+73.0 Worker 2 accepting task 103
+73.0 Worker 6 accepting task 117
+73.0 Worker 6 accepting task 83
+73.0 Worker 8 accepting task 144
+73.0 Generated task 146 with complexity 3 requiring operations [3, 1, 8]
+73.0 Worker 4 accepting task 146
+73.0 Worker 0 processing task 95 requiring operations [7, 4, 6]
+73.0 Worker 0 performing operation 7 on task 95
+73.0 Worker 7 processing task 66 requiring operations [8]
+73.0 Worker 7 forwarding task 66
+73.0 Worker 4 processing task 94 requiring operations [4]
+73.0 Worker 4 performing operation 4 on task 94
+73.0 Worker 2 processing task 37 requiring operations [9]
+73.0 Worker 2 forwarding task 37
+73.0 Worker 6 processing task 77 requiring operations [9]
+73.0 Worker 6 forwarding task 77
+73.0 Worker 5 processing task 133 requiring operations [1, 10]
+73.0 Worker 5 forwarding task 133
+73.0 Worker 8 processing task 112 requiring operations [4, 3]
+73.0 Worker 8 performing operation 4 on task 112
+73.5 Worker 2 accepting task 118
+73.5 Worker 3 accepting task 129
+73.5 Generated task 147 with complexity 3 requiring operations [4, 10, 2]
+73.5 Worker 1 accepting task 147
+73.5 Worker 1 processing task 61 requiring operations [9]
+73.5 Worker 1 forwarding task 61
+73.5 Worker 3 processing task 27 requiring operations [2]
+73.5 Worker 3 performing operation 2 on task 27
+74.0 Worker 0 accepting task 95
+74.0 Worker 6 accepting task 66
+74.0 Task 94 completed!
+74.0 Worker 0 accepting task 37
+74.0 Worker 7 accepting task 77
+74.0 Worker 1 accepting task 133
+74.0 Worker 8 accepting task 112
+74.0 Generated task 148 with complexity 3 requiring operations [10, 6, 2]
+74.0 Worker 4 accepting task 148
+74.0 Worker 0 processing task 97 requiring operations [1, 9, 3]
+74.0 Worker 0 performing operation 3 on task 97
+74.0 Worker 7 processing task 19 requiring operations [6]
+74.0 Worker 7 forwarding task 19
+74.0 Worker 4 processing task 104 requiring operations [6, 8]
+74.0 Worker 4 performing operation 6 on task 104
+74.0 Worker 2 processing task 106 requiring operations [9, 5]
+74.0 Worker 2 forwarding task 106
+74.0 Worker 6 processing task 88 requiring operations [4, 8]
+74.0 Worker 6 performing operation 8 on task 88
+74.0 Worker 5 processing task 115 requiring operations [2, 5]
+74.0 Worker 5 forwarding task 115
+74.0 Worker 8 processing task 144 requiring operations [2, 9]
+74.0 Worker 8 forwarding task 144
+74.5 Worker 6 accepting task 61
+74.5 Task 27 completed!
+74.5 Generated task 149 with complexity 3 requiring operations [1, 5, 6]
+74.5 Worker 8 accepting task 149
+74.5 Worker 1 processing task 135 requiring operations [10, 8, 2]
+74.5 Worker 1 performing operation 10 on task 135
+74.5 Worker 3 processing task 120 requiring operations [6, 1]
+74.5 Worker 3 forwarding task 120
+75.0 Worker 0 accepting task 97
+75.0 Worker 0 accepting task 19
+75.0 Worker 4 accepting task 104
+75.0 Worker 5 accepting task 106
+75.0 Worker 6 accepting task 88
+75.0 Worker 1 accepting task 115
+75.0 Worker 1 accepting task 144
+75.0 Generated task 150 with complexity 3 requiring operations [5, 8, 1]
+75.0 Worker 1 accepting task 150
+75.0 Worker 0 processing task 63 requiring operations [9]
+75.0 Worker 0 forwarding task 63
+75.0 Worker 7 processing task 81 requiring operations [7]
+75.0 Worker 7 forwarding task 81
+75.0 Worker 4 processing task 91 requiring operations [7]
+75.0 Worker 4 performing operation 7 on task 91
+75.0 Worker 2 processing task 107 requiring operations [7, 9]
+75.0 Worker 2 performing operation 7 on task 107
+75.0 Worker 6 processing task 105 requiring operations [2, 3]
+75.0 Worker 6 performing operation 3 on task 105
+75.0 Worker 5 processing task 134 requiring operations [8, 1]
+75.0 Worker 5 forwarding task 134
+75.0 Worker 8 processing task 112 requiring operations [3]
+75.0 Worker 8 performing operation 3 on task 112
+75.5 Worker 1 accepting task 135
+75.5 Worker 8 accepting task 120
+75.5 Generated task 151 with complexity 3 requiring operations [6, 9, 4]
+75.5 Worker 6 accepting task 151
+75.5 Worker 1 processing task 136 requiring operations [7, 4, 10]
+75.5 Worker 1 performing operation 10 on task 136
+75.5 Worker 3 processing task 71 requiring operations [9, 7]
+75.5 Worker 3 performing operation 7 on task 71
+76.0 Worker 8 accepting task 63
+76.0 Worker 5 accepting task 81
+76.0 Task 91 completed!
+76.0 Worker 2 accepting task 107
+76.0 Worker 6 accepting task 105
+76.0 Worker 2 accepting task 134
+76.0 Task 112 completed!
+76.0 Generated task 152 with complexity 3 requiring operations [6, 1, 8]
+76.0 Worker 2 accepting task 152
+76.0 Worker 0 processing task 36 requiring operations [2]
+76.0 Worker 0 forwarding task 36
+76.0 Worker 7 processing task 119 requiring operations [1, 3, 6]
+76.0 Worker 7 performing operation 1 on task 119
+76.0 Worker 4 processing task 109 requiring operations [5, 3]
+76.0 Worker 4 performing operation 3 on task 109
+76.0 Worker 2 processing task 132 requiring operations [6, 2, 10]
+76.0 Worker 2 performing operation 6 on task 132
+76.0 Worker 6 processing task 65 requiring operations [1]
+76.0 Worker 6 performing operation 1 on task 65
+76.0 Worker 5 processing task 111 requiring operations [7, 9]
+76.0 Worker 5 forwarding task 111
+76.0 Worker 8 processing task 149 requiring operations [1, 5, 6]
+76.0 Worker 8 performing operation 5 on task 149
+76.5 Worker 1 accepting task 136
+76.5 Worker 3 accepting task 71
+76.5 Generated task 153 with complexity 3 requiring operations [5, 7, 9]
+76.5 Worker 0 accepting task 153
+76.5 Worker 1 processing task 34 requiring operations [6, 1]
+76.5 Worker 1 performing operation 6 on task 34
+76.5 Worker 3 processing task 138 requiring operations [4, 6, 8]
+76.5 Worker 3 forwarding task 138
+77.0 Worker 7 accepting task 36
+77.0 Worker 7 accepting task 119
+77.0 Worker 4 accepting task 109
+77.0 Worker 2 accepting task 132
+77.0 Task 65 completed!
+77.0 Worker 7 accepting task 111
+77.0 Worker 8 accepting task 149
+77.0 Generated task 154 with complexity 3 requiring operations [10, 1, 6]
+77.0 Worker 2 accepting task 154
+77.0 Worker 0 processing task 48 requiring operations [10, 2]
+77.0 Worker 0 forwarding task 48
+77.0 Worker 7 processing task 41 requiring operations [2, 4]
+77.0 Worker 7 forwarding task 41
+77.0 Worker 4 processing task 116 requiring operations [4, 6]
+77.0 Worker 4 performing operation 6 on task 116
+77.0 Worker 2 processing task 113 requiring operations [2, 5]
+77.0 Worker 2 forwarding task 113
+77.0 Worker 6 processing task 87 requiring operations [9]
+77.0 Worker 6 forwarding task 87
+77.0 Worker 5 processing task 6 requiring operations [2]
+77.0 Worker 5 forwarding task 6
+77.0 Worker 8 processing task 120 requiring operations [6, 1]
+77.0 Worker 8 forwarding task 120
+77.5 Worker 1 accepting task 34
+77.5 Worker 6 accepting task 138
+77.5 Generated task 155 with complexity 3 requiring operations [2, 3, 10]
+77.5 Worker 7 accepting task 155
+77.5 Worker 1 processing task 74 requiring operations [3]
+77.5 Worker 1 forwarding task 74
+77.5 Worker 3 processing task 123 requiring operations [3, 10]
+77.5 Worker 3 forwarding task 123
+78.0 Worker 1 accepting task 48
+78.0 Worker 1 accepting task 41
+78.0 Worker 4 accepting task 116
+78.0 Worker 3 accepting task 113
+78.0 Worker 7 accepting task 87
+78.0 Worker 3 accepting task 6
+78.0 Worker 0 accepting task 120
+78.0 Generated task 156 with complexity 3 requiring operations [5, 2, 8]
+78.0 Worker 3 accepting task 156
+78.0 Worker 0 processing task 73 requiring operations [2, 9]
+78.0 Worker 0 forwarding task 73
+78.0 Worker 7 processing task 102 requiring operations [6, 8]
+78.0 Worker 7 forwarding task 102
+78.0 Worker 4 processing task 22 requiring operations [2]
+78.0 Worker 4 forwarding task 22
+78.0 Worker 2 processing task 114 requiring operations [9, 10]
+78.0 Worker 2 forwarding task 114
+78.0 Worker 6 processing task 143 requiring operations [1, 3, 7]
+78.0 Worker 6 performing operation 1 on task 143
+78.0 Worker 5 processing task 145 requiring operations [1, 8, 10]
+78.0 Worker 5 forwarding task 145
+78.0 Worker 8 processing task 63 requiring operations [9]
+78.0 Worker 8 forwarding task 63
+78.5 Worker 5 accepting task 74
+78.5 Worker 4 accepting task 123
+78.5 Generated task 157 with complexity 3 requiring operations [2, 5, 9]
+78.5 Worker 8 accepting task 157
+78.5 Worker 1 processing task 126 requiring operations [1, 10]
+78.5 Worker 1 performing operation 10 on task 126
+78.5 Worker 3 processing task 139 requiring operations [5, 2, 1]
+78.5 Worker 3 performing operation 2 on task 139
+79.0 Worker 2 accepting task 73
+79.0 Worker 8 accepting task 102
+79.0 Worker 8 accepting task 22
+79.0 Worker 8 accepting task 114
+79.0 Worker 6 accepting task 143
+79.0 Worker 6 accepting task 145
+79.0 Worker 5 accepting task 63
+79.0 Generated task 158 with complexity 3 requiring operations [3, 5, 8]
+79.0 Worker 0 accepting task 158
+79.0 Worker 0 processing task 16 requiring operations [4]
+79.0 Worker 0 forwarding task 16
+79.0 Worker 7 processing task 122 requiring operations [2, 3, 4]
+79.0 Worker 7 forwarding task 122
+79.0 Worker 4 processing task 146 requiring operations [3, 1, 8]
+79.0 Worker 4 performing operation 3 on task 146
+79.0 Worker 2 processing task 137 requiring operations [9, 2, 3]
+79.0 Worker 2 forwarding task 137
+79.0 Worker 6 processing task 117 requiring operations [5]
+79.0 Worker 6 forwarding task 117
+79.0 Worker 5 processing task 128 requiring operations [8, 10]
+79.0 Worker 5 forwarding task 128
+79.0 Worker 8 processing task 149 requiring operations [1, 6]
+79.0 Worker 8 forwarding task 149
+79.5 Worker 1 accepting task 126
+79.5 Worker 3 accepting task 139
+79.5 Generated task 159 with complexity 3 requiring operations [9, 4, 2]
+79.5 Worker 5 accepting task 159
+79.5 Worker 1 processing task 30 requiring operations [2]
+79.5 Worker 1 forwarding task 30
+79.5 Worker 3 processing task 127 requiring operations [10, 7, 1]
+79.5 Worker 3 performing operation 7 on task 127
+80.0 Worker 8 accepting task 16
+80.0 Worker 5 accepting task 122
+80.0 Worker 4 accepting task 146
+80.0 Worker 4 accepting task 137
+80.0 Worker 5 accepting task 117
+80.0 Worker 0 accepting task 128
+80.0 Worker 3 accepting task 149
+80.0 Generated task 160 with complexity 3 requiring operations [1, 9, 5]
+80.0 Worker 5 accepting task 160
+80.0 Worker 0 processing task 82 requiring operations [5]
+80.0 Worker 0 performing operation 5 on task 82
+80.0 Worker 7 processing task 64 requiring operations [3]
+80.0 Worker 7 forwarding task 64
+80.0 Worker 4 processing task 148 requiring operations [10, 6, 2]
+80.0 Worker 4 performing operation 6 on task 148
+80.0 Worker 2 processing task 29 requiring operations [9]
+80.0 Worker 2 forwarding task 29
+80.0 Worker 6 processing task 83 requiring operations [7, 9]
+80.0 Worker 6 forwarding task 83
+80.0 Worker 5 processing task 106 requiring operations [9, 5]
+80.0 Worker 5 forwarding task 106
+80.0 Worker 8 processing task 157 requiring operations [2, 5, 9]
+80.0 Worker 8 performing operation 5 on task 157
+80.5 Worker 2 accepting task 30
+80.5 Worker 3 accepting task 127
+80.5 Generated task 161 with complexity 3 requiring operations [4, 7, 9]
+80.5 Worker 2 accepting task 161
+80.5 Worker 1 processing task 58 requiring operations [1, 4]
+80.5 Worker 1 forwarding task 58
+80.5 Worker 3 processing task 44 requiring operations [9]
+80.5 Worker 3 performing operation 9 on task 44
+81.0 Task 82 completed!
+81.0 Worker 6 accepting task 64
+81.0 Worker 4 accepting task 148
+81.0 Worker 3 accepting task 29
+81.0 Worker 3 accepting task 83
+81.0 Worker 3 accepting task 106
+81.0 Worker 8 accepting task 157
+81.0 Generated task 162 with complexity 3 requiring operations [6, 9, 8]
+81.0 Worker 1 accepting task 162
+81.0 Worker 0 processing task 39 requiring operations [1]
+81.0 Worker 0 forwarding task 39
+81.0 Worker 7 processing task 75 requiring operations [9]
+81.0 Worker 7 forwarding task 75
+81.0 Worker 4 processing task 104 requiring operations [8]
+81.0 Worker 4 forwarding task 104
+81.0 Worker 2 processing task 23 requiring operations [9]
+81.0 Worker 2 forwarding task 23
+81.0 Worker 6 processing task 66 requiring operations [8]
+81.0 Worker 6 performing operation 8 on task 66
+81.0 Worker 5 processing task 81 requiring operations [7]
+81.0 Worker 5 forwarding task 81
+81.0 Worker 8 processing task 102 requiring operations [6, 8]
+81.0 Worker 8 forwarding task 102
+81.5 Worker 6 accepting task 58
+81.5 Task 44 completed!
+81.5 Generated task 163 with complexity 3 requiring operations [6, 8, 9]
+81.5 Worker 5 accepting task 163
+81.5 Worker 1 processing task 147 requiring operations [4, 10, 2]
+81.5 Worker 1 performing operation 10 on task 147
+81.5 Worker 3 processing task 142 requiring operations [2, 7, 6]
+81.5 Worker 3 performing operation 2 on task 142
+82.0 Worker 3 accepting task 39
+82.0 Worker 8 accepting task 75
+82.0 Worker 7 accepting task 104
+82.0 Worker 1 accepting task 23
+82.0 Task 66 completed!
+82.0 Worker 1 accepting task 81
+82.0 Worker 1 accepting task 102
+82.0 Generated task 164 with complexity 3 requiring operations [2, 10, 8]
+82.0 Worker 5 accepting task 164
+82.0 Worker 0 processing task 69 requiring operations [3, 7]
+82.0 Worker 0 performing operation 7 on task 69
+82.0 Worker 7 processing task 32 requiring operations [4]
+82.0 Worker 7 forwarding task 32
+82.0 Worker 4 processing task 109 requiring operations [5]
+82.0 Worker 4 forwarding task 109
+82.0 Worker 2 processing task 84 requiring operations [4]
+82.0 Worker 2 forwarding task 84
+82.0 Worker 6 processing task 61 requiring operations [9]
+82.0 Worker 6 forwarding task 61
+82.0 Worker 5 processing task 74 requiring operations [3]
+82.0 Worker 5 forwarding task 74
+82.0 Worker 8 processing task 22 requiring operations [2]
+82.0 Worker 8 forwarding task 22
+82.5 Worker 1 accepting task 147
+82.5 Worker 3 accepting task 142
+82.5 Generated task 165 with complexity 3 requiring operations [8, 3, 7]
+82.5 Worker 4 accepting task 165
+82.5 Worker 1 processing task 133 requiring operations [1, 10]
+82.5 Worker 1 performing operation 10 on task 133
+82.5 Worker 3 processing task 86 requiring operations [8, 9]
+82.5 Worker 3 performing operation 9 on task 86
+83.0 Worker 0 accepting task 69
+83.0 Worker 0 accepting task 32
+83.0 Worker 0 accepting task 109
+83.0 Worker 6 accepting task 84
+83.0 Worker 7 accepting task 61
+83.0 Worker 3 accepting task 74
+83.0 Worker 7 accepting task 22
+83.0 Generated task 166 with complexity 3 requiring operations [7, 3, 6]
+83.0 Worker 3 accepting task 166
+83.0 Worker 0 processing task 46 requiring operations [4]
+83.0 Worker 0 forwarding task 46
+83.0 Worker 7 processing task 130 requiring operations [5, 6, 10]
+83.0 Worker 7 performing operation 10 on task 130
+83.0 Worker 4 processing task 116 requiring operations [4]
+83.0 Worker 4 performing operation 4 on task 116
+83.0 Worker 2 processing task 141 requiring operations [8, 3, 1]
+83.0 Worker 2 performing operation 1 on task 141
+83.0 Worker 6 processing task 88 requiring operations [4]
+83.0 Worker 6 forwarding task 88
+83.0 Worker 5 processing task 63 requiring operations [9]
+83.0 Worker 5 forwarding task 63
+83.0 Worker 8 processing task 114 requiring operations [9, 10]
+83.0 Worker 8 forwarding task 114
+83.5 Worker 1 accepting task 133
+83.5 Worker 3 accepting task 86
+83.5 Generated task 167 with complexity 3 requiring operations [10, 4, 7]
+83.5 Worker 5 accepting task 167
+83.5 Worker 1 processing task 115 requiring operations [2, 5]
+83.5 Worker 1 forwarding task 115
+83.5 Worker 3 processing task 129 requiring operations [8, 1]
+83.5 Worker 3 forwarding task 129
+84.0 Worker 6 accepting task 46
+84.0 Worker 7 accepting task 130
+84.0 Task 116 completed!
+84.0 Worker 2 accepting task 141
+84.0 Worker 1 accepting task 88
+84.0 Worker 1 accepting task 63
+84.0 Worker 6 accepting task 114
+84.0 Generated task 168 with complexity 3 requiring operations [1, 9, 10]
+84.0 Worker 7 accepting task 168
+84.0 Worker 0 processing task 96 requiring operations [10, 5]
+84.0 Worker 0 performing operation 5 on task 96
+84.0 Worker 7 processing task 85 requiring operations [6]
+84.0 Worker 7 forwarding task 85
+84.0 Worker 4 processing task 123 requiring operations [3, 10]
+84.0 Worker 4 performing operation 3 on task 123
+84.0 Worker 2 processing task 60 requiring operations [4]
+84.0 Worker 2 forwarding task 60
+84.0 Worker 6 processing task 151 requiring operations [6, 9, 4]
+84.0 Worker 6 performing operation 6 on task 151
+84.0 Worker 5 processing task 159 requiring operations [9, 4, 2]
+84.0 Worker 5 forwarding task 159
+84.0 Worker 8 processing task 16 requiring operations [4]
+84.0 Worker 8 performing operation 4 on task 16
+84.5 Worker 4 accepting task 115
+84.5 Worker 4 accepting task 129
+84.5 Generated task 169 with complexity 3 requiring operations [1, 7, 2]
+84.5 Worker 0 accepting task 169
+84.5 Worker 1 processing task 144 requiring operations [2, 9]
+84.5 Worker 1 forwarding task 144
+84.5 Worker 3 processing task 71 requiring operations [9]
+84.5 Worker 3 performing operation 9 on task 71
+85.0 Worker 0 accepting task 96
+85.0 Worker 4 accepting task 85
+85.0 Worker 4 accepting task 123
+85.0 Worker 4 accepting task 60
+85.0 Worker 6 accepting task 151
+85.0 Worker 3 accepting task 159
+85.0 Task 16 completed!
+85.0 Generated task 170 with complexity 3 requiring operations [1, 8, 3]
+85.0 Worker 0 accepting task 170
+85.0 Worker 0 processing task 51 requiring operations [7, 6]
+85.0 Worker 0 performing operation 7 on task 51
+85.0 Worker 7 processing task 108 requiring operations [8, 2, 3]
+85.0 Worker 7 forwarding task 108
+85.0 Worker 4 processing task 146 requiring operations [1, 8]
+85.0 Worker 4 forwarding task 146
+85.0 Worker 2 processing task 110 requiring operations [2, 4]
+85.0 Worker 2 forwarding task 110
+85.0 Worker 6 processing task 105 requiring operations [2]
+85.0 Worker 6 forwarding task 105
+85.0 Worker 5 processing task 122 requiring operations [2, 3, 4]
+85.0 Worker 5 forwarding task 122
+85.0 Worker 8 processing task 157 requiring operations [2, 9]
+85.0 Worker 8 forwarding task 157
+85.5 Worker 4 accepting task 144
+85.5 Task 71 completed!
+85.5 Generated task 171 with complexity 3 requiring operations [10, 6, 4]
+85.5 Worker 1 accepting task 171
+85.5 Worker 1 processing task 150 requiring operations [5, 8, 1]
+85.5 Worker 1 performing operation 8 on task 150
+85.5 Worker 3 processing task 113 requiring operations [2, 5]
+85.5 Worker 3 performing operation 2 on task 113
+86.0 Worker 0 accepting task 51
+86.0 Worker 8 accepting task 108
+86.0 Worker 8 accepting task 146
+86.0 Worker 6 accepting task 110
+86.0 Worker 1 accepting task 105
+86.0 Worker 1 accepting task 122
+86.0 Worker 3 accepting task 157
+86.0 Generated task 172 with complexity 3 requiring operations [4, 7, 10]
+86.0 Worker 0 accepting task 172
+86.0 Worker 0 processing task 49 requiring operations [8]
+86.0 Worker 0 performing operation 8 on task 49
+86.0 Worker 7 processing task 28 requiring operations [2]
+86.0 Worker 7 forwarding task 28
+86.0 Worker 4 processing task 137 requiring operations [9, 2, 3]
+86.0 Worker 4 performing operation 3 on task 137
+86.0 Worker 2 processing task 121 requiring operations [3, 5]
+86.0 Worker 2 forwarding task 121
+86.0 Worker 6 processing task 138 requiring operations [4, 6, 8]
+86.0 Worker 6 performing operation 8 on task 138
+86.0 Worker 5 processing task 117 requiring operations [5]
+86.0 Worker 5 forwarding task 117
+86.0 Worker 8 processing task 75 requiring operations [9]
+86.0 Worker 8 forwarding task 75
+86.5 Worker 1 accepting task 150
+86.5 Worker 3 accepting task 113
+86.5 Generated task 173 with complexity 3 requiring operations [3, 9, 4]
+86.5 Worker 8 accepting task 173
+86.5 Worker 1 processing task 135 requiring operations [8, 2]
+86.5 Worker 1 performing operation 8 on task 135
+86.5 Worker 3 processing task 6 requiring operations [2]
+86.5 Worker 3 performing operation 2 on task 6
+87.0 Task 49 completed!
+87.0 Worker 1 accepting task 28
+87.0 Worker 4 accepting task 137
+87.0 Worker 4 accepting task 121
+87.0 Worker 6 accepting task 138
+87.0 Worker 0 accepting task 117
+87.0 Worker 6 accepting task 75
+87.0 Generated task 174 with complexity 3 requiring operations [1, 4, 9]
+87.0 Worker 1 accepting task 174
+87.0 Worker 0 processing task 59 requiring operations [9, 7]
+87.0 Worker 0 performing operation 7 on task 59
+87.0 Worker 7 processing task 77 requiring operations [9]
+87.0 Worker 7 forwarding task 77
+87.0 Worker 4 processing task 148 requiring operations [10, 2]
+87.0 Worker 4 forwarding task 148
+87.0 Worker 2 processing task 103 requiring operations [9]
+87.0 Worker 2 forwarding task 103
+87.0 Worker 6 processing task 143 requiring operations [3, 7]
+87.0 Worker 6 performing operation 3 on task 143
+87.0 Worker 5 processing task 160 requiring operations [1, 9, 5]
+87.0 Worker 5 forwarding task 160
+87.0 Worker 8 processing task 108 requiring operations [8, 2, 3]
+87.0 Worker 8 performing operation 3 on task 108
+87.5 Worker 1 accepting task 135
+87.5 Task 6 completed!
+87.5 Generated task 175 with complexity 3 requiring operations [5, 3, 9]
+87.5 Worker 6 accepting task 175
+87.5 Worker 1 processing task 136 requiring operations [7, 4]
+87.5 Worker 1 forwarding task 136
+87.5 Worker 3 processing task 156 requiring operations [5, 2, 8]
+87.5 Worker 3 performing operation 2 on task 156
+88.0 Worker 0 accepting task 59
+88.0 Worker 6 accepting task 77
+88.0 Worker 1 accepting task 148
+88.0 Worker 4 accepting task 103
+88.0 Worker 6 accepting task 143
+88.0 Worker 6 accepting task 160
+88.0 Worker 8 accepting task 108
+88.0 Generated task 176 with complexity 3 requiring operations [8, 7, 5]
+88.0 Worker 5 accepting task 176
+88.0 Worker 0 processing task 43 requiring operations [10]
+88.0 Worker 0 forwarding task 43
+88.0 Worker 7 processing task 36 requiring operations [2]
+88.0 Worker 7 forwarding task 36
+88.0 Worker 4 processing task 165 requiring operations [8, 3, 7]
+88.0 Worker 4 performing operation 7 on task 165
+88.0 Worker 2 processing task 118 requiring operations [4, 5]
+88.0 Worker 2 forwarding task 118
+88.0 Worker 6 processing task 145 requiring operations [1, 8, 10]
+88.0 Worker 6 performing operation 1 on task 145
+88.0 Worker 5 processing task 163 requiring operations [6, 8, 9]
+88.0 Worker 5 performing operation 6 on task 163
+88.0 Worker 8 processing task 146 requiring operations [1, 8]
+88.0 Worker 8 forwarding task 146
+88.5 Worker 2 accepting task 136
+88.5 Worker 3 accepting task 156
+88.5 Generated task 177 with complexity 3 requiring operations [3, 4, 10]
+88.5 Worker 8 accepting task 177
+88.5 Worker 1 processing task 34 requiring operations [1]
+88.5 Worker 1 forwarding task 34
+88.5 Worker 3 processing task 139 requiring operations [5, 1]
+88.5 Worker 3 forwarding task 139
+89.0 Worker 3 accepting task 43
+89.0 Worker 1 accepting task 36
+89.0 Worker 4 accepting task 165
+89.0 Worker 5 accepting task 118
+89.0 Worker 6 accepting task 145
+89.0 Worker 5 accepting task 163
+89.0 Worker 4 accepting task 146
+89.0 Generated task 178 with complexity 3 requiring operations [7, 1, 4]
+89.0 Worker 0 accepting task 178
+89.0 Worker 0 processing task 90 requiring operations [8]
+89.0 Worker 0 performing operation 8 on task 90
+89.0 Worker 7 processing task 119 requiring operations [3, 6]
+89.0 Worker 7 forwarding task 119
+89.0 Worker 4 processing task 115 requiring operations [2, 5]
+89.0 Worker 4 forwarding task 115
+89.0 Worker 2 processing task 107 requiring operations [9]
+89.0 Worker 2 forwarding task 107
+89.0 Worker 6 processing task 64 requiring operations [3]
+89.0 Worker 6 performing operation 3 on task 64
+89.0 Worker 5 processing task 164 requiring operations [2, 10, 8]
+89.0 Worker 5 forwarding task 164
+89.0 Worker 8 processing task 173 requiring operations [3, 9, 4]
+89.0 Worker 8 performing operation 3 on task 173
+89.5 Worker 0 accepting task 34
+89.5 Worker 2 accepting task 139
+89.5 Generated task 179 with complexity 3 requiring operations [1, 3, 2]
+89.5 Worker 0 accepting task 179
+89.5 Worker 1 processing task 48 requiring operations [10, 2]
+89.5 Worker 1 performing operation 10 on task 48
+89.5 Worker 3 processing task 149 requiring operations [1, 6]
+89.5 Worker 3 forwarding task 149
+90.0 Task 90 completed!
+90.0 Worker 0 accepting task 119
+90.0 Worker 6 accepting task 115
+90.0 Worker 6 accepting task 107
+90.0 Task 64 completed!
+90.0 Worker 7 accepting task 164
+90.0 Worker 8 accepting task 173
+90.0 Generated task 180 with complexity 3 requiring operations [10, 1, 4]
+90.0 Worker 8 accepting task 180
+90.0 Worker 0 processing task 76 requiring operations [9]
+90.0 Worker 0 forwarding task 76
+90.0 Worker 7 processing task 111 requiring operations [7, 9]
+90.0 Worker 7 forwarding task 111
+90.0 Worker 4 processing task 129 requiring operations [8, 1]
+90.0 Worker 4 forwarding task 129
+90.0 Worker 2 processing task 134 requiring operations [8, 1]
+90.0 Worker 2 performing operation 1 on task 134
+90.0 Worker 6 processing task 58 requiring operations [1, 4]
+90.0 Worker 6 performing operation 1 on task 58
+90.0 Worker 5 processing task 167 requiring operations [10, 4, 7]
+90.0 Worker 5 forwarding task 167
+90.0 Worker 8 processing task 108 requiring operations [8, 2]
+90.0 Worker 8 forwarding task 108
+90.5 Worker 1 accepting task 48
+90.5 Worker 0 accepting task 149
+90.5 Generated task 181 with complexity 3 requiring operations [4, 9, 5]
+90.5 Worker 7 accepting task 181
+90.5 Worker 1 processing task 41 requiring operations [2, 4]
+90.5 Worker 1 forwarding task 41
+90.5 Worker 3 processing task 127 requiring operations [10, 1]
+90.5 Worker 3 forwarding task 127
+91.0 Worker 4 accepting task 76
+91.0 Worker 3 accepting task 111
+91.0 Worker 0 accepting task 129
+91.0 Worker 2 accepting task 134
+91.0 Worker 6 accepting task 58
+91.0 Worker 1 accepting task 167
+91.0 Worker 4 accepting task 108
+91.0 Generated task 182 with complexity 3 requiring operations [5, 6, 1]
+91.0 Worker 0 accepting task 182
+91.0 Worker 0 processing task 47 requiring operations [4]
+91.0 Worker 0 forwarding task 47
+91.0 Worker 7 processing task 155 requiring operations [2, 3, 10]
+91.0 Worker 7 performing operation 10 on task 155
+91.0 Worker 4 processing task 85 requiring operations [6]
+91.0 Worker 4 performing operation 6 on task 85
+91.0 Worker 2 processing task 152 requiring operations [6, 1, 8]
+91.0 Worker 2 performing operation 6 on task 152
+91.0 Worker 6 processing task 84 requiring operations [4]
+91.0 Worker 6 forwarding task 84
+91.0 Worker 5 processing task 176 requiring operations [8, 7, 5]
+91.0 Worker 5 forwarding task 176
+91.0 Worker 8 processing task 177 requiring operations [3, 4, 10]
+91.0 Worker 8 performing operation 4 on task 177
+91.5 Worker 7 accepting task 41
+91.5 Worker 0 accepting task 127
+91.5 Generated task 183 with complexity 3 requiring operations [6, 10, 5]
+91.5 Worker 5 accepting task 183
+91.5 Worker 1 processing task 126 requiring operations [1]
+91.5 Worker 1 forwarding task 126
+91.5 Worker 3 processing task 29 requiring operations [9]
+91.5 Worker 3 performing operation 9 on task 29
+92.0 Worker 5 accepting task 47
+92.0 Worker 7 accepting task 155
+92.0 Task 85 completed!
+92.0 Worker 2 accepting task 152
+92.0 Worker 5 accepting task 84
+92.0 Worker 8 accepting task 176
+92.0 Worker 8 accepting task 177
+92.0 Generated task 184 with complexity 3 requiring operations [6, 2, 7]
+92.0 Worker 6 accepting task 184
+92.0 Worker 0 processing task 42 requiring operations [4]
+92.0 Worker 0 forwarding task 42
+92.0 Worker 7 processing task 87 requiring operations [9]
+92.0 Worker 7 forwarding task 87
+92.0 Worker 4 processing task 123 requiring operations [10]
+92.0 Worker 4 forwarding task 123
+92.0 Worker 2 processing task 132 requiring operations [2, 10]
+92.0 Worker 2 forwarding task 132
+92.0 Worker 6 processing task 46 requiring operations [4]
+92.0 Worker 6 forwarding task 46
+92.0 Worker 5 processing task 118 requiring operations [4, 5]
+92.0 Worker 5 forwarding task 118
+92.0 Worker 8 processing task 173 requiring operations [9, 4]
+92.0 Worker 8 performing operation 4 on task 173
+92.5 Worker 3 accepting task 126
+92.5 Task 29 completed!
+92.5 Generated task 185 with complexity 3 requiring operations [2, 10, 8]
+92.5 Worker 1 accepting task 185
+92.5 Worker 1 processing task 162 requiring operations [6, 9, 8]
+92.5 Worker 1 performing operation 6 on task 162
+92.5 Worker 3 processing task 83 requiring operations [7, 9]
+92.5 Worker 3 performing operation 7 on task 83
+93.0 Worker 3 accepting task 42
+93.0 Worker 2 accepting task 87
+93.0 Worker 8 accepting task 123
+93.0 Worker 0 accepting task 132
+93.0 Worker 5 accepting task 46
+93.0 Worker 2 accepting task 118
+93.0 Worker 8 accepting task 173
+93.0 Generated task 186 with complexity 3 requiring operations [3, 10, 2]
+93.0 Worker 1 accepting task 186
+93.0 Worker 0 processing task 124 requiring operations [9, 6, 8]
+93.0 Worker 0 performing operation 8 on task 124
+93.0 Worker 7 processing task 104 requiring operations [8]
+93.0 Worker 7 forwarding task 104
+93.0 Worker 4 processing task 60 requiring operations [4]
+93.0 Worker 4 performing operation 4 on task 60
+93.0 Worker 2 processing task 154 requiring operations [10, 1, 6]
+93.0 Worker 2 performing operation 1 on task 154
+93.0 Worker 6 processing task 114 requiring operations [9, 10]
+93.0 Worker 6 forwarding task 114
+93.0 Worker 5 processing task 163 requiring operations [8, 9]
+93.0 Worker 5 forwarding task 163
+93.0 Worker 8 processing task 180 requiring operations [10, 1, 4]
+93.0 Worker 8 performing operation 4 on task 180
+93.5 Worker 1 accepting task 162
+93.5 Worker 3 accepting task 83
+93.5 Generated task 187 with complexity 3 requiring operations [4, 1, 9]
+93.5 Worker 5 accepting task 187
+93.5 Worker 1 processing task 23 requiring operations [9]
+93.5 Worker 1 forwarding task 23
+93.5 Worker 3 processing task 106 requiring operations [9, 5]
+93.5 Worker 3 performing operation 9 on task 106
+94.0 Worker 0 accepting task 124
+94.0 Worker 1 accepting task 104
+94.0 Task 60 completed!
+94.0 Worker 2 accepting task 154
+94.0 Worker 7 accepting task 114
+94.0 Worker 4 accepting task 163
+94.0 Worker 8 accepting task 180
+94.0 Generated task 188 with complexity 3 requiring operations [7, 5, 10]
+94.0 Worker 3 accepting task 188
+94.0 Worker 0 processing task 79 requiring operations [5, 7]
+94.0 Worker 0 performing operation 5 on task 79
+94.0 Worker 7 processing task 61 requiring operations [9]
+94.0 Worker 7 forwarding task 61
+94.0 Worker 4 processing task 144 requiring operations [2, 9]
+94.0 Worker 4 forwarding task 144
+94.0 Worker 2 processing task 73 requiring operations [2, 9]
+94.0 Worker 2 forwarding task 73
+94.0 Worker 6 processing task 151 requiring operations [9, 4]
+94.0 Worker 6 forwarding task 151
+94.0 Worker 5 processing task 183 requiring operations [6, 10, 5]
+94.0 Worker 5 performing operation 6 on task 183
+94.0 Worker 8 processing task 176 requiring operations [8, 7, 5]
+94.0 Worker 8 performing operation 5 on task 176
+94.5 Worker 5 accepting task 23
+94.5 Worker 3 accepting task 106
+94.5 Generated task 189 with complexity 3 requiring operations [7, 4, 6]
+94.5 Worker 8 accepting task 189
+94.5 Worker 1 processing task 81 requiring operations [7]
+94.5 Worker 1 forwarding task 81
+94.5 Worker 3 processing task 39 requiring operations [1]
+94.5 Worker 3 forwarding task 39
+95.0 Worker 0 accepting task 79
+95.0 Worker 8 accepting task 61
+95.0 Worker 3 accepting task 144
+95.0 Worker 7 accepting task 73
+95.0 Worker 7 accepting task 151
+95.0 Worker 5 accepting task 183
+95.0 Worker 8 accepting task 176
+95.0 Generated task 190 with complexity 3 requiring operations [7, 2, 4]
+95.0 Worker 0 accepting task 190
+95.0 Worker 0 processing task 99 requiring operations [3, 4]
+95.0 Worker 0 performing operation 3 on task 99
+95.0 Worker 7 processing task 22 requiring operations [2]
+95.0 Worker 7 forwarding task 22
+95.0 Worker 4 processing task 137 requiring operations [9, 2]
+95.0 Worker 4 forwarding task 137
+95.0 Worker 2 processing task 30 requiring operations [2]
+95.0 Worker 2 forwarding task 30
+95.0 Worker 6 processing task 110 requiring operations [2, 4]
+95.0 Worker 6 forwarding task 110
+95.0 Worker 5 processing task 47 requiring operations [4]
+95.0 Worker 5 forwarding task 47
+95.0 Worker 8 processing task 177 requiring operations [3, 10]
+95.0 Worker 8 performing operation 3 on task 177
+95.5 Worker 5 accepting task 81
+95.5 Worker 4 accepting task 39
+95.5 Generated task 191 with complexity 3 requiring operations [3, 1, 6]
+95.5 Worker 8 accepting task 191
+95.5 Worker 1 processing task 102 requiring operations [6, 8]
+95.5 Worker 1 performing operation 8 on task 102
+95.5 Worker 3 processing task 142 requiring operations [7, 6]
+95.5 Worker 3 performing operation 7 on task 142
+96.0 Worker 0 accepting task 99
+96.0 Worker 3 accepting task 22
+96.0 Worker 0 accepting task 137
+96.0 Worker 0 accepting task 30
+96.0 Worker 2 accepting task 110
+96.0 Worker 4 accepting task 47
+96.0 Worker 8 accepting task 177
+96.0 Generated task 192 with complexity 3 requiring operations [7, 8, 6]
+96.0 Worker 1 accepting task 192
+96.0 Worker 0 processing task 52 requiring operations [4]
+96.0 Worker 0 forwarding task 52
+96.0 Worker 7 processing task 130 requiring operations [5, 6]
+96.0 Worker 7 performing operation 5 on task 130
+96.0 Worker 4 processing task 121 requiring operations [3, 5]
+96.0 Worker 4 performing operation 3 on task 121
+96.0 Worker 2 processing task 161 requiring operations [4, 7, 9]
+96.0 Worker 2 performing operation 7 on task 161
+96.0 Worker 6 processing task 138 requiring operations [4, 6]
+96.0 Worker 6 performing operation 6 on task 138
+96.0 Worker 5 processing task 84 requiring operations [4]
+96.0 Worker 5 forwarding task 84
+96.0 Worker 8 processing task 123 requiring operations [10]
+96.0 Worker 8 forwarding task 123
+96.5 Worker 1 accepting task 102
+96.5 Worker 3 accepting task 142
+96.5 Generated task 193 with complexity 3 requiring operations [7, 5, 10]
+96.5 Worker 0 accepting task 193
+96.5 Worker 1 processing task 147 requiring operations [4, 2]
+96.5 Worker 1 forwarding task 147
+96.5 Worker 3 processing task 74 requiring operations [3]
+96.5 Worker 3 forwarding task 74
+97.0 Worker 3 accepting task 52
+97.0 Worker 7 accepting task 130
+97.0 Worker 4 accepting task 121
+97.0 Worker 2 accepting task 161
+97.0 Worker 6 accepting task 138
+97.0 Worker 1 accepting task 84
+97.0 Worker 5 accepting task 123
+97.0 Generated task 194 with complexity 3 requiring operations [2, 6, 10]
+97.0 Worker 6 accepting task 194
+97.0 Worker 0 processing task 80 requiring operations [1, 9]
+97.0 Worker 0 forwarding task 80
+97.0 Worker 7 processing task 168 requiring operations [1, 9, 10]
+97.0 Worker 7 performing operation 10 on task 168
+97.0 Worker 4 processing task 103 requiring operations [9]
+97.0 Worker 4 forwarding task 103
+97.0 Worker 2 processing task 141 requiring operations [8, 3]
+97.0 Worker 2 forwarding task 141
+97.0 Worker 6 processing task 75 requiring operations [9]
+97.0 Worker 6 forwarding task 75
+97.0 Worker 5 processing task 46 requiring operations [4]
+97.0 Worker 5 forwarding task 46
+97.0 Worker 8 processing task 173 requiring operations [9]
+97.0 Worker 8 forwarding task 173
+97.5 Worker 5 accepting task 147
+97.5 Worker 8 accepting task 74
+97.5 Generated task 195 with complexity 3 requiring operations [3, 8, 6]
+97.5 Worker 7 accepting task 195
+97.5 Worker 1 processing task 133 requiring operations [1]
+97.5 Worker 1 forwarding task 133
+97.5 Worker 3 processing task 166 requiring operations [7, 3, 6]
+97.5 Worker 3 performing operation 7 on task 166
+98.0 Worker 2 accepting task 80
+98.0 Worker 7 accepting task 168
+98.0 Worker 2 accepting task 103
+98.0 Worker 0 accepting task 141
+98.0 Worker 0 accepting task 75
+98.0 Worker 8 accepting task 46
+98.0 Worker 4 accepting task 173
+98.0 Generated task 196 with complexity 3 requiring operations [2, 4, 5]
+98.0 Worker 4 accepting task 196
+98.0 Worker 0 processing task 93 requiring operations [3, 4]
+98.0 Worker 0 performing operation 3 on task 93
+98.0 Worker 7 processing task 164 requiring operations [2, 10, 8]
+98.0 Worker 7 performing operation 10 on task 164
+98.0 Worker 4 processing task 165 requiring operations [8, 3]
+98.0 Worker 4 performing operation 3 on task 165
+98.0 Worker 2 processing task 136 requiring operations [7, 4]
+98.0 Worker 2 performing operation 7 on task 136
+98.0 Worker 6 processing task 175 requiring operations [5, 3, 9]
+98.0 Worker 6 performing operation 3 on task 175
+98.0 Worker 5 processing task 187 requiring operations [4, 1, 9]
+98.0 Worker 5 forwarding task 187
+98.0 Worker 8 processing task 180 requiring operations [10, 1]
+98.0 Worker 8 forwarding task 180
+98.5 Worker 6 accepting task 133
+98.5 Worker 3 accepting task 166
+98.5 Generated task 197 with complexity 3 requiring operations [6, 3, 2]
+98.5 Worker 4 accepting task 197
+98.5 Worker 1 processing task 88 requiring operations [4]
+98.5 Worker 1 forwarding task 88
+98.5 Worker 3 processing task 86 requiring operations [8]
+98.5 Worker 3 forwarding task 86
+99.0 Worker 0 accepting task 93
+99.0 Worker 7 accepting task 164
+99.0 Worker 4 accepting task 165
+99.0 Worker 2 accepting task 136
+99.0 Worker 6 accepting task 175
+99.0 Worker 4 accepting task 187
+99.0 Worker 1 accepting task 180
+99.0 Generated task 198 with complexity 3 requiring operations [3, 1, 2]
+99.0 Worker 3 accepting task 198
+99.0 Worker 0 processing task 92 requiring operations [5]
+99.0 Worker 0 performing operation 5 on task 92
+99.0 Worker 7 processing task 181 requiring operations [4, 9, 5]
+99.0 Worker 7 performing operation 5 on task 181
+99.0 Worker 4 processing task 146 requiring operations [1, 8]
+99.0 Worker 4 forwarding task 146
+99.0 Worker 2 processing task 139 requiring operations [5, 1]
+99.0 Worker 2 performing operation 1 on task 139
+99.0 Worker 6 processing task 77 requiring operations [9]
+99.0 Worker 6 forwarding task 77
+99.0 Worker 5 processing task 23 requiring operations [9]
+99.0 Worker 5 forwarding task 23
+99.0 Worker 8 processing task 189 requiring operations [7, 4, 6]
+99.0 Worker 8 performing operation 4 on task 189
+99.5 Worker 8 accepting task 88
+99.5 Worker 7 accepting task 86
+99.5 Generated task 199 with complexity 3 requiring operations [8, 7, 4]
+99.5 Worker 3 accepting task 199
+99.5 Worker 1 processing task 63 requiring operations [9]
+99.5 Worker 1 forwarding task 63
+99.5 Worker 3 processing task 159 requiring operations [9, 4, 2]
+99.5 Worker 3 performing operation 9 on task 159
+100.0 Task 92 completed!
+100.0 Worker 7 accepting task 181
+100.0 Worker 3 accepting task 146
+100.0 Worker 2 accepting task 139
+100.0 Worker 7 accepting task 77
+100.0 Worker 4 accepting task 23
+100.0 Worker 8 accepting task 189
+100.0 Generated task 200 with complexity 3 requiring operations [8, 3, 6]
+100.0 Worker 0 accepting task 200
+100.0 Worker 0 processing task 131 requiring operations [7, 9, 2]
+100.0 Worker 0 performing operation 7 on task 131
+100.0 Worker 7 processing task 41 requiring operations [2, 4]
+100.0 Worker 7 forwarding task 41
+100.0 Worker 4 processing task 76 requiring operations [9]
+100.0 Worker 4 forwarding task 76
+100.0 Worker 2 processing task 134 requiring operations [8]
+100.0 Worker 2 forwarding task 134
+100.0 Worker 6 processing task 143 requiring operations [7]
+100.0 Worker 6 forwarding task 143
+100.0 Worker 5 processing task 183 requiring operations [10, 5]
+100.0 Worker 5 forwarding task 183
+100.0 Worker 8 processing task 61 requiring operations [9]
+100.0 Worker 8 forwarding task 61
+100.5 Worker 2 accepting task 63
+100.5 Worker 3 accepting task 159
+100.5 Generated task 201 with complexity 3 requiring operations [10, 7, 3]
+100.5 Worker 6 accepting task 201
+100.5 Worker 1 processing task 171 requiring operations [10, 6, 4]
+100.5 Worker 1 performing operation 6 on task 171
+100.5 Worker 3 processing task 157 requiring operations [2, 9]
+100.5 Worker 3 performing operation 9 on task 157
+101.0 Worker 0 accepting task 131
+101.0 Worker 2 accepting task 41
+101.0 Worker 1 accepting task 76
+101.0 Worker 0 accepting task 134
+101.0 Worker 7 accepting task 143
+101.0 Worker 6 accepting task 183
+101.0 Worker 0 accepting task 61
+101.0 Generated task 202 with complexity 3 requiring operations [1, 5, 3]
+101.0 Worker 6 accepting task 202
+101.0 Worker 0 processing task 45 requiring operations [2]
+101.0 Worker 0 forwarding task 45
+101.0 Worker 7 processing task 155 requiring operations [2, 3]
+101.0 Worker 7 forwarding task 155
+101.0 Worker 4 processing task 108 requiring operations [8, 2]
+101.0 Worker 4 forwarding task 108
+101.0 Worker 2 processing task 152 requiring operations [1, 8]
+101.0 Worker 2 performing operation 1 on task 152
+101.0 Worker 6 processing task 160 requiring operations [1, 9, 5]
+101.0 Worker 6 performing operation 1 on task 160
+101.0 Worker 5 processing task 81 requiring operations [7]
+101.0 Worker 5 forwarding task 81
+101.0 Worker 8 processing task 176 requiring operations [8, 7]
+101.0 Worker 8 forwarding task 176
+101.5 Worker 1 accepting task 171
+101.5 Worker 3 accepting task 157
+101.5 Generated task 203 with complexity 3 requiring operations [3, 4, 2]
+101.5 Worker 6 accepting task 203
+101.5 Worker 1 processing task 105 requiring operations [2]
+101.5 Worker 1 forwarding task 105
+101.5 Worker 3 processing task 113 requiring operations [5]
+101.5 Worker 3 forwarding task 113
+102.0 Worker 6 accepting task 45
+102.0 Worker 0 accepting task 155
+102.0 Worker 3 accepting task 108
+102.0 Worker 2 accepting task 152
+102.0 Worker 6 accepting task 160
+102.0 Worker 3 accepting task 81
+102.0 Worker 0 accepting task 176
+102.0 Generated task 204 with complexity 3 requiring operations [6, 7, 4]
+102.0 Worker 2 accepting task 204
+102.0 Worker 0 processing task 125 requiring operations [8, 10]
+102.0 Worker 0 performing operation 8 on task 125
+102.0 Worker 7 processing task 114 requiring operations [9, 10]
+102.0 Worker 7 performing operation 10 on task 114
+102.0 Worker 4 processing task 163 requiring operations [8, 9]
+102.0 Worker 4 forwarding task 163
+102.0 Worker 2 processing task 87 requiring operations [9]
+102.0 Worker 2 forwarding task 87
+102.0 Worker 6 processing task 145 requiring operations [8, 10]
+102.0 Worker 6 performing operation 8 on task 145
+102.0 Worker 5 processing task 123 requiring operations [10]
+102.0 Worker 5 forwarding task 123
+102.0 Worker 8 processing task 191 requiring operations [3, 1, 6]
+102.0 Worker 8 performing operation 3 on task 191
+102.5 Worker 7 accepting task 105
+102.5 Worker 4 accepting task 113
+102.5 Generated task 205 with complexity 3 requiring operations [9, 5, 8]
+102.5 Worker 3 accepting task 205
+102.5 Worker 1 processing task 122 requiring operations [2, 3, 4]
+102.5 Worker 1 forwarding task 122
+102.5 Worker 3 processing task 156 requiring operations [5, 8]
+102.5 Worker 3 forwarding task 156
+103.0 Worker 0 accepting task 125
+103.0 Worker 7 accepting task 114
+103.0 Worker 1 accepting task 163
+103.0 Worker 4 accepting task 87
+103.0 Worker 6 accepting task 145
+103.0 Worker 0 accepting task 123
+103.0 Worker 8 accepting task 191
+103.0 Generated task 206 with complexity 3 requiring operations [3, 7, 8]
+103.0 Worker 8 accepting task 206
+103.0 Worker 0 processing task 140 requiring operations [2, 10, 5]
+103.0 Worker 0 performing operation 5 on task 140
+103.0 Worker 7 processing task 73 requiring operations [2, 9]
+103.0 Worker 7 forwarding task 73
+103.0 Worker 4 processing task 39 requiring operations [1]
+103.0 Worker 4 forwarding task 39
+103.0 Worker 2 processing task 118 requiring operations [4, 5]
+103.0 Worker 2 forwarding task 118
+103.0 Worker 6 processing task 115 requiring operations [2, 5]
+103.0 Worker 6 forwarding task 115
+103.0 Worker 5 processing task 147 requiring operations [4, 2]
+103.0 Worker 5 forwarding task 147
+103.0 Worker 8 processing task 177 requiring operations [10]
+103.0 Worker 8 forwarding task 177
+103.5 Worker 4 accepting task 122
+103.5 Worker 0 accepting task 156
+103.5 Generated task 207 with complexity 3 requiring operations [7, 3, 2]
+103.5 Worker 8 accepting task 207
+103.5 Worker 1 processing task 150 requiring operations [5, 1]
+103.5 Worker 1 forwarding task 150
+103.5 Worker 3 processing task 43 requiring operations [10]
+103.5 Worker 3 forwarding task 43
+104.0 Worker 0 accepting task 140
+104.0 Worker 8 accepting task 73
+104.0 Worker 8 accepting task 39
+104.0 Worker 5 accepting task 118
+104.0 Worker 8 accepting task 115
+104.0 Worker 0 accepting task 147
+104.0 Worker 5 accepting task 177
+104.0 Generated task 208 with complexity 3 requiring operations [9, 1, 7]
+104.0 Worker 4 accepting task 208
+104.0 Worker 0 processing task 89 requiring operations [10, 1]
+104.0 Worker 0 forwarding task 89
+104.0 Worker 7 processing task 151 requiring operations [9, 4]
+104.0 Worker 7 forwarding task 151
+104.0 Worker 4 processing task 47 requiring operations [4]
+104.0 Worker 4 performing operation 4 on task 47
+104.0 Worker 2 processing task 154 requiring operations [10, 6]
+104.0 Worker 2 performing operation 6 on task 154
+104.0 Worker 6 processing task 107 requiring operations [9]
+104.0 Worker 6 forwarding task 107
+104.0 Worker 5 processing task 118 requiring operations [4, 5]
+104.0 Worker 5 forwarding task 118
+104.0 Worker 8 processing task 74 requiring operations [3]
+104.0 Worker 8 performing operation 3 on task 74
+104.5 Worker 2 accepting task 150
+104.5 Worker 1 accepting task 43
+104.5 Generated task 209 with complexity 3 requiring operations [10, 9, 7]
+104.5 Worker 3 accepting task 209
+104.5 Worker 1 processing task 28 requiring operations [2]
+104.5 Worker 1 forwarding task 28
+104.5 Worker 3 processing task 111 requiring operations [7, 9]
+104.5 Worker 3 performing operation 7 on task 111
+105.0 Worker 1 accepting task 89
+105.0 Worker 5 accepting task 151
+105.0 Task 47 completed!
+105.0 Worker 2 accepting task 154
+105.0 Worker 1 accepting task 107
+105.0 Worker 0 accepting task 118
+105.0 Task 74 completed!
+105.0 Generated task 210 with complexity 3 requiring operations [10, 3, 7]
+105.0 Worker 7 accepting task 210
+105.0 Worker 0 processing task 70 requiring operations [2]
+105.0 Worker 0 forwarding task 70
+105.0 Worker 7 processing task 130 requiring operations [6]
+105.0 Worker 7 forwarding task 130
+105.0 Worker 4 processing task 121 requiring operations [5]
+105.0 Worker 4 forwarding task 121
+105.0 Worker 2 processing task 110 requiring operations [2, 4]
+105.0 Worker 2 forwarding task 110
+105.0 Worker 6 processing task 58 requiring operations [4]
+105.0 Worker 6 forwarding task 58
+105.0 Worker 5 processing task 177 requiring operations [10]
+105.0 Worker 5 forwarding task 177
+105.0 Worker 8 processing task 46 requiring operations [4]
+105.0 Worker 8 performing operation 4 on task 46
+105.5 Worker 7 accepting task 28
+105.5 Worker 3 accepting task 111
+105.5 Generated task 211 with complexity 3 requiring operations [8, 6, 10]
+105.5 Worker 3 accepting task 211
+105.5 Worker 1 processing task 174 requiring operations [1, 4, 9]
+105.5 Worker 1 forwarding task 174
+105.5 Worker 3 processing task 126 requiring operations [1]
+105.5 Worker 3 forwarding task 126
+106.0 Worker 5 accepting task 70
+106.0 Worker 1 accepting task 130
+106.0 Worker 2 accepting task 121
+106.0 Worker 6 accepting task 110
+106.0 Worker 2 accepting task 58
+106.0 Worker 8 accepting task 177
+106.0 Task 46 completed!
+106.0 Generated task 212 with complexity 3 requiring operations [1, 7, 2]
+106.0 Worker 6 accepting task 212
+106.0 Worker 0 processing task 95 requiring operations [4, 6]
+106.0 Worker 0 forwarding task 95
+106.0 Worker 7 processing task 195 requiring operations [3, 8, 6]
+106.0 Worker 7 forwarding task 195
+106.0 Worker 4 processing task 173 requiring operations [9]
+106.0 Worker 4 forwarding task 173
+106.0 Worker 2 processing task 161 requiring operations [4, 9]
+106.0 Worker 2 forwarding task 161
+106.0 Worker 6 processing task 184 requiring operations [6, 2, 7]
+106.0 Worker 6 performing operation 6 on task 184
+106.0 Worker 5 processing task 151 requiring operations [9, 4]
+106.0 Worker 5 forwarding task 151
+106.0 Worker 8 processing task 88 requiring operations [4]
+106.0 Worker 8 performing operation 4 on task 88
+106.5 Worker 0 accepting task 174
+106.5 Worker 5 accepting task 126
+106.5 Generated task 213 with complexity 3 requiring operations [9, 4, 6]
+106.5 Worker 2 accepting task 213
+106.5 Worker 1 processing task 135 requiring operations [2]
+106.5 Worker 1 forwarding task 135
+106.5 Worker 3 processing task 42 requiring operations [4]
+106.5 Worker 3 forwarding task 42
+107.0 Worker 3 accepting task 95
+107.0 Worker 2 accepting task 195
+107.0 Worker 7 accepting task 173
+107.0 Worker 3 accepting task 161
+107.0 Worker 6 accepting task 184
+107.0 Worker 1 accepting task 151
+107.0 Task 88 completed!
+107.0 Generated task 214 with complexity 3 requiring operations [2, 3, 9]
+107.0 Worker 2 accepting task 214
+107.0 Worker 0 processing task 37 requiring operations [9]
+107.0 Worker 0 forwarding task 37
+107.0 Worker 7 processing task 168 requiring operations [1, 9]
+107.0 Worker 7 performing operation 1 on task 168
+107.0 Worker 4 processing task 196 requiring operations [2, 4, 5]
+107.0 Worker 4 performing operation 4 on task 196
+107.0 Worker 2 processing task 80 requiring operations [1, 9]
+107.0 Worker 2 performing operation 1 on task 80
+107.0 Worker 6 processing task 138 requiring operations [4]
+107.0 Worker 6 forwarding task 138
+107.0 Worker 5 processing task 70 requiring operations [2]
+107.0 Worker 5 forwarding task 70
+107.0 Worker 8 processing task 189 requiring operations [7, 6]
+107.0 Worker 8 forwarding task 189
+107.5 Worker 2 accepting task 135
+107.5 Worker 6 accepting task 42
+107.5 Generated task 215 with complexity 3 requiring operations [9, 8, 1]
+107.5 Worker 0 accepting task 215
+107.5 Worker 1 processing task 148 requiring operations [10, 2]
+107.5 Worker 1 performing operation 10 on task 148
+107.5 Worker 3 processing task 83 requiring operations [9]
+107.5 Worker 3 performing operation 9 on task 83
+108.0 Worker 3 accepting task 37
+108.0 Worker 7 accepting task 168
+108.0 Worker 4 accepting task 196
+108.0 Worker 2 accepting task 80
+108.0 Worker 1 accepting task 138
+108.0 Worker 8 accepting task 70
+108.0 Worker 1 accepting task 189
+108.0 Generated task 216 with complexity 3 requiring operations [4, 1, 3]
+108.0 Worker 2 accepting task 216
+108.0 Worker 0 processing task 97 requiring operations [1, 9]
+108.0 Worker 0 forwarding task 97
+108.0 Worker 7 processing task 164 requiring operations [2, 8]
+108.0 Worker 7 forwarding task 164
+108.0 Worker 4 processing task 197 requiring operations [6, 3, 2]
+108.0 Worker 4 performing operation 6 on task 197
+108.0 Worker 2 processing task 103 requiring operations [9]
+108.0 Worker 2 forwarding task 103
+108.0 Worker 6 processing task 194 requiring operations [2, 6, 10]
+108.0 Worker 6 performing operation 6 on task 194
+108.0 Worker 5 processing task 126 requiring operations [1]
+108.0 Worker 5 forwarding task 126
+108.0 Worker 8 processing task 191 requiring operations [1, 6]
+108.0 Worker 8 forwarding task 191
+108.5 Worker 1 accepting task 148
+108.5 Task 83 completed!
+108.5 Generated task 217 with complexity 3 requiring operations [6, 9, 1]
+108.5 Worker 3 accepting task 217
+108.5 Worker 1 processing task 36 requiring operations [2]
+108.5 Worker 1 forwarding task 36
+108.5 Worker 3 processing task 188 requiring operations [7, 5, 10]
+108.5 Worker 3 performing operation 7 on task 188
+109.0 Worker 8 accepting task 97
+109.0 Worker 8 accepting task 164
+109.0 Worker 4 accepting task 197
+109.0 Worker 0 accepting task 103
+109.0 Worker 6 accepting task 194
+109.0 Worker 8 accepting task 126
+109.0 Worker 5 accepting task 191
+109.0 Generated task 218 with complexity 3 requiring operations [10, 1, 4]
+109.0 Worker 6 accepting task 218
+109.0 Worker 0 processing task 19 requiring operations [6]
+109.0 Worker 0 forwarding task 19
+109.0 Worker 7 processing task 86 requiring operations [8]
+109.0 Worker 7 forwarding task 86
+109.0 Worker 4 processing task 165 requiring operations [8]
+109.0 Worker 4 forwarding task 165
+109.0 Worker 2 processing task 136 requiring operations [4]
+109.0 Worker 2 forwarding task 136
+109.0 Worker 6 processing task 133 requiring operations [1]
+109.0 Worker 6 performing operation 1 on task 133
+109.0 Worker 8 processing task 206 requiring operations [3, 7, 8]
+109.0 Worker 8 performing operation 3 on task 206
+109.0 Worker 5 processing task 191 requiring operations [1, 6]
+109.0 Worker 5 performing operation 6 on task 191
+109.5 Worker 4 accepting task 36
+109.5 Worker 3 accepting task 188
+109.5 Generated task 219 with complexity 3 requiring operations [10, 1, 9]
+109.5 Worker 3 accepting task 219
+109.5 Worker 1 processing task 48 requiring operations [2]
+109.5 Worker 1 forwarding task 48
+109.5 Worker 3 processing task 106 requiring operations [5]
+109.5 Worker 3 forwarding task 106
+110.0 Worker 3 accepting task 19
+110.0 Worker 5 accepting task 86
+110.0 Worker 3 accepting task 165
+110.0 Worker 5 accepting task 136
+110.0 Task 133 completed!
+110.0 Worker 8 accepting task 206
+110.0 Worker 5 accepting task 191
+110.0 Generated task 220 with complexity 3 requiring operations [7, 1, 3]
+110.0 Worker 2 accepting task 220
+110.0 Worker 0 processing task 153 requiring operations [5, 7, 9]
+110.0 Worker 0 performing operation 5 on task 153
+110.0 Worker 7 processing task 181 requiring operations [4, 9]
+110.0 Worker 7 forwarding task 181
+110.0 Worker 4 processing task 187 requiring operations [4, 1, 9]
+110.0 Worker 4 performing operation 4 on task 187
+110.0 Worker 2 processing task 139 requiring operations [5]
+110.0 Worker 2 forwarding task 139
+110.0 Worker 6 processing task 175 requiring operations [5, 9]
+110.0 Worker 6 forwarding task 175
+110.0 Worker 8 processing task 207 requiring operations [7, 3, 2]
+110.0 Worker 8 performing operation 3 on task 207
+110.0 Worker 5 processing task 86 requiring operations [8]
+110.0 Worker 5 forwarding task 86
+110.5 Worker 3 accepting task 48
+110.5 Worker 2 accepting task 106
+110.5 Generated task 221 with complexity 3 requiring operations [2, 7, 9]
+110.5 Worker 0 accepting task 221
+110.5 Worker 1 processing task 167 requiring operations [10, 4, 7]
+110.5 Worker 1 performing operation 10 on task 167
+110.5 Worker 3 processing task 144 requiring operations [2, 9]
+110.5 Worker 3 performing operation 9 on task 144
+111.0 Worker 0 accepting task 153
+111.0 Worker 3 accepting task 181
+111.0 Worker 4 accepting task 187
+111.0 Worker 7 accepting task 139
+111.0 Worker 5 accepting task 175
+111.0 Worker 8 accepting task 207
+111.0 Worker 0 accepting task 86
+111.0 Generated task 222 with complexity 3 requiring operations [6, 3, 10]
+111.0 Worker 2 accepting task 222
+111.0 Worker 0 processing task 120 requiring operations [6, 1]
+111.0 Worker 0 forwarding task 120
+111.0 Worker 7 processing task 77 requiring operations [9]
+111.0 Worker 7 forwarding task 77
+111.0 Worker 4 processing task 23 requiring operations [9]
+111.0 Worker 4 forwarding task 23
+111.0 Worker 2 processing task 63 requiring operations [9]
+111.0 Worker 2 forwarding task 63
+111.0 Worker 6 processing task 201 requiring operations [10, 7, 3]
+111.0 Worker 6 performing operation 3 on task 201
+111.0 Worker 8 processing task 73 requiring operations [2, 9]
+111.0 Worker 8 forwarding task 73
+111.0 Worker 5 processing task 136 requiring operations [4]
+111.0 Worker 5 forwarding task 136
+111.5 Worker 1 accepting task 167
+111.5 Worker 3 accepting task 144
+111.5 Generated task 223 with complexity 3 requiring operations [3, 9, 10]
+111.5 Worker 7 accepting task 223
+111.5 Worker 1 processing task 185 requiring operations [2, 10, 8]
+111.5 Worker 1 performing operation 8 on task 185
+111.5 Worker 3 processing task 22 requiring operations [2]
+111.5 Worker 3 performing operation 2 on task 22
+112.0 Worker 5 accepting task 120
+112.0 Worker 2 accepting task 77
+112.0 Worker 1 accepting task 23
+112.0 Worker 7 accepting task 63
+112.0 Worker 6 accepting task 201
+112.0 Worker 5 accepting task 73
+112.0 Worker 4 accepting task 136
+112.0 Generated task 224 with complexity 3 requiring operations [7, 5, 9]
+112.0 Worker 8 accepting task 224
+112.0 Worker 0 processing task 158 requiring operations [3, 5, 8]
+112.0 Worker 0 performing operation 3 on task 158
+112.0 Worker 7 processing task 143 requiring operations [7]
+112.0 Worker 7 forwarding task 143
+112.0 Worker 4 processing task 113 requiring operations [5]
+112.0 Worker 4 forwarding task 113
+112.0 Worker 2 processing task 41 requiring operations [2, 4]
+112.0 Worker 2 forwarding task 41
+112.0 Worker 6 processing task 183 requiring operations [10, 5]
+112.0 Worker 6 forwarding task 183
+112.0 Worker 8 processing task 39 requiring operations [1]
+112.0 Worker 8 forwarding task 39
+112.0 Worker 5 processing task 191 requiring operations [1]
+112.0 Worker 5 forwarding task 191
+112.5 Worker 1 accepting task 185
+112.5 Task 22 completed!
+112.5 Generated task 225 with complexity 3 requiring operations [3, 5, 7]
+112.5 Worker 4 accepting task 225
+112.5 Worker 1 processing task 186 requiring operations [3, 10, 2]
+112.5 Worker 1 performing operation 10 on task 186
+112.5 Worker 3 processing task 142 requiring operations [6]
+112.5 Worker 3 forwarding task 142
+113.0 Worker 0 accepting task 158
+113.0 Worker 2 accepting task 143
+113.0 Worker 8 accepting task 113
+113.0 Worker 8 accepting task 41
+113.0 Worker 3 accepting task 183
+113.0 Worker 6 accepting task 39
+113.0 Worker 4 accepting task 191
+113.0 Generated task 226 with complexity 3 requiring operations [7, 8, 9]
+113.0 Worker 5 accepting task 226
+113.0 Worker 0 processing task 128 requiring operations [8, 10]
+113.0 Worker 0 performing operation 8 on task 128
+113.0 Worker 7 processing task 105 requiring operations [2]
+113.0 Worker 7 forwarding task 105
+113.0 Worker 4 processing task 87 requiring operations [9]
+113.0 Worker 4 forwarding task 87
+113.0 Worker 2 processing task 152 requiring operations [8]
+113.0 Worker 2 forwarding task 152
+113.0 Worker 6 processing task 202 requiring operations [1, 5, 3]
+113.0 Worker 6 performing operation 1 on task 202
+113.0 Worker 8 processing task 115 requiring operations [2, 5]
+113.0 Worker 8 performing operation 5 on task 115
+113.0 Worker 5 processing task 175 requiring operations [5, 9]
+113.0 Worker 5 forwarding task 175
+113.5 Worker 1 accepting task 186
+113.5 Worker 2 accepting task 142
+113.5 Generated task 227 with complexity 3 requiring operations [8, 6, 2]
+113.5 Worker 4 accepting task 227
+113.5 Worker 1 processing task 162 requiring operations [9, 8]
+113.5 Worker 1 performing operation 8 on task 162
+113.5 Worker 3 processing task 52 requiring operations [4]
+113.5 Worker 3 forwarding task 52
+114.0 Worker 0 accepting task 128
+114.0 Worker 5 accepting task 105
+114.0 Worker 8 accepting task 87
+114.0 Worker 1 accepting task 152
+114.0 Worker 6 accepting task 202
+114.0 Worker 8 accepting task 115
+114.0 Worker 6 accepting task 175
+114.0 Generated task 228 with complexity 3 requiring operations [6, 10, 9]
+114.0 Worker 1 accepting task 228
+114.0 Worker 0 processing task 69 requiring operations [3]
+114.0 Worker 0 performing operation 3 on task 69
+114.0 Worker 7 processing task 114 requiring operations [9]
+114.0 Worker 7 forwarding task 114
+114.0 Worker 4 processing task 122 requiring operations [2, 3, 4]
+114.0 Worker 4 performing operation 4 on task 122
+114.0 Worker 2 processing task 204 requiring operations [6, 7, 4]
+114.0 Worker 2 performing operation 7 on task 204
+114.0 Worker 6 processing task 203 requiring operations [3, 4, 2]
+114.0 Worker 6 performing operation 3 on task 203
+114.0 Worker 8 processing task 177 requiring operations [10]
+114.0 Worker 8 forwarding task 177
+114.0 Worker 5 processing task 120 requiring operations [6, 1]
+114.0 Worker 5 performing operation 6 on task 120
+114.5 Worker 1 accepting task 162
+114.5 Worker 5 accepting task 52
+114.5 Generated task 229 with complexity 3 requiring operations [3, 6, 9]
+114.5 Worker 3 accepting task 229
+114.5 Worker 1 processing task 104 requiring operations [8]
+114.5 Worker 1 performing operation 8 on task 104
+114.5 Worker 3 processing task 166 requiring operations [3, 6]
+114.5 Worker 3 forwarding task 166
+115.0 Task 69 completed!
+115.0 Worker 3 accepting task 114
+115.0 Worker 4 accepting task 122
+115.0 Worker 2 accepting task 204
+115.0 Worker 6 accepting task 203
+115.0 Worker 1 accepting task 177
+115.0 Worker 5 accepting task 120
+115.0 Generated task 230 with complexity 3 requiring operations [1, 5, 9]
+115.0 Worker 3 accepting task 230
+115.0 Worker 0 processing task 32 requiring operations [4]
+115.0 Worker 0 forwarding task 32
+115.0 Worker 7 processing task 210 requiring operations [10, 3, 7]
+115.0 Worker 7 performing operation 10 on task 210
+115.0 Worker 4 processing task 208 requiring operations [9, 1, 7]
+115.0 Worker 4 performing operation 7 on task 208
+115.0 Worker 2 processing task 150 requiring operations [5, 1]
+115.0 Worker 2 performing operation 1 on task 150
+115.0 Worker 6 processing task 45 requiring operations [2]
+115.0 Worker 6 forwarding task 45
+115.0 Worker 8 processing task 70 requiring operations [2]
+115.0 Worker 8 forwarding task 70
+115.0 Worker 5 processing task 73 requiring operations [2, 9]
+115.0 Worker 5 forwarding task 73
+115.5 Task 104 completed!
+115.5 Worker 5 accepting task 166
+115.5 Generated task 231 with complexity 3 requiring operations [7, 8, 4]
+115.5 Worker 5 accepting task 231
+115.5 Worker 1 processing task 192 requiring operations [7, 8, 6]
+115.5 Worker 1 performing operation 6 on task 192
+115.5 Worker 3 processing task 198 requiring operations [3, 1, 2]
+115.5 Worker 3 performing operation 2 on task 198
+116.0 Worker 3 accepting task 32
+116.0 Worker 7 accepting task 210
+116.0 Worker 4 accepting task 208
+116.0 Worker 2 accepting task 150
+116.0 Worker 0 accepting task 45
+116.0 Worker 1 accepting task 70
+116.0 Worker 6 accepting task 73
+116.0 Generated task 232 with complexity 3 requiring operations [4, 3, 9]
+116.0 Worker 1 accepting task 232
+116.0 Worker 0 processing task 109 requiring operations [5]
+116.0 Worker 0 performing operation 5 on task 109
+116.0 Worker 7 processing task 28 requiring operations [2]
+116.0 Worker 7 forwarding task 28
+116.0 Worker 4 processing task 196 requiring operations [2, 5]
+116.0 Worker 4 forwarding task 196
+116.0 Worker 2 processing task 154 requiring operations [10]
+116.0 Worker 2 forwarding task 154
+116.0 Worker 6 processing task 160 requiring operations [9, 5]
+116.0 Worker 6 forwarding task 160
+116.0 Worker 8 processing task 97 requiring operations [1, 9]
+116.0 Worker 8 forwarding task 97
+116.0 Worker 5 processing task 226 requiring operations [7, 8, 9]
+116.0 Worker 5 forwarding task 226
+116.5 Worker 1 accepting task 192
+116.5 Worker 3 accepting task 198
+116.5 Generated task 233 with complexity 3 requiring operations [4, 3, 10]
+116.5 Worker 1 accepting task 233
+116.5 Worker 1 processing task 102 requiring operations [6]
+116.5 Worker 1 performing operation 6 on task 102
+116.5 Worker 3 processing task 199 requiring operations [8, 7, 4]
+116.5 Worker 3 performing operation 7 on task 199
+117.0 Task 109 completed!
+117.0 Worker 5 accepting task 28
+117.0 Worker 0 accepting task 196
+117.0 Worker 5 accepting task 154
+117.0 Worker 0 accepting task 160
+117.0 Worker 4 accepting task 97
+117.0 Worker 0 accepting task 226
+117.0 Generated task 234 with complexity 3 requiring operations [3, 10, 9]
+117.0 Worker 8 accepting task 234
+117.0 Worker 0 processing task 169 requiring operations [1, 7, 2]
+117.0 Worker 0 performing operation 7 on task 169
+117.0 Worker 7 processing task 173 requiring operations [9]
+117.0 Worker 7 forwarding task 173
+117.0 Worker 4 processing task 197 requiring operations [3, 2]
+117.0 Worker 4 performing operation 3 on task 197
+117.0 Worker 2 processing task 121 requiring operations [5]
+117.0 Worker 2 forwarding task 121
+117.0 Worker 6 processing task 145 requiring operations [10]
+117.0 Worker 6 forwarding task 145
+117.0 Worker 8 processing task 164 requiring operations [2, 8]
+117.0 Worker 8 forwarding task 164
+117.0 Worker 5 processing task 105 requiring operations [2]
+117.0 Worker 5 forwarding task 105
+117.5 Task 102 completed!
+117.5 Worker 3 accepting task 199
+117.5 Generated task 235 with complexity 3 requiring operations [5, 7, 6]
+117.5 Worker 3 accepting task 235
+117.5 Worker 1 processing task 84 requiring operations [4]
+117.5 Worker 1 forwarding task 84
+117.5 Worker 3 processing task 146 requiring operations [1, 8]
+117.5 Worker 3 forwarding task 146
+118.0 Worker 0 accepting task 169
+118.0 Worker 0 accepting task 173
+118.0 Worker 4 accepting task 197
+118.0 Worker 0 accepting task 121
+118.0 Worker 7 accepting task 145
+118.0 Worker 1 accepting task 164
+118.0 Worker 2 accepting task 105
+118.0 Generated task 236 with complexity 3 requiring operations [1, 7, 10]
+118.0 Worker 5 accepting task 236
+118.0 Worker 0 processing task 96 requiring operations [10]
+118.0 Worker 0 forwarding task 96
+118.0 Worker 7 processing task 168 requiring operations [9]
+118.0 Worker 7 forwarding task 168
+118.0 Worker 4 processing task 36 requiring operations [2]
+118.0 Worker 4 forwarding task 36
+118.0 Worker 2 processing task 58 requiring operations [4]
+118.0 Worker 2 forwarding task 58
+118.0 Worker 6 processing task 110 requiring operations [2, 4]
+118.0 Worker 6 forwarding task 110
+118.0 Worker 8 processing task 126 requiring operations [1]
+118.0 Worker 8 forwarding task 126
+118.0 Worker 5 processing task 52 requiring operations [4]
+118.0 Worker 5 forwarding task 52
+118.5 Worker 7 accepting task 84
+118.5 Worker 5 accepting task 146
+118.5 Generated task 237 with complexity 3 requiring operations [2, 6, 1]
+118.5 Worker 6 accepting task 237
+118.5 Worker 1 processing task 180 requiring operations [10, 1]
+118.5 Worker 1 performing operation 10 on task 180
+118.5 Worker 3 processing task 159 requiring operations [4, 2]
+118.5 Worker 3 performing operation 2 on task 159
+119.0 Worker 4 accepting task 96
+119.0 Worker 2 accepting task 168
+119.0 Worker 7 accepting task 36
+119.0 Worker 8 accepting task 58
+119.0 Worker 5 accepting task 110
+119.0 Worker 7 accepting task 126
+119.0 Worker 0 accepting task 52
+119.0 Generated task 238 with complexity 3 requiring operations [6, 4, 1]
+119.0 Worker 4 accepting task 238
+119.0 Worker 0 processing task 170 requiring operations [1, 8, 3]
+119.0 Worker 0 performing operation 3 on task 170
+119.0 Worker 7 processing task 139 requiring operations [5]
+119.0 Worker 7 performing operation 5 on task 139
+119.0 Worker 4 processing task 187 requiring operations [1, 9]
+119.0 Worker 4 forwarding task 187
+119.0 Worker 2 processing task 213 requiring operations [9, 4, 6]
+119.0 Worker 2 performing operation 6 on task 213
+119.0 Worker 6 processing task 212 requiring operations [1, 7, 2]
+119.0 Worker 6 performing operation 1 on task 212
+119.0 Worker 8 processing task 206 requiring operations [7, 8]
+119.0 Worker 8 forwarding task 206
+119.0 Worker 5 processing task 120 requiring operations [1]
+119.0 Worker 5 forwarding task 120
+119.5 Worker 1 accepting task 180
+119.5 Worker 3 accepting task 159
+119.5 Generated task 239 with complexity 3 requiring operations [2, 7, 3]
+119.5 Worker 2 accepting task 239
+119.5 Worker 1 processing task 76 requiring operations [9]
+119.5 Worker 1 forwarding task 76
+119.5 Worker 3 processing task 157 requiring operations [2]
+119.5 Worker 3 performing operation 2 on task 157
+120.0 Worker 0 accepting task 170
+120.0 Task 139 completed!
+120.0 Worker 8 accepting task 187
+120.0 Worker 2 accepting task 213
+120.0 Worker 6 accepting task 212
+120.0 Worker 6 accepting task 206
+120.0 Worker 0 accepting task 120
+120.0 Generated task 240 with complexity 3 requiring operations [9, 2, 1]
+120.0 Worker 5 accepting task 240
+120.0 Worker 0 processing task 51 requiring operations [6]
+120.0 Worker 0 forwarding task 51
+120.0 Worker 7 processing task 223 requiring operations [3, 9, 10]
+120.0 Worker 7 performing operation 10 on task 223
+120.0 Worker 4 processing task 136 requiring operations [4]
+120.0 Worker 4 performing operation 4 on task 136
+120.0 Worker 2 processing task 195 requiring operations [3, 8, 6]
+120.0 Worker 2 performing operation 6 on task 195
+120.0 Worker 6 processing task 184 requiring operations [2, 7]
+120.0 Worker 6 forwarding task 184
+120.0 Worker 8 processing task 207 requiring operations [7, 2]
+120.0 Worker 8 forwarding task 207
+120.0 Worker 5 processing task 166 requiring operations [3, 6]
+120.0 Worker 5 performing operation 6 on task 166
+120.5 Worker 2 accepting task 76
+120.5 Task 157 completed!
+120.5 Generated task 241 with complexity 3 requiring operations [6, 4, 10]
+120.5 Worker 2 accepting task 241
+120.5 Worker 1 processing task 171 requiring operations [10, 4]
+120.5 Worker 1 performing operation 10 on task 171
+120.5 Worker 3 processing task 108 requiring operations [8, 2]
+120.5 Worker 3 performing operation 2 on task 108
+121.0 Worker 4 accepting task 51
+121.0 Worker 7 accepting task 223
+121.0 Task 136 completed!
+121.0 Worker 2 accepting task 195
+121.0 Worker 7 accepting task 184
+121.0 Worker 4 accepting task 207
+121.0 Worker 5 accepting task 166
+121.0 Generated task 242 with complexity 3 requiring operations [8, 3, 6]
+121.0 Worker 6 accepting task 242
+121.0 Worker 0 processing task 172 requiring operations [4, 7, 10]
+121.0 Worker 0 performing operation 7 on task 172
+121.0 Worker 7 processing task 63 requiring operations [9]
+121.0 Worker 7 forwarding task 63
+121.0 Worker 4 processing task 225 requiring operations [3, 5, 7]
+121.0 Worker 4 performing operation 3 on task 225
+121.0 Worker 2 processing task 214 requiring operations [2, 3, 9]
+121.0 Worker 2 forwarding task 214
+121.0 Worker 6 processing task 42 requiring operations [4]
+121.0 Worker 6 forwarding task 42
+121.0 Worker 8 processing task 224 requiring operations [7, 5, 9]
+121.0 Worker 8 performing operation 5 on task 224
+121.0 Worker 5 processing task 231 requiring operations [7, 8, 4]
+121.0 Worker 5 forwarding task 231
+121.5 Worker 1 accepting task 171
+121.5 Worker 3 accepting task 108
+121.5 Generated task 243 with complexity 3 requiring operations [8, 3, 2]
+121.5 Worker 3 accepting task 243
+121.5 Worker 1 processing task 163 requiring operations [8, 9]
+121.5 Worker 1 performing operation 8 on task 163
+121.5 Worker 3 processing task 81 requiring operations [7]
+121.5 Worker 3 performing operation 7 on task 81
+122.0 Worker 0 accepting task 172
+122.0 Worker 3 accepting task 63
+122.0 Worker 4 accepting task 225
+122.0 Worker 7 accepting task 214
+122.0 Worker 0 accepting task 42
+122.0 Worker 8 accepting task 224
+122.0 Worker 3 accepting task 231
+122.0 Generated task 244 with complexity 3 requiring operations [5, 4, 10]
+122.0 Worker 8 accepting task 244
+122.0 Worker 0 processing task 117 requiring operations [5]
+122.0 Worker 0 performing operation 5 on task 117
+122.0 Worker 7 processing task 210 requiring operations [3, 7]
+122.0 Worker 7 forwarding task 210
+122.0 Worker 4 processing task 191 requiring operations [1]
+122.0 Worker 4 forwarding task 191
+122.0 Worker 2 processing task 135 requiring operations [2]
+122.0 Worker 2 forwarding task 135
+122.0 Worker 6 processing task 194 requiring operations [2, 10]
+122.0 Worker 6 forwarding task 194
+122.0 Worker 8 processing task 113 requiring operations [5]
+122.0 Worker 8 performing operation 5 on task 113
+122.0 Worker 5 processing task 28 requiring operations [2]
+122.0 Worker 5 forwarding task 28
+122.5 Worker 1 accepting task 163
+122.5 Task 81 completed!
+122.5 Generated task 245 with complexity 3 requiring operations [6, 4, 5]
+122.5 Worker 4 accepting task 245
+122.5 Worker 1 processing task 43 requiring operations [10]
+122.5 Worker 1 performing operation 10 on task 43
+122.5 Worker 3 processing task 205 requiring operations [9, 5, 8]
+122.5 Worker 3 performing operation 9 on task 205
+123.0 Task 117 completed!
+123.0 Worker 0 accepting task 210
+123.0 Worker 6 accepting task 191
+123.0 Worker 3 accepting task 135
+123.0 Worker 0 accepting task 194
+123.0 Task 113 completed!
+123.0 Worker 2 accepting task 28
+123.0 Generated task 246 with complexity 3 requiring operations [7, 9, 4]
+123.0 Worker 0 accepting task 246
+123.0 Worker 0 processing task 59 requiring operations [9]
+123.0 Worker 0 forwarding task 59
+123.0 Worker 7 processing task 145 requiring operations [10]
+123.0 Worker 7 performing operation 10 on task 145
+123.0 Worker 4 processing task 227 requiring operations [8, 6, 2]
+123.0 Worker 4 performing operation 6 on task 227
+123.0 Worker 2 processing task 80 requiring operations [9]
+123.0 Worker 2 forwarding task 80
+123.0 Worker 6 processing task 218 requiring operations [10, 1, 4]
+123.0 Worker 6 performing operation 1 on task 218
+123.0 Worker 8 processing task 41 requiring operations [2, 4]
+123.0 Worker 8 performing operation 4 on task 41
+123.0 Worker 5 processing task 154 requiring operations [10]
+123.0 Worker 5 forwarding task 154
+123.5 Task 43 completed!
+123.5 Worker 3 accepting task 205
+123.5 Generated task 247 with complexity 3 requiring operations [7, 6, 2]
+123.5 Worker 7 accepting task 247
+123.5 Worker 1 processing task 89 requiring operations [10, 1]
+123.5 Worker 1 performing operation 10 on task 89
+123.5 Worker 3 processing task 209 requiring operations [10, 9, 7]
+123.5 Worker 3 performing operation 7 on task 209
+124.0 Worker 6 accepting task 59
+124.0 Task 145 completed!
+124.0 Worker 4 accepting task 227
+124.0 Worker 3 accepting task 80
+124.0 Worker 6 accepting task 218
+124.0 Worker 8 accepting task 41
+124.0 Worker 6 accepting task 154
+124.0 Generated task 248 with complexity 3 requiring operations [7, 8, 1]
+124.0 Worker 4 accepting task 248
+124.0 Worker 0 processing task 178 requiring operations [7, 1, 4]
+124.0 Worker 0 performing operation 7 on task 178
+124.0 Worker 7 processing task 84 requiring operations [4]
+124.0 Worker 7 forwarding task 84
+124.0 Worker 4 processing task 122 requiring operations [2, 3]
+124.0 Worker 4 performing operation 3 on task 122
+124.0 Worker 2 processing task 216 requiring operations [4, 1, 3]
+124.0 Worker 2 performing operation 1 on task 216
+124.0 Worker 6 processing task 201 requiring operations [10, 7]
+124.0 Worker 6 forwarding task 201
+124.0 Worker 8 processing task 87 requiring operations [9]
+124.0 Worker 8 forwarding task 87
+124.0 Worker 5 processing task 236 requiring operations [1, 7, 10]
+124.0 Worker 5 forwarding task 236
+124.5 Worker 1 accepting task 89
+124.5 Worker 3 accepting task 209
+124.5 Generated task 249 with complexity 3 requiring operations [1, 9, 4]
+124.5 Worker 1 accepting task 249
+124.5 Worker 1 processing task 107 requiring operations [9]
+124.5 Worker 1 forwarding task 107
+124.5 Worker 3 processing task 111 requiring operations [9]
+124.5 Worker 3 performing operation 9 on task 111
+125.0 Worker 0 accepting task 178
+125.0 Worker 1 accepting task 84
+125.0 Worker 4 accepting task 122
+125.0 Worker 2 accepting task 216
+125.0 Worker 1 accepting task 201
+125.0 Worker 3 accepting task 87
+125.0 Worker 6 accepting task 236
+125.0 Generated task 250 with complexity 3 requiring operations [3, 6, 5]
+125.0 Worker 1 accepting task 250
+125.0 Worker 0 processing task 34 requiring operations [1]
+125.0 Worker 0 forwarding task 34
+125.0 Worker 7 processing task 36 requiring operations [2]
+125.0 Worker 7 forwarding task 36
+125.0 Worker 4 processing task 208 requiring operations [9, 1]
+125.0 Worker 4 forwarding task 208
+125.0 Worker 2 processing task 220 requiring operations [7, 1, 3]
+125.0 Worker 2 performing operation 1 on task 220
+125.0 Worker 6 processing task 39 requiring operations [1]
+125.0 Worker 6 performing operation 1 on task 39
+125.0 Worker 8 processing task 115 requiring operations [2]
+125.0 Worker 8 forwarding task 115
+125.0 Worker 5 processing task 146 requiring operations [1, 8]
+125.0 Worker 5 forwarding task 146
+125.5 Worker 4 accepting task 107
+125.5 Task 111 completed!
+125.5 Generated task 251 with complexity 3 requiring operations [8, 4, 6]
+125.5 Worker 3 accepting task 251
+125.5 Worker 1 processing task 130 requiring operations [6]
+125.5 Worker 1 performing operation 6 on task 130
+125.5 Worker 3 processing task 211 requiring operations [8, 6, 10]
+125.5 Worker 3 forwarding task 211
+126.0 Worker 6 accepting task 34
+126.0 Worker 0 accepting task 36
+126.0 Worker 6 accepting task 208
+126.0 Worker 2 accepting task 220
+126.0 Task 39 completed!
+126.0 Worker 7 accepting task 115
+126.0 Worker 3 accepting task 146
+126.0 Generated task 252 with complexity 3 requiring operations [7, 1, 8]
+126.0 Worker 5 accepting task 252
+126.0 Worker 0 processing task 179 requiring operations [1, 3, 2]
+126.0 Worker 0 performing operation 3 on task 179
+126.0 Worker 7 processing task 126 requiring operations [1]
+126.0 Worker 7 performing operation 1 on task 126
+126.0 Worker 4 processing task 97 requiring operations [1, 9]
+126.0 Worker 4 forwarding task 97
+126.0 Worker 2 processing task 106 requiring operations [5]
+126.0 Worker 2 forwarding task 106
+126.0 Worker 6 processing task 202 requiring operations [5, 3]
+126.0 Worker 6 performing operation 3 on task 202
+126.0 Worker 8 processing task 234 requiring operations [3, 10, 9]
+126.0 Worker 8 performing operation 3 on task 234
+126.0 Worker 5 processing task 110 requiring operations [2, 4]
+126.0 Worker 5 forwarding task 110
+126.5 Task 130 completed!
+126.5 Worker 8 accepting task 211
+126.5 Generated task 253 with complexity 3 requiring operations [1, 3, 2]
+126.5 Worker 0 accepting task 253
+126.5 Worker 1 processing task 151 requiring operations [9, 4]
+126.5 Worker 1 forwarding task 151
+126.5 Worker 3 processing task 95 requiring operations [4, 6]
+126.5 Worker 3 forwarding task 95
+127.0 Worker 0 accepting task 179
+127.0 Task 126 completed!
+127.0 Worker 7 accepting task 97
+127.0 Worker 6 accepting task 106
+127.0 Worker 6 accepting task 202
+127.0 Worker 8 accepting task 234
+127.0 Worker 4 accepting task 110
+127.0 Generated task 254 with complexity 3 requiring operations [3, 8, 9]
+127.0 Worker 5 accepting task 254
+127.0 Worker 0 processing task 119 requiring operations [3, 6]
+127.0 Worker 0 performing operation 3 on task 119
+127.0 Worker 7 processing task 223 requiring operations [3, 9]
+127.0 Worker 7 forwarding task 223
+127.0 Worker 4 processing task 197 requiring operations [2]
+127.0 Worker 4 forwarding task 197
+127.0 Worker 2 processing task 222 requiring operations [6, 3, 10]
+127.0 Worker 2 performing operation 6 on task 222
+127.0 Worker 6 processing task 175 requiring operations [5, 9]
+127.0 Worker 6 forwarding task 175
+127.0 Worker 8 processing task 58 requiring operations [4]
+127.0 Worker 8 performing operation 4 on task 58
+127.0 Worker 5 processing task 240 requiring operations [9, 2, 1]
+127.0 Worker 5 forwarding task 240
+127.5 Worker 8 accepting task 151
+127.5 Worker 5 accepting task 95
+127.5 Generated task 255 with complexity 3 requiring operations [1, 5, 10]
+127.5 Worker 7 accepting task 255
+127.5 Worker 1 processing task 138 requiring operations [4]
+127.5 Worker 1 forwarding task 138
+127.5 Worker 3 processing task 161 requiring operations [4, 9]
+127.5 Worker 3 performing operation 9 on task 161
+128.0 Worker 0 accepting task 119
+128.0 Worker 5 accepting task 223
+128.0 Worker 5 accepting task 197
+128.0 Worker 2 accepting task 222
+128.0 Worker 7 accepting task 175
+128.0 Task 58 completed!
+128.0 Worker 4 accepting task 240
+128.0 Generated task 256 with complexity 3 requiring operations [10, 5, 2]
+128.0 Worker 0 accepting task 256
+128.0 Worker 0 processing task 149 requiring operations [1, 6]
+128.0 Worker 0 forwarding task 149
+128.0 Worker 7 processing task 184 requiring operations [2, 7]
+128.0 Worker 7 forwarding task 184
+128.0 Worker 4 processing task 96 requiring operations [10]
+128.0 Worker 4 forwarding task 96
+128.0 Worker 2 processing task 77 requiring operations [9]
+128.0 Worker 2 forwarding task 77
+128.0 Worker 6 processing task 203 requiring operations [4, 2]
+128.0 Worker 6 forwarding task 203
+128.0 Worker 8 processing task 187 requiring operations [1, 9]
+128.0 Worker 8 forwarding task 187
+128.0 Worker 5 processing task 166 requiring operations [3]
+128.0 Worker 5 forwarding task 166
+128.5 Worker 0 accepting task 138
+128.5 Worker 3 accepting task 161
+128.5 Generated task 257 with complexity 3 requiring operations [10, 4, 9]
+128.5 Worker 3 accepting task 257
+128.5 Worker 1 processing task 189 requiring operations [7, 6]
+128.5 Worker 1 performing operation 6 on task 189
+128.5 Worker 3 processing task 37 requiring operations [9]
+128.5 Worker 3 performing operation 9 on task 37
+129.0 Worker 3 accepting task 149
+129.0 Worker 4 accepting task 184
+129.0 Worker 5 accepting task 96
+129.0 Worker 8 accepting task 77
+129.0 Worker 4 accepting task 203
+129.0 Worker 2 accepting task 187
+129.0 Worker 2 accepting task 166
+129.0 Generated task 258 with complexity 3 requiring operations [1, 10, 7]
+129.0 Worker 5 accepting task 258
+129.0 Worker 0 processing task 129 requiring operations [8, 1]
+129.0 Worker 0 performing operation 8 on task 129
+129.0 Worker 7 processing task 214 requiring operations [2, 3, 9]
+129.0 Worker 7 forwarding task 214
+129.0 Worker 4 processing task 238 requiring operations [6, 4, 1]
+129.0 Worker 4 performing operation 6 on task 238
+129.0 Worker 2 processing task 143 requiring operations [7]
+129.0 Worker 2 performing operation 7 on task 143
+129.0 Worker 6 processing task 73 requiring operations [2, 9]
+129.0 Worker 6 forwarding task 73
+129.0 Worker 8 processing task 224 requiring operations [7, 9]
+129.0 Worker 8 forwarding task 224
+129.0 Worker 5 processing task 252 requiring operations [7, 1, 8]
+129.0 Worker 5 forwarding task 252
+129.5 Worker 1 accepting task 189
+129.5 Task 37 completed!
+129.5 Generated task 259 with complexity 3 requiring operations [3, 5, 6]
+129.5 Worker 8 accepting task 259
+129.5 Worker 1 processing task 148 requiring operations [2]
+129.5 Worker 1 forwarding task 148
+129.5 Worker 3 processing task 217 requiring operations [6, 9, 1]
+129.5 Worker 3 performing operation 9 on task 217
+130.0 Worker 0 accepting task 129
+130.0 Worker 3 accepting task 214
+130.0 Worker 4 accepting task 238
+130.0 Task 143 completed!
+130.0 Worker 2 accepting task 73
+130.0 Worker 2 accepting task 224
+130.0 Worker 8 accepting task 252
+130.0 Generated task 260 with complexity 3 requiring operations [5, 8, 10]
+130.0 Worker 4 accepting task 260
+130.0 Worker 0 processing task 182 requiring operations [5, 6, 1]
+130.0 Worker 0 performing operation 5 on task 182
+130.0 Worker 7 processing task 247 requiring operations [7, 6, 2]
+130.0 Worker 7 forwarding task 247
+130.0 Worker 4 processing task 51 requiring operations [6]
+130.0 Worker 4 performing operation 6 on task 51
+130.0 Worker 2 processing task 142 requiring operations [6]
+130.0 Worker 2 performing operation 6 on task 142
+130.0 Worker 6 processing task 237 requiring operations [2, 6, 1]
+130.0 Worker 6 performing operation 6 on task 237
+130.0 Worker 8 processing task 244 requiring operations [5, 4, 10]
+130.0 Worker 8 performing operation 4 on task 244
+130.0 Worker 5 processing task 254 requiring operations [3, 8, 9]
+130.0 Worker 5 forwarding task 254
+130.5 Worker 8 accepting task 148
+130.5 Worker 3 accepting task 217
+130.5 Generated task 261 with complexity 3 requiring operations [6, 9, 1]
+130.5 Worker 0 accepting task 261
+130.5 Worker 1 processing task 167 requiring operations [4, 7]
+130.5 Worker 1 forwarding task 167
+130.5 Worker 3 processing task 188 requiring operations [5, 10]
+130.5 Worker 3 forwarding task 188
+131.0 Worker 0 accepting task 182
+131.0 Worker 6 accepting task 247
+131.0 Task 51 completed!
+131.0 Task 142 completed!
+131.0 Worker 6 accepting task 237
+131.0 Worker 8 accepting task 244
+131.0 Worker 0 accepting task 254
+131.0 Generated task 262 with complexity 3 requiring operations [2, 6, 5]
+131.0 Worker 7 accepting task 262
+131.0 Worker 0 processing task 127 requiring operations [10, 1]
+131.0 Worker 0 forwarding task 127
+131.0 Worker 7 processing task 115 requiring operations [2]
+131.0 Worker 7 forwarding task 115
+131.0 Worker 4 processing task 207 requiring operations [7, 2]
+131.0 Worker 4 performing operation 7 on task 207
+131.0 Worker 2 processing task 204 requiring operations [6, 4]
+131.0 Worker 2 performing operation 6 on task 204
+131.0 Worker 6 processing task 212 requiring operations [7, 2]
+131.0 Worker 6 forwarding task 212
+131.0 Worker 8 processing task 41 requiring operations [2]
+131.0 Worker 8 forwarding task 41
+131.0 Worker 5 processing task 95 requiring operations [4, 6]
+131.0 Worker 5 performing operation 6 on task 95
+131.5 Worker 8 accepting task 167
+131.5 Worker 1 accepting task 188
+131.5 Generated task 263 with complexity 3 requiring operations [2, 10, 7]
+131.5 Worker 3 accepting task 263
+131.5 Worker 1 processing task 23 requiring operations [9]
+131.5 Worker 1 forwarding task 23
+131.5 Worker 3 processing task 219 requiring operations [10, 1, 9]
+131.5 Worker 3 performing operation 9 on task 219
+132.0 Worker 7 accepting task 127
+132.0 Worker 4 accepting task 115
+132.0 Worker 4 accepting task 207
+132.0 Worker 2 accepting task 204
+132.0 Worker 5 accepting task 212
+132.0 Worker 4 accepting task 41
+132.0 Worker 5 accepting task 95
+132.0 Generated task 264 with complexity 3 requiring operations [6, 5, 9]
+132.0 Worker 6 accepting task 264
+132.0 Worker 0 processing task 132 requiring operations [2, 10]
+132.0 Worker 0 forwarding task 132
+132.0 Worker 7 processing task 97 requiring operations [1, 9]
+132.0 Worker 7 performing operation 1 on task 97
+132.0 Worker 4 processing task 225 requiring operations [5, 7]
+132.0 Worker 4 performing operation 7 on task 225
+132.0 Worker 2 processing task 150 requiring operations [5]
+132.0 Worker 2 forwarding task 150
+132.0 Worker 6 processing task 206 requiring operations [7, 8]
+132.0 Worker 6 performing operation 8 on task 206
+132.0 Worker 8 processing task 211 requiring operations [8, 6, 10]
+132.0 Worker 8 forwarding task 211
+132.0 Worker 5 processing task 223 requiring operations [3, 9]
+132.0 Worker 5 forwarding task 223
+132.5 Worker 5 accepting task 23
+132.5 Worker 3 accepting task 219
+132.5 Generated task 265 with complexity 3 requiring operations [7, 2, 8]
+132.5 Worker 2 accepting task 265
+132.5 Worker 1 processing task 185 requiring operations [2, 10]
+132.5 Worker 1 performing operation 10 on task 185
+132.5 Worker 3 processing task 19 requiring operations [6]
+132.5 Worker 3 forwarding task 19
+133.0 Worker 1 accepting task 132
+133.0 Worker 7 accepting task 97
+133.0 Worker 4 accepting task 225
+133.0 Worker 5 accepting task 150
+133.0 Worker 6 accepting task 206
+133.0 Worker 7 accepting task 211
+133.0 Worker 1 accepting task 223
+133.0 Generated task 266 with complexity 3 requiring operations [8, 6, 1]
+133.0 Worker 7 accepting task 266
+133.0 Worker 0 processing task 124 requiring operations [9, 6]
+133.0 Worker 0 forwarding task 124
+133.0 Worker 7 processing task 255 requiring operations [1, 5, 10]
+133.0 Worker 7 performing operation 1 on task 255
+133.0 Worker 4 processing task 245 requiring operations [6, 4, 5]
+133.0 Worker 4 performing operation 6 on task 245
+133.0 Worker 2 processing task 105 requiring operations [2]
+133.0 Worker 2 forwarding task 105
+133.0 Worker 6 processing task 242 requiring operations [8, 3, 6]
+133.0 Worker 6 performing operation 3 on task 242
+133.0 Worker 8 processing task 234 requiring operations [10, 9]
+133.0 Worker 8 forwarding task 234
+133.0 Worker 5 processing task 197 requiring operations [2]
+133.0 Worker 5 forwarding task 197
+133.5 Worker 1 accepting task 185
+133.5 Worker 7 accepting task 19
+133.5 Generated task 267 with complexity 3 requiring operations [6, 8, 5]
+133.5 Worker 3 accepting task 267
+133.5 Worker 1 processing task 186 requiring operations [3, 2]
+133.5 Worker 1 forwarding task 186
+133.5 Worker 3 processing task 165 requiring operations [8]
+133.5 Worker 3 forwarding task 165
+134.0 Worker 7 accepting task 124
+134.0 Worker 7 accepting task 255
+134.0 Worker 4 accepting task 245
+134.0 Worker 6 accepting task 105
+134.0 Worker 6 accepting task 242
+134.0 Worker 5 accepting task 234
+134.0 Worker 0 accepting task 197
+134.0 Generated task 268 with complexity 3 requiring operations [3, 5, 9]
+134.0 Worker 3 accepting task 268
+134.0 Worker 0 processing task 79 requiring operations [7]
+134.0 Worker 0 performing operation 7 on task 79
+134.0 Worker 7 processing task 175 requiring operations [5, 9]
+134.0 Worker 7 performing operation 5 on task 175
+134.0 Worker 4 processing task 227 requiring operations [8, 2]
+134.0 Worker 4 forwarding task 227
+134.0 Worker 2 processing task 168 requiring operations [9]
+134.0 Worker 2 forwarding task 168
+134.0 Worker 6 processing task 191 requiring operations [1]
+134.0 Worker 6 performing operation 1 on task 191
+134.0 Worker 8 processing task 151 requiring operations [9, 4]
+134.0 Worker 8 performing operation 4 on task 151
+134.0 Worker 5 processing task 96 requiring operations [10]
+134.0 Worker 5 forwarding task 96
+134.5 Worker 5 accepting task 186
+134.5 Worker 0 accepting task 165
+134.5 Generated task 269 with complexity 3 requiring operations [9, 8, 1]
+134.5 Worker 3 accepting task 269
+134.5 Worker 1 processing task 152 requiring operations [8]
+134.5 Worker 1 performing operation 8 on task 152
+134.5 Worker 3 processing task 48 requiring operations [2]
+134.5 Worker 3 performing operation 2 on task 48
+135.0 Task 79 completed!
+135.0 Worker 7 accepting task 175
+135.0 Worker 6 accepting task 227
+135.0 Worker 4 accepting task 168
+135.0 Task 191 completed!
+135.0 Worker 8 accepting task 151
+135.0 Worker 2 accepting task 96
+135.0 Generated task 270 with complexity 3 requiring operations [9, 1, 8]
+135.0 Worker 0 accepting task 270
+135.0 Worker 0 processing task 190 requiring operations [7, 2, 4]
+135.0 Worker 0 performing operation 7 on task 190
+135.0 Worker 7 processing task 262 requiring operations [2, 6, 5]
+135.0 Worker 7 performing operation 5 on task 262
+135.0 Worker 4 processing task 248 requiring operations [7, 8, 1]
+135.0 Worker 4 performing operation 7 on task 248
+135.0 Worker 2 processing task 239 requiring operations [2, 7, 3]
+135.0 Worker 2 performing operation 7 on task 239
+135.0 Worker 6 processing task 59 requiring operations [9]
+135.0 Worker 6 forwarding task 59
+135.0 Worker 8 processing task 77 requiring operations [9]
+135.0 Worker 8 forwarding task 77
+135.0 Worker 5 processing task 258 requiring operations [1, 10, 7]
+135.0 Worker 5 forwarding task 258
+135.5 Task 152 completed!
+135.5 Task 48 completed!
+135.5 Generated task 271 with complexity 3 requiring operations [9, 2, 6]
+135.5 Worker 6 accepting task 271
+135.5 Worker 1 processing task 228 requiring operations [6, 10, 9]
+135.5 Worker 1 performing operation 6 on task 228
+135.5 Worker 3 processing task 181 requiring operations [4, 9]
+135.5 Worker 3 performing operation 9 on task 181
+136.0 Worker 0 accepting task 190
+136.0 Worker 7 accepting task 262
+136.0 Worker 4 accepting task 248
+136.0 Worker 2 accepting task 239
+136.0 Worker 4 accepting task 59
+136.0 Worker 0 accepting task 77
+136.0 Worker 1 accepting task 258
+136.0 Generated task 272 with complexity 3 requiring operations [9, 2, 4]
+136.0 Worker 2 accepting task 272
+136.0 Worker 0 processing task 99 requiring operations [4]
+136.0 Worker 0 forwarding task 99
+136.0 Worker 7 processing task 127 requiring operations [10, 1]
+136.0 Worker 7 performing operation 1 on task 127
+136.0 Worker 4 processing task 122 requiring operations [2]
+136.0 Worker 4 forwarding task 122
+136.0 Worker 2 processing task 213 requiring operations [9, 4]
+136.0 Worker 2 forwarding task 213
+136.0 Worker 6 processing task 218 requiring operations [10, 4]
+136.0 Worker 6 forwarding task 218
+136.0 Worker 8 processing task 259 requiring operations [3, 5, 6]
+136.0 Worker 8 performing operation 3 on task 259
+136.0 Worker 5 processing task 212 requiring operations [7, 2]
+136.0 Worker 5 forwarding task 212
+136.5 Worker 1 accepting task 228
+136.5 Worker 3 accepting task 181
+136.5 Generated task 273 with complexity 3 requiring operations [9, 10, 8]
+136.5 Worker 2 accepting task 273
+136.5 Worker 1 processing task 162 requiring operations [9]
+136.5 Worker 1 forwarding task 162
+136.5 Worker 3 processing task 144 requiring operations [2]
+136.5 Worker 3 performing operation 2 on task 144
+137.0 Worker 2 accepting task 99
+137.0 Worker 7 accepting task 127
+137.0 Worker 6 accepting task 122
+137.0 Worker 7 accepting task 213
+137.0 Worker 5 accepting task 218
+137.0 Worker 8 accepting task 259
+137.0 Worker 8 accepting task 212
+137.0 Generated task 274 with complexity 3 requiring operations [4, 3, 8]
+137.0 Worker 5 accepting task 274
+137.0 Worker 0 processing task 137 requiring operations [9, 2]
+137.0 Worker 0 forwarding task 137
+137.0 Worker 7 processing task 97 requiring operations [9]
+137.0 Worker 7 forwarding task 97
+137.0 Worker 4 processing task 107 requiring operations [9]
+137.0 Worker 4 forwarding task 107
+137.0 Worker 2 processing task 76 requiring operations [9]
+137.0 Worker 2 forwarding task 76
+137.0 Worker 6 processing task 154 requiring operations [10]
+137.0 Worker 6 forwarding task 154
+137.0 Worker 8 processing task 252 requiring operations [7, 1, 8]
+137.0 Worker 8 forwarding task 252
+137.0 Worker 5 processing task 95 requiring operations [4]
+137.0 Worker 5 forwarding task 95
+137.5 Worker 7 accepting task 162
+137.5 Task 144 completed!
+137.5 Generated task 275 with complexity 3 requiring operations [2, 3, 7]
+137.5 Worker 1 accepting task 275
+137.5 Worker 1 processing task 177 requiring operations [10]
+137.5 Worker 1 performing operation 10 on task 177
+137.5 Worker 3 processing task 183 requiring operations [10, 5]
+137.5 Worker 3 forwarding task 183
+138.0 Worker 1 accepting task 137
+138.0 Worker 4 accepting task 97
+138.0 Worker 3 accepting task 107
+138.0 Worker 4 accepting task 76
+138.0 Worker 4 accepting task 154
+138.0 Worker 2 accepting task 252
+138.0 Worker 3 accepting task 95
+138.0 Generated task 276 with complexity 3 requiring operations [10, 2, 6]
+138.0 Worker 8 accepting task 276
+138.0 Worker 0 processing task 30 requiring operations [2]
+138.0 Worker 0 forwarding task 30
+138.0 Worker 7 processing task 211 requiring operations [8, 6, 10]
+138.0 Worker 7 performing operation 10 on task 211
+138.0 Worker 4 processing task 110 requiring operations [2, 4]
+138.0 Worker 4 performing operation 4 on task 110
+138.0 Worker 2 processing task 241 requiring operations [6, 4, 10]
+138.0 Worker 2 performing operation 6 on task 241
+138.0 Worker 6 processing task 236 requiring operations [1, 7, 10]
+138.0 Worker 6 performing operation 1 on task 236
+138.0 Worker 8 processing task 148 requiring operations [2]
+138.0 Worker 8 forwarding task 148
+138.0 Worker 5 processing task 23 requiring operations [9]
+138.0 Worker 5 forwarding task 23
+138.5 Task 177 completed!
+138.5 Worker 8 accepting task 183
+138.5 Generated task 277 with complexity 3 requiring operations [4, 3, 2]
+138.5 Worker 8 accepting task 277
+138.5 Worker 1 processing task 70 requiring operations [2]
+138.5 Worker 1 forwarding task 70
+138.5 Worker 3 processing task 229 requiring operations [3, 6, 9]
+138.5 Worker 3 performing operation 9 on task 229
+139.0 Worker 2 accepting task 30
+139.0 Worker 7 accepting task 211
+139.0 Worker 4 accepting task 110
+139.0 Worker 2 accepting task 241
+139.0 Worker 6 accepting task 236
+139.0 Worker 1 accepting task 148
+139.0 Worker 4 accepting task 23
+139.0 Generated task 278 with complexity 3 requiring operations [4, 8, 2]
+139.0 Worker 6 accepting task 278
+139.0 Worker 0 processing task 193 requiring operations [7, 5, 10]
+139.0 Worker 0 performing operation 5 on task 193
+139.0 Worker 7 processing task 266 requiring operations [8, 6, 1]
+139.0 Worker 7 performing operation 1 on task 266
+139.0 Worker 4 processing task 240 requiring operations [9, 2, 1]
+139.0 Worker 4 forwarding task 240
+139.0 Worker 2 processing task 195 requiring operations [3, 8]
+139.0 Worker 2 forwarding task 195
+139.0 Worker 6 processing task 34 requiring operations [1]
+139.0 Worker 6 performing operation 1 on task 34
+139.0 Worker 8 processing task 244 requiring operations [5, 10]
+139.0 Worker 8 performing operation 5 on task 244
+139.0 Worker 5 processing task 150 requiring operations [5]
+139.0 Worker 5 forwarding task 150
+139.5 Worker 3 accepting task 70
+139.5 Worker 3 accepting task 229
+139.5 Generated task 279 with complexity 3 requiring operations [9, 8, 2]
+139.5 Worker 2 accepting task 279
+139.5 Worker 1 processing task 232 requiring operations [4, 3, 9]
+139.5 Worker 1 forwarding task 232
+139.5 Worker 3 processing task 114 requiring operations [9]
+139.5 Worker 3 performing operation 9 on task 114
+140.0 Worker 0 accepting task 193
+140.0 Worker 7 accepting task 266
+140.0 Worker 0 accepting task 240
+140.0 Worker 7 accepting task 195
+140.0 Task 34 completed!
+140.0 Worker 8 accepting task 244
+140.0 Worker 8 accepting task 150
+140.0 Generated task 280 with complexity 3 requiring operations [4, 10, 5]
+140.0 Worker 4 accepting task 280
+140.0 Worker 0 processing task 141 requiring operations [8, 3]
+140.0 Worker 0 performing operation 3 on task 141
+140.0 Worker 7 processing task 19 requiring operations [6]
+140.0 Worker 7 forwarding task 19
+140.0 Worker 4 processing task 184 requiring operations [2, 7]
+140.0 Worker 4 performing operation 7 on task 184
+140.0 Worker 2 processing task 28 requiring operations [2]
+140.0 Worker 2 forwarding task 28
+140.0 Worker 6 processing task 208 requiring operations [9, 1]
+140.0 Worker 6 performing operation 1 on task 208
+140.0 Worker 8 processing task 167 requiring operations [4, 7]
+140.0 Worker 8 performing operation 4 on task 167
+140.0 Worker 5 processing task 234 requiring operations [10, 9]
+140.0 Worker 5 forwarding task 234
+140.5 Worker 2 accepting task 232
+140.5 Task 114 completed!
+140.5 Generated task 281 with complexity 3 requiring operations [1, 10, 3]
+140.5 Worker 0 accepting task 281
+140.5 Worker 1 processing task 192 requiring operations [7, 8]
+140.5 Worker 1 performing operation 8 on task 192
+140.5 Worker 3 processing task 230 requiring operations [1, 5, 9]
+140.5 Worker 3 performing operation 9 on task 230

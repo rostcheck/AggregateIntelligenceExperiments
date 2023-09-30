@@ -1,0 +1,4 @@
+completion_time,task_id,start_time,process_time,num_operations
+34.1,27,2.700000000000001,31.4,3
+64.1,4,0.4,63.699999999999996,3
+111.4,0,0.0,111.4,3
